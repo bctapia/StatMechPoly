@@ -255,7 +255,7 @@ class ObstacleField3D:
     No memory growth with explored volume.
     """
     def __init__(self, p_open, seed):
-        if not (0.0 < p_open < 1.0):
+        if not (0.0 < p_open <= 1.0):
             raise ValueError("p_open must be in (0,1])")
         self.p_open = float(p_open)
         self.seed = int(seed)
@@ -301,78 +301,90 @@ class ObstaclePivotSAW(PivotSAW):
         for one accepted move (still keep self-avoidance).
     """
 
-    def __init__(self, N, p_open=0.8, obstace_seed=123, seed=None, trap_attempts=2000):
+    def __init__(self, N, p_open=0.8, obstacle_seed=123, seed=None, trap_attempts=2000):
         super().__init__(N, seed=seed)
-        self.field = ObstacleField3D(p_open=p_open, seed=obstace_seed)
+        self.field = ObstacleField3D(p_open=p_open, seed=obstacle_seed)
         self.trap_attempts = int(trap_attempts)
         self.consec_rejects = 0
+        self.escape_accepts = 0
 
         # Ensure initial coords are on open sites; if not, rebuild.
         if not self.all_open(self.coords):
-            print("Unable to build walk from PivotSAW class, using ObstaclePivotSAW method instead")
+            print("Straight initial walk hits blocked sites; regrowing open-only SAW.")
             self.build_initial_walk_with_obstacles()
 
     def all_open(self, coords):
         return all(self.field.is_open(p) for p in coords)
 
-    def build_initial_walk_with_obstacles(self):
+    def build_initial_walk_with_obstacles(self, max_restarts=10_000):
         """
-        Build an initial self-avoiding walk of length N on OPEN sites.
-        If it gets stuck during growth, we temporarily allow blocked sites to finish.
+        Build an initial SAW of length N using ONLY OPEN sites.
+        If stuck, restart the whole growth process.
         """
         N = self.N
         rng = self.rng
 
         moves = np.array([
-            [1, 0, 0],
+            [ 1, 0, 0],
             [-1, 0, 0],
-            [0, 1, 0],
-            [0, -1, 0],
-            [0, 0, 1],
-            [0, 0, -1],
+            [ 0, 1, 0],
+            [ 0,-1, 0],
+            [ 0, 0, 1],
+            [ 0, 0,-1],
         ], dtype=np.int32)
 
-        coords = np.zeros((N + 1, 3), dtype=np.int32)
-        occ = {tuple(coords[0])}
+        # Ensure starting site is open; if not, search nearby for an open start
+        start = np.array([0, 0, 0], dtype=np.int32)
+        if self.field.is_blocked(start):
+            found = False
+            for r in range(1, 50):
+                # sample a few random points on the cube shell
+                for _ in range(2000):
+                    trial = rng.integers(-r, r + 1, size=3, dtype=np.int32)
+                    if np.max(np.abs(trial)) != r:
+                        continue
+                    if self.field.is_open(trial):
+                        start = trial
+                        found = True
+                        break
+                if found:
+                    break
+            if not found:
+                raise RuntimeError("Could not find an open starting site near the origin.")
 
-        allow_blocked = False
-        stuck_counter = 0
+        for _restart in range(max_restarts):
+            coords = np.zeros((N + 1, 3), dtype=np.int32)
+            coords[0] = start
+            occ = {tuple(start.tolist())}
 
-        for i in range(1, N + 1):
-            cur = coords[i - 1]
-            # shuffle move order
-            order = rng.permutation(6)
+            stuck = False
+            for i in range(1, N + 1):
+                cur = coords[i - 1]
+                order = rng.permutation(6)
 
-            placed = False
-            for j in order:
-                nxt = cur + moves[j]
-                t = tuple(nxt.tolist())
-                if t in occ:
-                    continue
-                if (not allow_blocked) and self.field.is_blocked(nxt):
-                    continue
-                coords[i] = nxt
-                occ.add(t)
-                placed = True
-                stuck_counter = 0
-                break
+                placed = False
+                for j in order:
+                    nxt = cur + moves[j]
+                    t = tuple(nxt.tolist())
+                    if t in occ:
+                        continue
+                    if self.field.is_blocked(nxt):
+                        continue
+                    coords[i] = nxt
+                    occ.add(t)
+                    placed = True
+                    break
 
-            if not placed:
-                # trapped during growth: flip escape hatch after a few failures
-                stuck_counter += 1
-                if stuck_counter >= 10:
-                    allow_blocked = True
-                # crude backtrack: restart if still failing
-                if stuck_counter >= 50:
-                    coords[:] = 0
-                    occ = {tuple(coords[0])}
-                    allow_blocked = False
-                    stuck_counter = 0
-                    i = 0  # (won't actually reset loop var; so just recurse)
-                    return self.build_initial_walk_with_obstacles()
+                if not placed:
+                    stuck = True
+                    break
 
-        self.coords = coords
-        self.occupied = set(map(tuple, coords.tolist()))
+            if not stuck:
+                self.coords = coords
+                self.occupied = set(map(tuple, coords.tolist()))
+                return
+
+        raise RuntimeError("Failed to grow an open-only initial walk after many restarts.")
 
     def pivot_move(self):
         """
@@ -395,7 +407,7 @@ class ObstaclePivotSAW(PivotSAW):
             move_indices = np.arange(0, i)
 
         if move_indices.size == 0:
-            self._consec_rejects += 1
+            self.consec_rejects += 1
             return False
 
         fixed_occ = set(tuple(coords[j]) for j in fixed_indices)
@@ -405,17 +417,19 @@ class ObstaclePivotSAW(PivotSAW):
 
         new_tuples = [tuple(x) for x in new_part.tolist()]
         if len(set(new_tuples)) != len(new_tuples):
-            self._consec_rejects += 1
+            self.consec_rejects += 1
             return False
         if any(t in fixed_occ for t in new_tuples):
-            self._consec_rejects += 1
+            self.consec_rejects += 1
             return False
 
         # Obstacle rule: enforce open sites unless "trapped"
-        trapped = (self._consec_rejects >= self.trap_attempts)
+        trapped = (self.consec_rejects >= self.trap_attempts)
+        if trapped:
+            self.escape_accepts += 1
         if not trapped:
             if any(self.field.is_blocked(p) for p in new_part):
-                self._consec_rejects += 1
+                self.consec_rejects += 1
                 return False
         # If trapped: we allow blocked sites for this accepted move.
 
@@ -423,7 +437,7 @@ class ObstaclePivotSAW(PivotSAW):
         self.coords[move_indices] = new_part
         self.occupied = fixed_occ.union(new_tuples)
 
-        self._consec_rejects = 0
+        self.consec_rejects = 0
         return True
 
 
@@ -584,5 +598,6 @@ def run_osaw():
 
 
 if __name__ == "__main__":
-    run_rw()
+    #run_rw()
     #run_saw()
+    run_osaw()
