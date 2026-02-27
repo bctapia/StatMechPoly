@@ -603,6 +603,48 @@ def estimate_scaling_confined_reptation(
 
     return N_list, R2, np.sqrt(R2), accs
 
+def fit_two_regimes_by_crossover(N, y, D, nu_2d=0.75, margin=1.5, min_pts=3):
+    """
+    Split data into weak/strong confinement using
+    N_c ~ D^(1/nu_2d).
+
+    weak:   N <= N_c / margin
+    strong: N >= N_c * margin
+
+    If either side has too few points, fall back to
+    splitting first/last k points.
+    """
+
+    N = np.asarray(N, dtype=float)
+    y = np.asarray(y, dtype=float)
+
+    N_c = float(D ** (1.0 / nu_2d))   # D^(4/3) for nu_2d=0.75
+
+    weak_mask = N <= (N_c / margin)
+    strong_mask = N >= (N_c * margin)
+
+    weak_idx = np.where(weak_mask)[0]
+    strong_idx = np.where(strong_mask)[0]
+
+    used_fallback = False
+
+    if len(weak_idx) < min_pts or len(strong_idx) < min_pts:
+        used_fallback = True
+        k = max(min_pts, len(N)//2)
+        weak_idx = np.arange(0, k)
+        strong_idx = np.arange(len(N)-k, len(N))
+
+    m_w, b_w = fit_loglog_slope(N[weak_idx], y[weak_idx])
+    m_s, b_s = fit_loglog_slope(N[strong_idx], y[strong_idx])
+
+    info = {
+        "N_c": N_c,
+        "weak_N": N[weak_idx],
+        "strong_N": N[strong_idx],
+        "fallback": used_fallback
+    }
+
+    return (m_w, b_w), (m_s, b_s), info
 
 # -------- fitting helper --------
 def fit_loglog_slope(x, y):
@@ -730,9 +772,9 @@ def run_osaw_growth():
     ###########################################
 
 def run_confined2D():
-    Ns = np.unique(np.logspace(2, 3, 8).astype(int))   # ~100..1000
-    Ds = (8, 16, 32)
-
+    Ns = np.unique(np.logspace(2, 3, 12).astype(int))   # ~100..1000
+    #Ds = (8, 16, 32)
+    Ds = (64,)
     for D in Ds:
         print(f"\n=== Reptation confined SAW, D={D} ===")
         N, R2, Rrms, accs = estimate_scaling_confined_reptation(
@@ -742,29 +784,44 @@ def run_confined2D():
             n_blocks=3       # more blocks = better stats
         )
 
-        m_r, b_r = fit_loglog_slope(N, Rrms)
-        m_2, b_2 = fit_loglog_slope(N, R2)
+        # --- Two-regime fits (physics split by N_c ~ D^(4/3)) ---
 
-        print("\nFITS (log-log):")
-        print(f"D = {D}")
-        print(f"nu from Rrms ~ N^nu:        nu  = {m_r:.4f}")
-        print(f"2nu from <R^2> ~ N^(2nu): 2nu = {m_2:.4f}")
+        # Fit using Rrms -> slope is nu_eff
+        ( m_w, b_w ), ( m_s, b_s ), info_r = fit_two_regimes_by_crossover(
+            N, Rrms, D, nu_2d=0.75, margin=1.5, min_pts=3
+        )
+
+        # Fit using R2 -> slope is 2*nu_eff
+        ( m2_w, b2_w ), ( m2_s, b2_s ), info_2 = fit_two_regimes_by_crossover(
+            N, R2, D, nu_2d=0.75, margin=1.5, min_pts=3
+        )
+
+        print("\nTWO-REGIME FITS (log-log):")
+        print(f"D = {D}  |  N_c ~ D^(4/3) = {info_r['N_c']:.1f}  (margin={1.5})")
+
+        print(f"weak confinement  (N <= N_c/m): nu  = {m_w:.4f}   |  2nu = {m2_w:.4f}")
+        print(f"strong confinement(N >= m*N_c): nu  = {m_s:.4f}   |  2nu = {m2_s:.4f}")
+
+        print(f"weak fit N points:   {info_r['weak_N'].astype(int)}")
+        print(f"strong fit N points: {info_r['strong_N'].astype(int)}")
 
         plt.figure()
         plt.loglog(N, R2, "o-", label=rf"$\langle R_\parallel^2\rangle$ (D={D})")
-        plt.loglog(N, np.exp(b_2)*N**m_2, "--", label=rf"fit slope {m_2:.3f}")
+
+        # Weak-regime fit line
+        Nw = info_2["weak_N"]
+        plt.loglog(Nw, np.exp(b2_w) * Nw**m2_w, "--",
+                label=rf"weak fit slope {m2_w:.3f}")
+
+        # Strong-regime fit line
+        Nstrong = info_2["strong_N"]
+        plt.loglog(Ns, np.exp(b2_s) * Ns**m2_s, "--",
+                label=rf"strong fit slope {m2_s:.3f}")
+
         plt.xlabel("N")
         plt.ylabel(r"$\langle R_\parallel^2\rangle$")
-        plt.title(f"2D SAW in channel (reptation), D={D}")
+        plt.title(f"2D SAW in channel: two-regime scaling (D={D})")
         plt.legend()
-        plt.tight_layout()
-        plt.show()
-
-        plt.figure()
-        plt.semilogx(N, accs, "o-")
-        plt.xlabel("N")
-        plt.ylabel("Acceptance rate")
-        plt.title(f"Reptation acceptance vs N, D={D}")
         plt.tight_layout()
         plt.show()
 
