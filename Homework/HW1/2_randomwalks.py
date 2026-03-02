@@ -1,3 +1,4 @@
+from pathlib import Path
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -36,35 +37,6 @@ class RandomWalk():
         return float(np.dot(R, R))
 
 
-def estimate_scaling_random_walk(
-    N_list,
-    n_samples=5000,
-    seed=66357
-):
-    """
-    For each N, generate many independent random walks
-    and estimate <R^2>.
-    """
-    N_list = np.array(sorted(np.unique(N_list)), dtype=int)
-
-    R2 = np.zeros_like(N_list, dtype=float)
-
-    for idx, N in enumerate(N_list):
-        rng_seed = None if seed is None else seed + 31 * idx
-
-        r2_vals = np.zeros(n_samples, dtype=float)
-
-        for k in range(n_samples):
-            rw = RandomWalk(N, seed=None if rng_seed is None else rng_seed + k)
-            r2_vals[k] = rw.run()
-
-        R2[idx] = np.mean(r2_vals)
-
-        print(f"N={N:5d}  samples={n_samples:5d}  <R^2>={R2[idx]:.2f}")
-
-    return N_list, R2, np.sqrt(R2)
-
-
 #################################################################
 # ----------------------------
 # Lattice symmetries: 3D signed permutation matrices
@@ -95,14 +67,6 @@ def signed_permutation_matrices_3d():
                     M[1, p[1]] = sy
                     M[2, p[2]] = sz
                     mats.append(M)
-    # remove duplicates (shouldn’t be any, but safe)
-    #uniq = []
-    #seen = set()
-    #for M in mats:
-    #    key = tuple(M.ravel().tolist())
-    #    if key not in seen:
-    #        seen.add(key)
-    #        uniq.append(M)
     return mats
 
 
@@ -110,7 +74,7 @@ SYMMETRIES = signed_permutation_matrices_3d()
 
 
 class PivotSAW:
-    def __init__(self, N, seed=None):
+    def __init__(self, N, seed):
         self.N = N
         self.rng = np.random.default_rng(seed)
 
@@ -217,49 +181,14 @@ class PivotSAW:
         return self.accepted / self.attempted
 
 
-def estimate_scaling_pivot(N_list, n_steps=600_000, burn_in=150_000, thin=500, seed=66357):
-    """
-    For each N in N_list, run a pivot chain and estimate <R^2>.
-    """
-    N_list = np.array(sorted(np.unique(N_list)), dtype=int)
-    R2 = np.zeros_like(N_list, dtype=float)
-    accs = np.zeros_like(N_list, dtype=float)
-
-    for idx, N in enumerate(N_list):
-        run_seed = None if seed is None else seed + 12 * idx
-        saw = PivotSAW(N, seed=run_seed)
-
-        r2_samples = saw.run(n_steps=n_steps, burn_in=burn_in, thin=thin)
-
-        R2[idx] = np.mean(r2_samples)
-        accs[idx] = saw.acceptance_rate
-        print(f"N={N:5d}  samples={len(r2_samples):5d}  acc_rate={accs[idx]:.3f}  <R^2>={R2[idx]:.2f}")
-
-    return N_list, R2, np.sqrt(R2), accs
-
-
-def fit_loglog_slope(x, y):
-    lx = np.log(x)
-    ly = np.log(y)
-    m, b = np.polyfit(lx, ly, 1)
-    return m, b
-#################################################################
-
-import numpy as np
-
-
 class ObstacleSAWGrowth3D:
     """
     Self-avoiding walk (SAW) grown step-by-step on Z^3 with quenched site obstacles.
 
-    Rule (matches your prompt):
+    Rule:
       - Prefer OPEN, unoccupied neighbors.
       - If none exist (obstacle-trapped), allow stepping onto BLOCKED but unoccupied neighbors.
       - If no unoccupied neighbors exist at all (self-trapped), restart the whole walk.
-
-    Notes:
-      - This is a *growth* ensemble (not equilibrium MCMC like pivot).
-      - We track how often we were forced onto blocked sites.
     """
 
     def __init__(self, N, p_open=0.8, obstacle_seed=123, seed=None, max_restarts=10_000):
@@ -279,8 +208,10 @@ class ObstacleSAWGrowth3D:
     # ---------- obstacle field: deterministic hash (x,y,z) -> uniform[0,1) ----------
     @staticmethod
     def _mix64(x: np.uint64) -> np.uint64:
-        # SplitMix64 finalizer; overflow is intentional (uint64 arithmetic)
+        # ^ is bitwise XOR
+        # >> is bitwise right shift operator. Shifting down by 30 bits. Equivalent floor(x/2^n)
         x ^= x >> np.uint64(30)
+        # overflow multiplication
         x *= np.uint64(0xBF58476D1CE4E5B9)
         x ^= x >> np.uint64(27)
         x *= np.uint64(0x94D049BB133111EB)
@@ -288,6 +219,7 @@ class ObstacleSAWGrowth3D:
         return x
 
     def _u01_from_coord(self, x: int, y: int, z: int) -> float:
+        # making sure hash is in range 0 - 2^32-1
         ox = np.uint64((x + 2**31) & 0xFFFFFFFF)
         oy = np.uint64((y + 2**31) & 0xFFFFFFFF)
         oz = np.uint64((z + 2**31) & 0xFFFFFFFF)
@@ -367,91 +299,6 @@ class ObstacleSAWGrowth3D:
         R = self.coords[-1] - self.coords[0]
         return float(np.dot(R, R))
 
-
-def estimate_scaling_obstacle_growth(
-    N_list,
-    p_open=0.8,
-    n_samples=2000,
-    seed=66357,
-    obstacle_seed=123,
-    max_restarts=10_000,
-):
-    """
-    Loop over multiple N (like your other scaling functions), using growth SAW w/ obstacles.
-
-    Returns:
-      N_list, R2, Rrms, frac_blocked_steps, avg_restarts
-    """
-    N_list = np.array(sorted(np.unique(N_list)), dtype=int)
-    R2 = np.zeros_like(N_list, dtype=float)
-    frac_blocked = np.zeros_like(N_list, dtype=float)
-    avg_restarts = np.zeros_like(N_list, dtype=float)
-
-    for idx, N in enumerate(N_list):
-        r2_vals = np.zeros(n_samples, dtype=float)
-        blocked_fracs = np.zeros(n_samples, dtype=float)
-        restarts = np.zeros(n_samples, dtype=float)
-
-        for k in range(n_samples):
-            w = ObstacleSAWGrowth3D(
-                N,
-                p_open=p_open,
-                obstacle_seed=obstacle_seed,                 # quenched disorder realization
-                seed=None if seed is None else seed + 100_000 * idx + k,
-                max_restarts=max_restarts,
-            )
-            w.generate()
-            r2_vals[k] = w.r2()
-            blocked_fracs[k] = w.used_blocked_steps / max(1, N)
-            restarts[k] = w.restarts_used
-
-        R2[idx] = np.mean(r2_vals)
-        frac_blocked[idx] = np.mean(blocked_fracs)
-        avg_restarts[idx] = np.mean(restarts)
-
-        print(
-            f"N={N:5d}  samples={n_samples:5d}  "
-            f"<R^2>={R2[idx]:.2f}  "
-            f"frac_blocked_steps={frac_blocked[idx]:.3f}  "
-            f"avg_restarts={avg_restarts[idx]:.2f}"
-        )
-
-    return N_list, R2, np.sqrt(R2), frac_blocked, avg_restarts
-
-
-def run_obstacle_growth_sweep(
-    N_list,
-    p_opens=(0.8, 0.5, 0.2),
-    n_samples=2000,
-    seed=66357,
-    obstacle_seed=123,
-    max_restarts=10_000,
-):
-    """
-    Convenience wrapper: run growth-based obstacle SAW scaling for multiple p_open values.
-
-    Returns:
-      results[p_open] = (N, R2, Rrms, frac_blocked_steps, avg_restarts)
-    """
-    N_list = np.array(sorted(np.unique(N_list)), dtype=int)
-    results = {}
-
-    for p_open in p_opens:
-        print(f"\n=== Growth obstacle SAW: p_open={p_open:.2f} (blocked={1.0-p_open:.2f}) ===")
-        N, R2, Rrms, frac_blocked, avg_restarts = estimate_scaling_obstacle_growth(
-            N_list,
-            p_open=p_open,
-            n_samples=n_samples,
-            seed=seed,
-            obstacle_seed=obstacle_seed,
-            max_restarts=max_restarts,
-        )
-        results[float(p_open)] = (N, R2, Rrms, frac_blocked, avg_restarts)
-
-    return results
-
-
-import numpy as np
 
 class ChannelSAWReptation2D:
     """
@@ -573,13 +420,113 @@ class ChannelSAWReptation2D:
     def acceptance_rate(self):
         return self.accepted / self.attempted if self.attempted else 0.0
 
-def estimate_scaling_confined_reptation(
-    N_list,
-    D,
-    seed=66357,
-    c_relax=50,     # increase if needed
-    n_blocks=3,      # how many blocks of samples after burn-in
-):
+
+#############################################################
+#                         RUNNNERS                          #
+#############################################################
+def estimate_scaling_random_walk(N_list, n_samples, seed):
+    """
+    For each N, generate many independent random walks
+    and estimate <R^2>.
+    """
+    N_list = np.array(sorted(np.unique(N_list)), dtype=int)
+    R2 = np.zeros_like(N_list, dtype=float)
+
+    for idx, N in enumerate(N_list):
+        rng_seed = None if seed is None else seed + 31 * idx
+
+        r2_vals = np.zeros(n_samples, dtype=float)
+
+        for k in range(n_samples):
+            rw = RandomWalk(N, seed=None if rng_seed is None else rng_seed + k)
+            r2_vals[k] = rw.run()
+
+        R2[idx] = np.mean(r2_vals)
+
+        print(f"N={N:5d}  samples={n_samples:5d}  <R^2>={R2[idx]:.2f}")
+
+    return N_list, R2, np.sqrt(R2)
+
+
+def estimate_scaling_pivot(N_list, n_steps, burn_in, thin, seed):
+    """
+    For each N in N_list, run a pivot chain and estimate <R^2>.
+    """
+    N_list = np.array(sorted(np.unique(N_list)), dtype=int)
+    R2 = np.zeros_like(N_list, dtype=float)
+    accs = np.zeros_like(N_list, dtype=float)
+
+    for idx, N in enumerate(N_list):
+        run_seed = None if seed is None else seed + 12 * idx
+        saw = PivotSAW(N, seed=run_seed)
+
+        r2_samples = saw.run(n_steps=n_steps, burn_in=burn_in, thin=thin)
+
+        R2[idx] = np.mean(r2_samples)
+        accs[idx] = saw.acceptance_rate
+        print(f"N={N:5d}  samples={len(r2_samples):5d}  acc_rate={accs[idx]:.3f}  <R^2>={R2[idx]:.2f}")
+
+    return N_list, R2, np.sqrt(R2), accs
+
+
+def estimate_scaling_obstacle_growth(N_list, p_open, n_samples, seed, obstacle_seed, max_restarts):
+    """
+    Loop over multiple N, using growth SAW w/ obstacles.
+
+    Returns:
+      N_list, R2, Rrms, frac_blocked_steps, avg_restarts
+    """
+    N_list = np.array(sorted(np.unique(N_list)), dtype=int)
+    R2 = np.zeros_like(N_list, dtype=float)
+    frac_blocked = np.zeros_like(N_list, dtype=float)
+    avg_restarts = np.zeros_like(N_list, dtype=float)
+
+    for idx, N in enumerate(N_list):
+        r2_vals = np.zeros(n_samples, dtype=float)
+        blocked_fracs = np.zeros(n_samples, dtype=float)
+        restarts = np.zeros(n_samples, dtype=float)
+
+        for k in range(n_samples):
+            w = ObstacleSAWGrowth3D(N, p_open=p_open, obstacle_seed=obstacle_seed, seed=None if seed is None else seed + 100_000 * idx + k, max_restarts=max_restarts)
+            w.generate()
+            r2_vals[k] = w.r2()
+            blocked_fracs[k] = w.used_blocked_steps / max(1, N)
+            restarts[k] = w.restarts_used
+
+        R2[idx] = np.mean(r2_vals)
+        frac_blocked[idx] = np.mean(blocked_fracs)
+        avg_restarts[idx] = np.mean(restarts)
+
+        print(
+            f"N={N:5d}  samples={n_samples:5d}  "
+            f"<R^2>={R2[idx]:.2f}  "
+            f"frac_blocked_steps={frac_blocked[idx]:.3f}  "
+            f"avg_restarts={avg_restarts[idx]:.2f}"
+        )
+
+    return N_list, R2, np.sqrt(R2), frac_blocked, avg_restarts
+
+
+def run_obstacle_growth_sweep(N_list, p_opens=(0.8, 0.5, 0.2), n_samples=2000, seed=66357, obstacle_seed=123, max_restarts=10000):
+    """
+    Convenience wrapper: run growth-based obstacle SAW scaling for multiple p_open values.
+
+    Returns:
+      results[p_open] = (N, R2, Rrms, frac_blocked_steps, avg_restarts)
+    """
+    N_list = np.array(sorted(np.unique(N_list)), dtype=int)
+    results = {}
+
+    for p_open in p_opens:
+        print(f"\n=== Growth obstacle SAW: p_open={p_open:.2f} (blocked={1.0-p_open:.2f}) ===")
+        N, R2, Rrms, frac_blocked, avg_restarts = estimate_scaling_obstacle_growth(N_list, p_open=p_open, n_samples=n_samples, seed=seed, obstacle_seed=obstacle_seed, max_restarts=max_restarts)
+        results[float(p_open)] = (N, R2, Rrms, frac_blocked, avg_restarts)
+
+    return results
+
+
+def estimate_scaling_confined_reptation(N_list, D, seed=66357, c_relax=50, n_blocks=3):
+
     N_list = np.array(sorted(np.unique(N_list)), dtype=int)
     R2 = np.zeros_like(N_list, dtype=float)
     accs = np.zeros_like(N_list, dtype=float)
@@ -602,6 +549,15 @@ def estimate_scaling_confined_reptation(
         )
 
     return N_list, R2, np.sqrt(R2), accs
+
+
+# -------- fitting helper --------
+def fit_loglog_slope(x, y):
+    lx = np.log(x)
+    ly = np.log(y)
+    m, b = np.polyfit(lx, ly, 1)
+    return m, b
+
 
 def fit_two_regimes_by_crossover(N, y, D, nu_2d=0.75, margin=1.5, min_pts=3):
     """
@@ -646,102 +602,50 @@ def fit_two_regimes_by_crossover(N, y, D, nu_2d=0.75, margin=1.5, min_pts=3):
 
     return (m_w, b_w), (m_s, b_s), info
 
-# -------- fitting helper --------
-def fit_loglog_slope(x, y):
-    lx = np.log(x)
-    ly = np.log(y)
-    m, b = np.polyfit(lx, ly, 1)
-    return m, b
 
 #########################################
-#       Functions to call in main       #
+#            RESULT REPORTERS           #
+#      (Functions to call in main)      #
 #########################################
-
 def run_rw():
-    Ns = np.unique(np.logspace(2.5, 4.0, 10).astype(int))
+    Ns = np.unique(np.logspace(2.5, 4.2, 50).astype(int))
 
-    N, R2, Rrms = estimate_scaling_random_walk(
-        Ns,
-        n_samples=5000,
-        seed=66357
-    )
+    N, R2, Rrms = estimate_scaling_random_walk(Ns, n_samples=20000, seed=66357)
 
     # Fit slopes
-    m_r, b_r = fit_loglog_slope(N, Rrms)  # slope = nu
     m_2, b_2 = fit_loglog_slope(N, R2)    # slope = 2nu
 
-    print("\nFITS (log-log):")
-    print(f"nu from Rrms ~ N^nu:        nu = {m_r:.4f}  (expected 0.5)")
-    print(f"2nu from <R^2> ~ N^(2nu): 2nu = {m_2:.4f}  (expected 1.0)")
+    print(f"<R^2> ~ N^(2nu): 2nu = {m_2:.3f}")
 
-    # Plot scaling
-    plt.figure()
-    plt.loglog(N, R2, "o-", label=r"$\langle R^2\rangle$ (RW)")
-    plt.loglog(N, np.exp(b_2) * N**m_2, "--", label=rf"fit slope {m_2:.3f}")
-    plt.xlabel("N (steps)")
-    plt.ylabel(r"$\langle R^2\rangle$")
-    plt.title("3D Random Walk: Scaling of End-to-End Distance")
-    plt.legend()
-    plt.tight_layout()
-    plt.show()
+    out_file = Path(__file__).resolve().parent / "rw_scaling.csv"
+    data = np.column_stack((N, R2))
+    np.savetxt(out_file, data, delimiter=",", comments="")
+
 
 def run_saw():
-    ###########################################
-    # Choose N values (keep modest for first run)
     Ns = np.unique(np.logspace(2.5, 3, 10).astype(int))  # ~50 to 1000
 
     # Pivot parameters:
     # - Increase n_steps for better statistics; acceptance drops slowly with N.
-    N, R2, Rrms, accs = estimate_scaling_pivot(Ns, n_steps=250_000, burn_in=50_000, thin=200, seed=66357)
+    N, R2, Rrms, accs = estimate_scaling_pivot(Ns, n_steps=500000, burn_in=100000, thin=500, seed=66357)
 
-    # Fit exponents
     m_r, b_r = fit_loglog_slope(N, Rrms)  # slope is nu
     m_2, b_2 = fit_loglog_slope(N, R2)    # slope is 2*nu
 
     print("\nFITS (log-log):")
-    print(f"nu from Rrms ~ N^nu:        nu = {m_r:.4f}  (expected ~0.588)")
-    print(f"2nu from <R^2> ~ N^(2nu): 2nu = {m_2:.4f}  (expected ~1.176)")
+    print(f"nu from Rrms ~ N^nu:        nu = {m_r:.3f}  (expected ~0.588)")
+    print(f"2nu from <R^2> ~ N^(2nu): 2nu = {m_2:.3f}  (expected ~1.176)")
 
-    # Plot scaling
-    plt.figure()
-    plt.loglog(N, R2, "o-", label=r"$\langle R^2\rangle$ (pivot SAW)")
-    plt.loglog(N, np.exp(b_2) * N**m_2, "--", label=rf"fit slope {m_2:.3f}")
-    plt.xlabel("N (steps)")
-    plt.ylabel(r"$\langle R^2\rangle$")
-    plt.title("3D Self-Avoiding Walk (Pivot Algorithm): Scaling of End-to-End Distance")
-    plt.legend()
-    plt.tight_layout()
-    plt.show()
-
-    # Optional: show acceptance vs N
-    plt.figure()
-    plt.semilogx(N, accs, "o-")
-    plt.xlabel("N")
-    plt.ylabel("Pivot acceptance rate")
-    plt.title("Pivot acceptance rate vs N")
-    plt.tight_layout()
-    plt.show()
-    ###########################################
+    out_file = Path(__file__).resolve().parent / "saw_scaling.csv"
+    data = np.column_stack((N, R2))
+    np.savetxt(out_file, data, delimiter=",", comments="")
 
 
 def run_osaw_growth():
-    ###########################################
-    # Choose N values
     Ns = np.unique(np.logspace(2, 3, 8).astype(int))  # ~100..1000
     p_opens = (0.8, 0.5, 0.2)
 
-    results = run_obstacle_growth_sweep(
-        Ns,
-        p_opens=p_opens,
-        n_samples=2000,
-        seed=66357,
-        obstacle_seed=123,
-        max_restarts=10_000,
-    )
-
-    ###########################################
-    # Scaling fits + plot
-    ###########################################
+    results = run_obstacle_growth_sweep(Ns, p_opens=p_opens, n_samples=2000, seed=66357, obstacle_seed=123, max_restarts=10_000)
 
     plt.figure()
 
@@ -758,31 +662,17 @@ def run_osaw_growth():
         print(f"2nu from <R^2> ~ N^(2nu): 2nu = {m_2:.4f}")
         print(f"--------------------------------------")
 
-        # ---- Plot data + fit ----
-        plt.loglog(N, R2, "o-", label=rf"$\langle R^2\rangle$ ($p_{{open}}={p_open:.2f}$)")
-        plt.loglog(N, np.exp(b_2) * N**m_2, "--",
-                   label=rf"fit ($p_{{open}}={p_open:.2f}$) slope {m_2:.3f}")
+        out_file = Path(__file__).resolve().parent / f"saw_objects_p_open_{p_open}.csv"
+        data = np.column_stack((N, R2))
+        np.savetxt(out_file, data, delimiter=",", comments="")
 
-    plt.xlabel("N (steps)")
-    plt.ylabel(r"$\langle R^2\rangle$")
-    plt.title("Growth SAW with Obstacles: Scaling of End-to-End Distance")
-    plt.legend()
-    plt.tight_layout()
-    plt.show()
-    ###########################################
 
 def run_confined2D():
     Ns = np.unique(np.logspace(2, 3, 12).astype(int))   # ~100..1000
-    #Ds = (8, 16, 32)
-    Ds = (64,)
+    Ds = (8, 16, 32, 64)
     for D in Ds:
         print(f"\n=== Reptation confined SAW, D={D} ===")
-        N, R2, Rrms, accs = estimate_scaling_confined_reptation(
-            Ns, D,
-            seed=66357,
-            c_relax=50,     # try 200; bump to 500 if needed
-            n_blocks=3       # more blocks = better stats
-        )
+        N, R2, Rrms, accs = estimate_scaling_confined_reptation(Ns, D, seed=66357, c_relax=50, n_blocks=3)
 
         # --- Two-regime fits (physics split by N_c ~ D^(4/3)) ---
 
@@ -805,25 +695,27 @@ def run_confined2D():
         print(f"weak fit N points:   {info_r['weak_N'].astype(int)}")
         print(f"strong fit N points: {info_r['strong_N'].astype(int)}")
 
+        out_file = Path(__file__).resolve().parent / f"saw_objects_diameter_{D}.csv"
+        data = np.column_stack((N, R2))
+        np.savetxt(out_file, data, delimiter=",", comments="")
+
         plt.figure()
         plt.loglog(N, R2, "o-", label=rf"$\langle R_\parallel^2\rangle$ (D={D})")
 
         # Weak-regime fit line
         Nw = info_2["weak_N"]
-        plt.loglog(Nw, np.exp(b2_w) * Nw**m2_w, "--",
-                label=rf"weak fit slope {m2_w:.3f}")
+        plt.loglog(Nw, np.exp(b2_w) * Nw**m2_w, "--", label=rf"weak fit slope {m2_w:.3f}")
 
         # Strong-regime fit line
         Nstrong = info_2["strong_N"]
-        plt.loglog(Ns, np.exp(b2_s) * Ns**m2_s, "--",
-                label=rf"strong fit slope {m2_s:.3f}")
+        plt.loglog(Ns, np.exp(b2_s) * Ns**m2_s, "--", label=rf"strong fit slope {m2_s:.3f}")
 
         plt.xlabel("N")
         plt.ylabel(r"$\langle R_\parallel^2\rangle$")
         plt.title(f"2D SAW in channel: two-regime scaling (D={D})")
-        plt.legend()
-        plt.tight_layout()
-        plt.show()
+    plt.legend()
+    plt.tight_layout()
+    plt.show()
 
 
 if __name__ == "__main__":

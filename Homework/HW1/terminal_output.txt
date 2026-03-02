@@ -1,0 +1,147 @@
+N=  316  samples=20000  <R^2>=316.10
+N=  342  samples=20000  <R^2>=343.22
+N=  371  samples=20000  <R^2>=372.58
+N=  401  samples=20000  <R^2>=402.55
+N=  435  samples=20000  <R^2>=434.54
+N=  471  samples=20000  <R^2>=470.84
+N=  510  samples=20000  <R^2>=511.11
+N=  553  samples=20000  <R^2>=556.12
+N=  599  samples=20000  <R^2>=604.70
+N=  649  samples=20000  <R^2>=655.79
+N=  702  samples=20000  <R^2>=709.27
+N=  761  samples=20000  <R^2>=767.97
+N=  824  samples=20000  <R^2>=831.47
+N=  893  samples=20000  <R^2>=898.20
+N=  967  samples=20000  <R^2>=969.73
+N= 1048  samples=20000  <R^2>=1052.69
+N= 1135  samples=20000  <R^2>=1142.97
+N= 1229  samples=20000  <R^2>=1239.04
+N= 1331  samples=20000  <R^2>=1339.37
+N= 1442  samples=20000  <R^2>=1443.56
+N= 1562  samples=20000  <R^2>=1561.92
+N= 1692  samples=20000  <R^2>=1680.41
+N= 1833  samples=20000  <R^2>=1816.09
+N= 1985  samples=20000  <R^2>=1966.07
+N= 2151  samples=20000  <R^2>=2130.49
+N= 2329  samples=20000  <R^2>=2316.28
+N= 2523  samples=20000  <R^2>=2512.35
+N= 2733  samples=20000  <R^2>=2729.95
+N= 2960  samples=20000  <R^2>=2952.53
+N= 3207  samples=20000  <R^2>=3207.21
+N= 3473  samples=20000  <R^2>=3477.33
+N= 3762  samples=20000  <R^2>=3763.60
+N= 4075  samples=20000  <R^2>=4078.69
+N= 4414  samples=20000  <R^2>=4416.12
+N= 4781  samples=20000  <R^2>=4767.31
+N= 5179  samples=20000  <R^2>=5148.09
+N= 5610  samples=20000  <R^2>=5574.00
+N= 6076  samples=20000  <R^2>=6064.54
+N= 6582  samples=20000  <R^2>=6565.18
+N= 7129  samples=20000  <R^2>=7131.78
+N= 7722  samples=20000  <R^2>=7752.86
+N= 8364  samples=20000  <R^2>=8393.06
+N= 9060  samples=20000  <R^2>=9094.85
+N= 9813  samples=20000  <R^2>=9876.46
+N=10629  samples=20000  <R^2>=10717.98
+N=11513  samples=20000  <R^2>=11632.34
+N=12471  samples=20000  <R^2>=12579.85
+N=13508  samples=20000  <R^2>=13673.76
+N=14632  samples=20000  <R^2>=14832.02
+N=15848  samples=20000  <R^2>=16020.46
+<R^2> ~ N^(2nu): 2nu = 1.000
+
+
+
+
+N=  316  samples=  800  acc_rate=0.535  <R^2>=1077.37
+N=  359  samples=  800  acc_rate=0.528  <R^2>=1212.63
+N=  408  samples=  800  acc_rate=0.520  <R^2>=1403.97
+N=  464  samples=  800  acc_rate=0.513  <R^2>=1595.55
+N=  527  samples=  800  acc_rate=0.507  <R^2>=1808.26
+N=  599  samples=  800  acc_rate=0.500  <R^2>=2225.01
+N=  681  samples=  800  acc_rate=0.493  <R^2>=2682.94
+N=  774  samples=  800  acc_rate=0.486  <R^2>=3059.74
+N=  879  samples=  800  acc_rate=0.479  <R^2>=3483.55
+N= 1000  samples=  800  acc_rate=0.473  <R^2>=3987.75
+
+
+
+
+
+
+=== Reptation confined SAW, D=8 ===
+N=  100 samples= 7500 acc_rate=0.960 <R_par^2>=597.54 burn_in=500000 thin=200
+N=  123 samples=11347 acc_rate=0.959 <R_par^2>=971.78 burn_in=756450 thin=200
+N=  151 samples=17101 acc_rate=0.958 <R_par^2>=1463.40 burn_in=1140050 thin=200
+N=  187 samples=26227 acc_rate=0.957 <R_par^2>=2389.16 burn_in=1748450 thin=200
+N=  231 samples=34650 acc_rate=0.957 <R_par^2>=3818.75 burn_in=2668050 thin=231
+N=  284 samples=42600 acc_rate=0.957 <R_par^2>=5674.40 burn_in=4032800 thin=284
+N=  351 samples=52650 acc_rate=0.957 <R_par^2>=9155.74 burn_in=6160050 thin=351
+N=  432 samples=64800 acc_rate=0.957 <R_par^2>=14996.88 burn_in=9331200 thin=432
+N=  533 samples=79950 acc_rate=0.957 <R_par^2>=22465.39 burn_in=14204450 thin=533
+N=  657 samples=98550 acc_rate=0.957 <R_par^2>=35336.02 burn_in=21582450 thin=657
+N=  811 samples=121650 acc_rate=0.957 <R_par^2>=55321.49 burn_in=32886050 thin=811
+N= 1000 samples=150000 acc_rate=0.957 <R_par^2>=85361.52 burn_in=50000000 thin=1000
+
+TWO-REGIME FITS (log-log):
+D = 8  |  N_c ~ D^(4/3) = 16.0  (margin=1.5)
+weak confinement  (N <= N_c/m): nu  = 1.0822   |  2nu = 2.1644
+strong confinement(N >= m*N_c): nu  = 1.0589   |  2nu = 2.1178
+weak fit N points:   [100 123 151 187 231 284]
+strong fit N points: [ 351  432  533  657  811 1000]
+
+=== Reptation confined SAW, D=16 ===
+N=  100 samples= 7500 acc_rate=0.971 <R_par^2>=311.41 burn_in=500000 thin=200
+N=  123 samples=11347 acc_rate=0.969 <R_par^2>=463.79 burn_in=756450 thin=200
+N=  151 samples=17101 acc_rate=0.969 <R_par^2>=692.76 burn_in=1140050 thin=200
+N=  187 samples=26227 acc_rate=0.968 <R_par^2>=1013.14 burn_in=1748450 thin=200
+N=  231 samples=34650 acc_rate=0.968 <R_par^2>=1586.27 burn_in=2668050 thin=231
+N=  284 samples=42600 acc_rate=0.967 <R_par^2>=2486.57 burn_in=4032800 thin=284
+N=  351 samples=52650 acc_rate=0.966 <R_par^2>=4182.18 burn_in=6160050 thin=351
+N=  432 samples=64800 acc_rate=0.966 <R_par^2>=6513.65 burn_in=9331200 thin=432
+N=  533 samples=79950 acc_rate=0.966 <R_par^2>=10235.50 burn_in=14204450 thin=533
+N=  657 samples=98550 acc_rate=0.966 <R_par^2>=16952.21 burn_in=21582450 thin=657
+N=  811 samples=121650 acc_rate=0.966 <R_par^2>=26578.27 burn_in=32886050 thin=811
+N= 1000 samples=150000 acc_rate=0.966 <R_par^2>=40959.32 burn_in=50000000 thin=1000
+
+TWO-REGIME FITS (log-log):
+D = 16  |  N_c ~ D^(4/3) = 40.3  (margin=1.5)
+weak confinement  (N <= N_c/m): nu  = 0.9870   |  2nu = 1.9740
+strong confinement(N >= m*N_c): nu  = 1.0999   |  2nu = 2.1997
+weak fit N points:   [100 123 151 187 231 284]
+strong fit N points: [ 351  432  533  657  811 1000]
+
+=== Reptation confined SAW, D=32 ===
+N=  100 samples= 7500 acc_rate=0.977 <R_par^2>=253.97 burn_in=500000 thin=200
+N=  123 samples=11347 acc_rate=0.976 <R_par^2>=369.44 burn_in=756450 thin=200
+N=  151 samples=17101 acc_rate=0.975 <R_par^2>=498.14 burn_in=1140050 thin=200
+N=  187 samples=26227 acc_rate=0.974 <R_par^2>=773.65 burn_in=1748450 thin=200
+N=  231 samples=34650 acc_rate=0.974 <R_par^2>=964.87 burn_in=2668050 thin=231
+N=  284 samples=42600 acc_rate=0.973 <R_par^2>=1379.31 burn_in=4032800 thin=284
+N=  351 samples=52650 acc_rate=0.972 <R_par^2>=1997.87 burn_in=6160050 thin=351
+N=  432 samples=64800 acc_rate=0.972 <R_par^2>=3328.40 burn_in=9331200 thin=432
+N=  533 samples=79950 acc_rate=0.972 <R_par^2>=4898.43 burn_in=14204450 thin=533
+N=  657 samples=98550 acc_rate=0.971 <R_par^2>=7545.80 burn_in=21582450 thin=657
+N=  811 samples=121650 acc_rate=0.971 <R_par^2>=12441.72 burn_in=32886050 thin=811
+N= 1000 samples=150000 acc_rate=0.971 <R_par^2>=19412.25 burn_in=50000000 thin=1000
+
+TWO-REGIME FITS (log-log):
+D = 32  |  N_c ~ D^(4/3) = 101.6  (margin=1.5)
+weak confinement  (N <= N_c/m): nu  = 0.8043   |  2nu = 1.6086
+strong confinement(N >= m*N_c): nu  = 1.0743   |  2nu = 2.1486
+weak fit N points:   [100 123 151 187 231 284]
+strong fit N points: [ 351  432  533  657  811 1000]
+
+=== Reptation confined SAW, D=64 ===
+N=  100 samples= 7500 acc_rate=0.980 <R_par^2>=223.46 burn_in=500000 thin=200
+N=  123 samples=11347 acc_rate=0.978 <R_par^2>=314.36 burn_in=756450 thin=200
+N=  151 samples=17101 acc_rate=0.978 <R_par^2>=425.24 burn_in=1140050 thin=200
+N=  187 samples=26227 acc_rate=0.977 <R_par^2>=546.11 burn_in=1748450 thin=200
+N=  231 samples=34650 acc_rate=0.977 <R_par^2>=739.06 burn_in=2668050 thin=231
+N=  284 samples=42600 acc_rate=0.976 <R_par^2>=1045.01 burn_in=4032800 thin=284
+N=  351 samples=52650 acc_rate=0.976 <R_par^2>=1626.99 burn_in=6160050 thin=351
+N=  432 samples=64800 acc_rate=0.975 <R_par^2>=2212.16 burn_in=9331200 thin=432
+N=  533 samples=79950 acc_rate=0.975 <R_par^2>=3085.01 burn_in=14204450 thin=533
+N=  657 samples=98550 acc_rate=0.975 <R_par^2>=4640.42 burn_in=21582450 thin=657
+N=  811 samples=121650 acc_rate=0.975 <R_par^2>=7266.15 burn_in=32886050 thin=811
+N= 1000 samples=150000 acc_rate=0.975 <R_par^2>=10273.09 burn_in=50000000 thin=1000
