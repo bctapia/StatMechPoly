@@ -1,0 +1,73 @@
+
+=== Growth obstacle SAW: p_open=0.80 (blocked=0.20) ===
+/home/gridsan/btapia/StatMechPoly/Homework/HW1/osaw/../randomwalks.py:215: RuntimeWarning: overflow encountered in scalar multiply
+  x *= np.uint64(0xBF58476D1CE4E5B9)
+/home/gridsan/btapia/StatMechPoly/Homework/HW1/osaw/../randomwalks.py:217: RuntimeWarning: overflow encountered in scalar multiply
+  x *= np.uint64(0x94D049BB133111EB)
+N=  100  samples=10000  <R^2>=189.81  frac_blocked_steps=0.002  avg_restarts=0.01
+N=  127  samples=10000  <R^2>=243.46  frac_blocked_steps=0.002  avg_restarts=0.01
+N=  163  samples=10000  <R^2>=316.96  frac_blocked_steps=0.003  avg_restarts=0.01
+N=  209  samples=10000  <R^2>=403.00  frac_blocked_steps=0.003  avg_restarts=0.02
+N=  268  samples=10000  <R^2>=524.27  frac_blocked_steps=0.003  avg_restarts=0.02
+N=  343  samples=10000  <R^2>=678.74  frac_blocked_steps=0.003  avg_restarts=0.03
+N=  439  samples=10000  <R^2>=876.80  frac_blocked_steps=0.003  avg_restarts=0.04
+N=  562  samples=10000  <R^2>=1125.07  frac_blocked_steps=0.003  avg_restarts=0.06
+N=  719  samples=10000  <R^2>=1443.95  frac_blocked_steps=0.003  avg_restarts=0.08
+N=  921  samples=10000  <R^2>=1849.44  frac_blocked_steps=0.003  avg_restarts=0.11
+N= 1178  samples=10000  <R^2>=2394.06  frac_blocked_steps=0.003  avg_restarts=0.15
+N= 1508  samples=10000  <R^2>=3100.74  frac_blocked_steps=0.003  avg_restarts=0.21
+N= 1930  samples=10000  <R^2>=3980.62  frac_blocked_steps=0.003  avg_restarts=0.29
+N= 2470  samples=10000  <R^2>=5085.62  frac_blocked_steps=0.003  avg_restarts=0.38
+N= 3162  samples=10000  <R^2>=6580.72  frac_blocked_steps=0.003  avg_restarts=0.54
+
+=== Growth obstacle SAW: p_open=0.50 (blocked=0.50) ===
+N=  100  samples=10000  <R^2>=203.50  frac_blocked_steps=0.058  avg_restarts=0.00
+N=  127  samples=10000  <R^2>=264.35  frac_blocked_steps=0.059  avg_restarts=0.00
+N=  163  samples=10000  <R^2>=342.71  frac_blocked_steps=0.060  avg_restarts=0.01
+N=  209  samples=10000  <R^2>=441.63  frac_blocked_steps=0.061  avg_restarts=0.01
+N=  268  samples=10000  <R^2>=576.86  frac_blocked_steps=0.062  avg_restarts=0.01
+N=  343  samples=10000  <R^2>=746.75  frac_blocked_steps=0.062  avg_restarts=0.02
+N=  439  samples=10000  <R^2>=941.80  frac_blocked_steps=0.063  avg_restarts=0.02
+N=  562  samples=10000  <R^2>=1234.97  frac_blocked_steps=0.063  avg_restarts=0.03
+N=  719  samples=10000  <R^2>=1593.65  frac_blocked_steps=0.064  avg_restarts=0.04
+N=  921  samples=10000  <R^2>=2047.04  frac_blocked_steps=0.064  avg_restarts=0.06
+N= 1178  samples=10000  <R^2>=2615.09  frac_blocked_steps=0.064  avg_restarts=0.08
+N= 1508  samples=10000  <R^2>=3372.95  frac_blocked_steps=0.065  avg_restarts=0.11
+N= 1930  samples=10000  <R^2>=4342.21  frac_blocked_steps=0.065  avg_restarts=0.15
+N= 2470  samples=10000  <R^2>=5613.69  frac_blocked_steps=0.065  avg_restarts=0.21
+N= 3162  samples=10000  <R^2>=7293.74  frac_blocked_steps=0.065  avg_restarts=0.26
+
+=== Growth obstacle SAW: p_open=0.20 (blocked=0.80) ===
+N=  100  samples=10000  <R^2>=217.43  frac_blocked_steps=0.417  avg_restarts=0.01
+N=  127  samples=10000  <R^2>=279.38  frac_blocked_steps=0.419  avg_restarts=0.01
+N=  163  samples=10000  <R^2>=364.89  frac_blocked_steps=0.422  avg_restarts=0.01
+N=  209  samples=10000  <R^2>=470.49  frac_blocked_steps=0.424  avg_restarts=0.01
+N=  268  samples=10000  <R^2>=608.24  frac_blocked_steps=0.425  avg_restarts=0.02
+N=  343  samples=10000  <R^2>=795.32  frac_blocked_steps=0.427  avg_restarts=0.03
+N=  439  samples=10000  <R^2>=1026.94  frac_blocked_steps=0.428  avg_restarts=0.04
+N=  562  samples=10000  <R^2>=1325.93  frac_blocked_steps=0.430  avg_restarts=0.05
+N=  719  samples=10000  <R^2>=1713.77  frac_blocked_steps=0.431  avg_restarts=0.07
+N=  921  samples=10000  <R^2>=2148.82  frac_blocked_steps=0.432  avg_restarts=0.10
+N= 1178  samples=10000  <R^2>=2811.63  frac_blocked_steps=0.433  avg_restarts=0.12
+N= 1508  samples=10000  <R^2>=3647.92  frac_blocked_steps=0.433  avg_restarts=0.17
+N= 1930  samples=10000  <R^2>=4719.11  frac_blocked_steps=0.434  avg_restarts=0.23
+N= 2470  samples=10000  <R^2>=5899.77  frac_blocked_steps=0.434  avg_restarts=0.30
+N= 3162  samples=10000  <R^2>=7638.80  frac_blocked_steps=0.434  avg_restarts=0.42
+
+FITS (log-log):
+p_open = 0.80
+nu from Rrms ~ N^nu:        nu  = 0.5128
+2nu from <R^2> ~ N^(2nu): 2nu = 1.0257
+--------------------------------------
+
+FITS (log-log):
+p_open = 0.50
+nu from Rrms ~ N^nu:        nu  = 0.5155
+2nu from <R^2> ~ N^(2nu): 2nu = 1.0309
+--------------------------------------
+
+FITS (log-log):
+p_open = 0.20
+nu from Rrms ~ N^nu:        nu  = 0.5155
+2nu from <R^2> ~ N^(2nu): 2nu = 1.0310
+--------------------------------------

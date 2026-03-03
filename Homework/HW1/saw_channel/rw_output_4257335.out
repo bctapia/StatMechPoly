@@ -1,0 +1,66 @@
+
+=== Reptation confined SAW, D=8 ===
+N=   10 samples=   75 acc_rate=0.993 <R_par^2>=15.95 burn_in=5000 thin=200
+N=   14 samples=  147 acc_rate=0.987 <R_par^2>=21.63 burn_in=9800 thin=200
+N=   21 samples=  331 acc_rate=0.983 <R_par^2>=34.99 burn_in=22050 thin=200
+N=   31 samples=  721 acc_rate=0.975 <R_par^2>=74.28 burn_in=48050 thin=200
+N=   46 samples= 1587 acc_rate=0.969 <R_par^2>=132.37 burn_in=105800 thin=200
+N=   68 samples= 3468 acc_rate=0.963 <R_par^2>=280.78 burn_in=231200 thin=200
+N=  100 samples= 7500 acc_rate=0.959 <R_par^2>=619.61 burn_in=500000 thin=200
+N=  146 samples=15987 acc_rate=0.958 <R_par^2>=1352.85 burn_in=1065800 thin=200
+N=  215 samples=32250 acc_rate=0.958 <R_par^2>=3225.49 burn_in=2311250 thin=215
+N=  316 samples=47400 acc_rate=0.958 <R_par^2>=7541.11 burn_in=4992800 thin=316
+N=  464 samples=69600 acc_rate=0.956 <R_par^2>=17053.76 burn_in=10764800 thin=464
+N=  681 samples=102150 acc_rate=0.957 <R_par^2>=36809.11 burn_in=23188050 thin=681
+N= 1000 samples=150000 acc_rate=0.957 <R_par^2>=84348.18 burn_in=50000000 thin=1000
+
+TWO-REGIME FITS (log-log):
+D = 8  |  N_c ~ D^(4/3) = 16.0  (margin=1.5)
+weak confinement  (N <= N_c/m): nu  = 0.7593   |  2nu = 1.5186
+strong confinement(N >= m*N_c): nu  = 1.0690   |  2nu = 2.1379
+weak fit N points:   [10 14 21 31 46 68]
+strong fit N points: [ 146  215  316  464  681 1000]
+
+=== Reptation confined SAW, D=100 ===
+N=   10 samples=   75 acc_rate=0.996 <R_par^2>=11.95 burn_in=5000 thin=200
+N=   14 samples=  147 acc_rate=0.993 <R_par^2>=18.24 burn_in=9800 thin=200
+N=   21 samples=  331 acc_rate=0.989 <R_par^2>=30.67 burn_in=22050 thin=200
+N=   31 samples=  721 acc_rate=0.985 <R_par^2>=52.61 burn_in=48050 thin=200
+N=   46 samples= 1587 acc_rate=0.983 <R_par^2>=85.44 burn_in=105800 thin=200
+N=   68 samples= 3468 acc_rate=0.981 <R_par^2>=133.09 burn_in=231200 thin=200
+N=  100 samples= 7500 acc_rate=0.979 <R_par^2>=245.62 burn_in=500000 thin=200
+N=  146 samples=15987 acc_rate=0.979 <R_par^2>=384.59 burn_in=1065800 thin=200
+N=  215 samples=32250 acc_rate=0.978 <R_par^2>=636.26 burn_in=2311250 thin=215
+N=  316 samples=47400 acc_rate=0.977 <R_par^2>=1232.30 burn_in=4992800 thin=316
+N=  464 samples=69600 acc_rate=0.977 <R_par^2>=1998.21 burn_in=10764800 thin=464
+N=  681 samples=102150 acc_rate=0.976 <R_par^2>=3939.01 burn_in=23188050 thin=681
+N= 1000 samples=150000 acc_rate=0.976 <R_par^2>=8590.72 burn_in=50000000 thin=1000
+
+TWO-REGIME FITS (log-log):
+D = 100  |  N_c ~ D^(4/3) = 464.2  (margin=1.5)
+weak confinement  (N <= N_c/m): nu  = 0.6359   |  2nu = 1.2719
+strong confinement(N >= m*N_c): nu  = 0.7978   |  2nu = 1.5956
+weak fit N points:   [10 14 21 31 46 68]
+strong fit N points: [ 146  215  316  464  681 1000]
+
+=== Reptation confined SAW, D=300 ===
+N=   10 samples=   75 acc_rate=0.997 <R_par^2>=11.32 burn_in=5000 thin=200
+N=   14 samples=  147 acc_rate=0.993 <R_par^2>=18.24 burn_in=9800 thin=200
+N=   21 samples=  331 acc_rate=0.990 <R_par^2>=31.37 burn_in=22050 thin=200
+N=   31 samples=  721 acc_rate=0.987 <R_par^2>=46.97 burn_in=48050 thin=200
+N=   46 samples= 1587 acc_rate=0.984 <R_par^2>=81.62 burn_in=105800 thin=200
+N=   68 samples= 3468 acc_rate=0.981 <R_par^2>=147.37 burn_in=231200 thin=200
+N=  100 samples= 7500 acc_rate=0.980 <R_par^2>=213.66 burn_in=500000 thin=200
+N=  146 samples=15987 acc_rate=0.979 <R_par^2>=378.47 burn_in=1065800 thin=200
+N=  215 samples=32250 acc_rate=0.978 <R_par^2>=631.77 burn_in=2311250 thin=215
+N=  316 samples=47400 acc_rate=0.978 <R_par^2>=1165.55 burn_in=4992800 thin=316
+N=  464 samples=69600 acc_rate=0.978 <R_par^2>=1860.63 burn_in=10764800 thin=464
+N=  681 samples=102150 acc_rate=0.977 <R_par^2>=3575.47 burn_in=23188050 thin=681
+N= 1000 samples=150000 acc_rate=0.977 <R_par^2>=6051.41 burn_in=50000000 thin=1000
+
+TWO-REGIME FITS (log-log):
+D = 300  |  N_c ~ D^(4/3) = 2008.3  (margin=1.5)
+weak confinement  (N <= N_c/m): nu  = 0.6545   |  2nu = 1.3090
+strong confinement(N >= m*N_c): nu  = 0.7252   |  2nu = 1.4503
+weak fit N points:   [10 14 21 31 46 68]
+strong fit N points: [ 146  215  316  464  681 1000]

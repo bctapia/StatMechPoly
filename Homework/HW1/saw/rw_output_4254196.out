@@ -1,0 +1,19 @@
+N=  316  samples= 1500  acc_rate=0.535  <R^2>=1023.96
+N=  372  samples= 1500  acc_rate=0.525  <R^2>=1245.29
+N=  439  samples= 1500  acc_rate=0.514  <R^2>=1494.50
+N=  517  samples= 1500  acc_rate=0.508  <R^2>=1901.65
+N=  610  samples= 1500  acc_rate=0.498  <R^2>=2236.06
+N=  719  samples= 1500  acc_rate=0.491  <R^2>=2667.09
+N=  848  samples= 1500  acc_rate=0.482  <R^2>=3327.33
+N= 1000  samples= 1500  acc_rate=0.472  <R^2>=4140.90
+N= 1178  samples= 1500  acc_rate=0.466  <R^2>=4761.76
+N= 1389  samples= 1500  acc_rate=0.457  <R^2>=6027.57
+N= 1637  samples= 1500  acc_rate=0.447  <R^2>=7082.96
+N= 1930  samples= 1500  acc_rate=0.441  <R^2>=8913.32
+N= 2275  samples= 1500  acc_rate=0.431  <R^2>=10770.57
+N= 2682  samples= 1500  acc_rate=0.425  <R^2>=12611.82
+N= 3162  samples= 1500  acc_rate=0.418  <R^2>=15894.25
+
+FITS (log-log):
+nu from Rrms ~ N^nu:        nu = 0.592  (expected ~0.588)
+2nu from <R^2> ~ N^(2nu): 2nu = 1.185  (expected ~1.176)
