@@ -663,7 +663,8 @@ def run_osaw():
 
 def run_confined2D():
     Ns = np.unique(np.logspace(1, 3, 13).astype(int))
-    Ds = (8, 100, 300)
+    Ds = (8, 32, 100, 300, 1000)
+    #Ds = (32,)
     for D in Ds:
         print(f"\n=== Reptation confined SAW, D={D} ===")
         N, R2, Rrms, accs = estimate_scaling_confined_reptation(Ns, D, seed=66357, c_relax=50, n_blocks=3)

@@ -1,0 +1,22 @@
+
+=== Reptation confined SAW, D=1000 ===
+N=   10 samples=   75 acc_rate=0.997 <R_par^2>=11.32 burn_in=5000 thin=200
+N=   14 samples=  147 acc_rate=0.993 <R_par^2>=18.24 burn_in=9800 thin=200
+N=   21 samples=  331 acc_rate=0.990 <R_par^2>=31.37 burn_in=22050 thin=200
+N=   31 samples=  721 acc_rate=0.987 <R_par^2>=46.97 burn_in=48050 thin=200
+N=   46 samples= 1587 acc_rate=0.984 <R_par^2>=81.62 burn_in=105800 thin=200
+N=   68 samples= 3468 acc_rate=0.982 <R_par^2>=139.88 burn_in=231200 thin=200
+N=  100 samples= 7500 acc_rate=0.980 <R_par^2>=214.28 burn_in=500000 thin=200
+N=  146 samples=15987 acc_rate=0.980 <R_par^2>=357.97 burn_in=1065800 thin=200
+N=  215 samples=32250 acc_rate=0.979 <R_par^2>=648.66 burn_in=2311250 thin=215
+N=  316 samples=47400 acc_rate=0.978 <R_par^2>=1060.42 burn_in=4992800 thin=316
+N=  464 samples=69600 acc_rate=0.978 <R_par^2>=2016.10 burn_in=10764800 thin=464
+N=  681 samples=102150 acc_rate=0.978 <R_par^2>=3494.92 burn_in=23188050 thin=681
+N= 1000 samples=150000 acc_rate=0.978 <R_par^2>=6359.10 burn_in=50000000 thin=1000
+
+TWO-REGIME FITS (log-log):
+D = 1000  |  N_c ~ D^(4/3) = 10000.0  (margin=1.5)
+weak confinement  (N <= N_c/m): nu  = 0.6448   |  2nu = 1.2896
+strong confinement(N >= m*N_c): nu  = 0.7457   |  2nu = 1.4915
+weak fit N points:   [10 14 21 31 46 68]
+strong fit N points: [ 146  215  316  464  681 1000]
