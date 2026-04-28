@@ -1,0 +1,47 @@
+units lj
+atom_style molecular
+boundary f f f
+
+read_data polymer.data
+
+pair_style lj/cut 2.5
+pair_coeff 1 1 1.0 1.0 2.5
+
+bond_style harmonic
+bond_coeff 1 50.0 1.0
+
+special_bonds lj 0.0 0.0 1.0
+
+neighbor 1.0 bin
+neigh_modify delay 0 every 1 check yes
+comm_modify cutoff 5.0
+
+compute rg all gyration
+
+thermo 1000
+thermo_style custom step temp pe ke etotal c_rg
+
+min_style fire
+minimize 1.0e-6 1.0e-8 10000 100000
+
+velocity all create 1.0 12345 mom yes rot yes dist gaussian
+
+fix relax all nve/limit 0.01
+fix bath all langevin 1.0 1.0 1.0 54321 zero yes
+
+timestep 0.001
+run 50000
+
+unfix relax
+unfix bath
+
+velocity all create 1.0 67890 mom yes rot yes dist gaussian
+
+fix int all nve
+fix thermostat all langevin 1.0 1.0 1.0 98765 zero yes
+
+dump traj all custom 1000 traj.lammpstrj id type xu yu zu
+dump_modify traj sort id
+
+timestep 0.005
+run 2000000
