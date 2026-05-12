@@ -1,5 +1,6 @@
+import csv
+from pathlib import Path
 import numpy as np
-import matplotlib.pyplot as plt
 
 
 def U(x, A, B):
@@ -121,12 +122,36 @@ def average_over_trajectories(
         "mean_acceptance_rate": np.mean(acceptance_rates),
     }
 
+def save_results(results, filename="mc_results.csv"):
+    filename = Path(filename)
+
+    fields = [
+        "A",
+        "B",
+        "T",
+        "curvature",
+        "barrier",
+        "mean_waiting_time",
+        "std_waiting_time",
+        "n_jumps",
+        "mean_acceptance_rate",
+    ]
+
+    with open(filename, "w", newline="") as f:
+        writer = csv.DictWriter(f, fieldnames=fields)
+        writer.writeheader()
+
+        for r in results:
+            writer.writerow({key: r[key] for key in fields})
+
+    print(f"Saved results to {filename}")
 
 if __name__ == "__main__":
 
     T = 1.0
 
     params = [
+        (0.25, 0.5),
         (0.5, 0.5),
         (0.75, 0.5),
         (1.0, 0.5),
@@ -134,7 +159,16 @@ if __name__ == "__main__":
         (1.5, 0.5),
         (1.75, 0.5),
         (2.0, 0.5),
+        (2.25, 0.5),
+        (2.50, 0.5),
+        (2.75, 0.5),
+        (3.00, 0.5),
+        (3.25, 0.5),
+        (3.50, 0.5),
+        (3.75, 0.5),
+        (4.00, 0.5),
     ]
+    
 
     results = []
 
@@ -160,24 +194,4 @@ if __name__ == "__main__":
             f"acc={result['mean_acceptance_rate']:.3f}"
         )
 
-    curvature = np.array([r["curvature"] for r in results])
-    barrier = np.array([r["barrier"] for r in results])
-    tau = np.array([r["mean_waiting_time"] for r in results])
-
-    plt.figure()
-    plt.plot(curvature, tau, "o-")
-    plt.xlabel("Well curvature, k = 4A")
-    plt.ylabel("Average waiting time")
-    plt.yscale("log")
-    plt.tight_layout()
-    plt.savefig("mc_waiting_time_vs_curvature.png", dpi=300)
-
-    plt.figure()
-    plt.plot(barrier, tau, "o-")
-    plt.xlabel("Barrier height, ΔU = A² / 4B")
-    plt.ylabel("Average waiting time")
-    plt.yscale("log")
-    plt.tight_layout()
-    plt.savefig("mc_waiting_time_vs_barrier.png", dpi=300)
-
-    plt.show()
+    save_results(results, "mc_results.csv")

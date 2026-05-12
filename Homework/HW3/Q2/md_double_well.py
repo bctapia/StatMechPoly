@@ -1,5 +1,7 @@
+import csv
+from pathlib import Path
 import numpy as np
-import matplotlib.pyplot as plt
+
 
 
 def U(x, A, B):
@@ -17,7 +19,7 @@ def run_langevin_md(
     m=1.0,
     gamma=1.0,
     dt=0.005,
-    n_steps=2_000_000,
+    n_steps=10_000_000,
     x0=None,
     v0=None,
     seed=None,
@@ -76,6 +78,9 @@ def run_langevin_md(
             state = get_state(x, state)
             continue
 
+        if step == burn_in:
+            last_jump_time = step * dt
+
         t = step * dt
         new_state = get_state(x, state)
 
@@ -112,7 +117,7 @@ def average_over_trajectories(
     gamma=1.0,
     dt=0.005,
     n_traj=20,
-    n_steps=2_000_000,
+    n_steps=5_000_000,
     burn_in=10_000,
 ):
     all_waits = []
@@ -148,8 +153,35 @@ def average_over_trajectories(
         "n_jumps": len(all_waits),
     }
 
+def save_results(results, filename="md_results.csv"):
+    filename = Path(filename)
+
+    fields = [
+        "A",
+        "B",
+        "T",
+        "m",
+        "gamma",
+        "dt",
+        "curvature",
+        "barrier",
+        "mean_waiting_time",
+        "std_waiting_time",
+        "n_jumps",
+    ]
+
+    with open(filename, "w", newline="") as f:
+        writer = csv.DictWriter(f, fieldnames=fields)
+        writer.writeheader()
+
+        for r in results:
+            writer.writerow({key: r[key] for key in fields})
+
+    print(f"Saved results to {filename}")
+
 
 if __name__ == "__main__":
+    import os
 
     T = 1.0
     m = 1.0
@@ -157,6 +189,7 @@ if __name__ == "__main__":
     dt = 0.005
 
     params = [
+        (0.25, 0.5),
         (0.5, 0.5),
         (0.75, 0.5),
         (1.0, 0.5),
@@ -164,51 +197,39 @@ if __name__ == "__main__":
         (1.5, 0.5),
         (1.75, 0.5),
         (2.0, 0.5),
+        (2.25, 0.5),
+        (2.50, 0.5),
+        (2.75, 0.5),
+        (3.00, 0.5),
+        (3.25, 0.5),
+        (3.50, 0.5),
+        (3.75, 0.5),
+        (4.00, 0.5),
     ]
 
-    results = []
+    task_id = int(os.environ.get("SLURM_ARRAY_TASK_ID", 0))
+    A, B = params[task_id]
 
-    for A, B in params:
-        result = average_over_trajectories(
-            A=A,
-            B=B,
-            T=T,
-            m=m,
-            gamma=gamma,
-            dt=dt,
-            n_traj=20,
-            n_steps=500_000,
-            burn_in=10_000,
-        )
+    result = average_over_trajectories(
+        A=A,
+        B=B,
+        T=T,
+        m=m,
+        gamma=gamma,
+        dt=dt,
+        n_traj=10,
+        n_steps=10_000_000,
+        burn_in=10_000,
+    )
 
-        results.append(result)
+    print(
+        f"task={task_id}, "
+        f"A={A:.3f}, B={B:.3f}, "
+        f"k={result['curvature']:.3f}, "
+        f"dU={result['barrier']:.3f}, "
+        f"<tau>={result['mean_waiting_time']:.3f}, "
+        f"jumps={result['n_jumps']}"
+    )
 
-        print(
-            f"A={A:.3f}, B={B:.3f}, "
-            f"k={result['curvature']:.3f}, "
-            f"dU={result['barrier']:.3f}, "
-            f"<tau>={result['mean_waiting_time']:.3f}, "
-            f"jumps={result['n_jumps']}"
-        )
-
-    curvature = np.array([r["curvature"] for r in results])
-    barrier = np.array([r["barrier"] for r in results])
-    tau = np.array([r["mean_waiting_time"] for r in results])
-
-    plt.figure()
-    plt.plot(curvature, tau, "o-")
-    plt.xlabel("Well curvature, k = 4A")
-    plt.ylabel("Average MD waiting time")
-    plt.yscale("log")
-    plt.tight_layout()
-    plt.savefig("md_waiting_time_vs_curvature.png", dpi=300)
-
-    plt.figure()
-    plt.plot(barrier, tau, "o-")
-    plt.xlabel("Barrier height, ΔU = A² / 4B")
-    plt.ylabel("Average MD waiting time")
-    plt.yscale("log")
-    plt.tight_layout()
-    plt.savefig("md_waiting_time_vs_barrier.png", dpi=300)
-
-    plt.show()
+    save_results([result], f"./md_data/md_results_{task_id:03d}.csv")
+   
