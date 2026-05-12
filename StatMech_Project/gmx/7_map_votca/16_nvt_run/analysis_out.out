@@ -1,0 +1,665 @@
+Host: d-19-2-2
+Loading universe...
+/home/gridsan/btapia/.conda/envs/aging/lib/python3.12/site-packages/MDAnalysis/coordinates/LAMMPS.py:749: UserWarning: Reader has no dt information, set to 1.0 ps
+  ts.data["time"] = step_num * ts.dt
+===Topology Info===
+Atoms: 3700
+Frames: 10001
+Bonds: 4892
+===================
+Filtered bonds with selection [type 2 3]. 2000 bonds remain.
+Sampled dt = 1 ps
+MAX_LAG_PS = 2000 ps -> max_lag = 2000 frames
+ORIGIN_STRIDE_PS = 10 ps -> origin_stride = 10 frames
+Streaming trajectory and computing C2...
+Processed sampled frame 200 (t ~ 200.00 ps)
+Processed sampled frame 400 (t ~ 400.00 ps)
+Processed sampled frame 600 (t ~ 600.00 ps)
+Processed sampled frame 800 (t ~ 800.00 ps)
+Processed sampled frame 1000 (t ~ 1000.00 ps)
+Processed sampled frame 1200 (t ~ 1200.00 ps)
+Processed sampled frame 1400 (t ~ 1400.00 ps)
+Processed sampled frame 1600 (t ~ 1600.00 ps)
+Processed sampled frame 1800 (t ~ 1800.00 ps)
+Processed sampled frame 2000 (t ~ 2000.00 ps)
+Processed sampled frame 2200 (t ~ 2200.00 ps)
+Processed sampled frame 2400 (t ~ 2400.00 ps)
+Processed sampled frame 2600 (t ~ 2600.00 ps)
+Processed sampled frame 2800 (t ~ 2800.00 ps)
+Processed sampled frame 3000 (t ~ 3000.00 ps)
+Processed sampled frame 3200 (t ~ 3200.00 ps)
+Processed sampled frame 3400 (t ~ 3400.00 ps)
+Processed sampled frame 3600 (t ~ 3600.00 ps)
+Processed sampled frame 3800 (t ~ 3800.00 ps)
+Processed sampled frame 4000 (t ~ 4000.00 ps)
+Processed sampled frame 4200 (t ~ 4200.00 ps)
+Processed sampled frame 4400 (t ~ 4400.00 ps)
+Processed sampled frame 4600 (t ~ 4600.00 ps)
+Processed sampled frame 4800 (t ~ 4800.00 ps)
+Processed sampled frame 5000 (t ~ 5000.00 ps)
+Processed sampled frame 5200 (t ~ 5200.00 ps)
+Processed sampled frame 5400 (t ~ 5400.00 ps)
+Processed sampled frame 5600 (t ~ 5600.00 ps)
+Processed sampled frame 5800 (t ~ 5800.00 ps)
+Processed sampled frame 6000 (t ~ 6000.00 ps)
+Processed sampled frame 6200 (t ~ 6200.00 ps)
+Processed sampled frame 6400 (t ~ 6400.00 ps)
+Processed sampled frame 6600 (t ~ 6600.00 ps)
+Processed sampled frame 6800 (t ~ 6800.00 ps)
+Processed sampled frame 7000 (t ~ 7000.00 ps)
+Processed sampled frame 7200 (t ~ 7200.00 ps)
+Processed sampled frame 7400 (t ~ 7400.00 ps)
+Processed sampled frame 7600 (t ~ 7600.00 ps)
+Processed sampled frame 7800 (t ~ 7800.00 ps)
+Processed sampled frame 8000 (t ~ 8000.00 ps)
+Processed sampled frame 8200 (t ~ 8200.00 ps)
+Processed sampled frame 8400 (t ~ 8400.00 ps)
+Processed sampled frame 8600 (t ~ 8600.00 ps)
+Processed sampled frame 8800 (t ~ 8800.00 ps)
+Processed sampled frame 9000 (t ~ 9000.00 ps)
+Processed sampled frame 9200 (t ~ 9200.00 ps)
+Processed sampled frame 9400 (t ~ 9400.00 ps)
+Processed sampled frame 9600 (t ~ 9600.00 ps)
+Processed sampled frame 9800 (t ~ 9800.00 ps)
+Processed sampled frame 10000 (t ~ 10000.00 ps)
+Done. Wrote /home/gridsan/btapia/StatMech/gmx/7_map_votca/16_nvt_run/c2_analysis.csv
+Loading universe...
+Using all atoms: 3700
+Selected atoms: 3700
+Frames: 10001 (stride=1)
+Processed 50 frames
+Processed 100 frames
+Processed 150 frames
+Processed 200 frames
+Processed 250 frames
+Processed 300 frames
+Processed 350 frames
+Processed 400 frames
+Processed 450 frames
+Processed 500 frames
+Processed 550 frames
+Processed 600 frames
+Processed 650 frames
+Processed 700 frames
+Processed 750 frames
+Processed 800 frames
+Processed 850 frames
+Processed 900 frames
+Processed 950 frames
+Processed 1000 frames
+Processed 1050 frames
+Processed 1100 frames
+Processed 1150 frames
+Processed 1200 frames
+Processed 1250 frames
+Processed 1300 frames
+Processed 1350 frames
+Processed 1400 frames
+Processed 1450 frames
+Processed 1500 frames
+Processed 1550 frames
+Processed 1600 frames
+Processed 1650 frames
+Processed 1700 frames
+Processed 1750 frames
+Processed 1800 frames
+Processed 1850 frames
+Processed 1900 frames
+Processed 1950 frames
+Processed 2000 frames
+Processed 2050 frames
+Processed 2100 frames
+Processed 2150 frames
+Processed 2200 frames
+Processed 2250 frames
+Processed 2300 frames
+Processed 2350 frames
+Processed 2400 frames
+Processed 2450 frames
+Processed 2500 frames
+Processed 2550 frames
+Processed 2600 frames
+Processed 2650 frames
+Processed 2700 frames
+Processed 2750 frames
+Processed 2800 frames
+Processed 2850 frames
+Processed 2900 frames
+Processed 2950 frames
+Processed 3000 frames
+Processed 3050 frames
+Processed 3100 frames
+Processed 3150 frames
+Processed 3200 frames
+Processed 3250 frames
+Processed 3300 frames
+Processed 3350 frames
+Processed 3400 frames
+Processed 3450 frames
+Processed 3500 frames
+Processed 3550 frames
+Processed 3600 frames
+Processed 3650 frames
+Processed 3700 frames
+Processed 3750 frames
+Processed 3800 frames
+Processed 3850 frames
+Processed 3900 frames
+Processed 3950 frames
+Processed 4000 frames
+Processed 4050 frames
+Processed 4100 frames
+Processed 4150 frames
+Processed 4200 frames
+Processed 4250 frames
+Processed 4300 frames
+Processed 4350 frames
+Processed 4400 frames
+Processed 4450 frames
+Processed 4500 frames
+Processed 4550 frames
+Processed 4600 frames
+Processed 4650 frames
+Processed 4700 frames
+Processed 4750 frames
+Processed 4800 frames
+Processed 4850 frames
+Processed 4900 frames
+Processed 4950 frames
+Processed 5000 frames
+Processed 5050 frames
+Processed 5100 frames
+Processed 5150 frames
+Processed 5200 frames
+Processed 5250 frames
+Processed 5300 frames
+Processed 5350 frames
+Processed 5400 frames
+Processed 5450 frames
+Processed 5500 frames
+Processed 5550 frames
+Processed 5600 frames
+Processed 5650 frames
+Processed 5700 frames
+Processed 5750 frames
+Processed 5800 frames
+Processed 5850 frames
+Processed 5900 frames
+Processed 5950 frames
+Processed 6000 frames
+Processed 6050 frames
+Processed 6100 frames
+Processed 6150 frames
+Processed 6200 frames
+Processed 6250 frames
+Processed 6300 frames
+Processed 6350 frames
+Processed 6400 frames
+Processed 6450 frames
+Processed 6500 frames
+Processed 6550 frames
+Processed 6600 frames
+Processed 6650 frames
+Processed 6700 frames
+Processed 6750 frames
+Processed 6800 frames
+Processed 6850 frames
+Processed 6900 frames
+Processed 6950 frames
+Processed 7000 frames
+Processed 7050 frames
+Processed 7100 frames
+Processed 7150 frames
+Processed 7200 frames
+Processed 7250 frames
+Processed 7300 frames
+Processed 7350 frames
+Processed 7400 frames
+Processed 7450 frames
+Processed 7500 frames
+Processed 7550 frames
+Processed 7600 frames
+Processed 7650 frames
+Processed 7700 frames
+Processed 7750 frames
+Processed 7800 frames
+Processed 7850 frames
+Processed 7900 frames
+Processed 7950 frames
+Processed 8000 frames
+Processed 8050 frames
+Processed 8100 frames
+Processed 8150 frames
+Processed 8200 frames
+Processed 8250 frames
+Processed 8300 frames
+Processed 8350 frames
+Processed 8400 frames
+Processed 8450 frames
+Processed 8500 frames
+Processed 8550 frames
+Processed 8600 frames
+Processed 8650 frames
+Processed 8700 frames
+Processed 8750 frames
+Processed 8800 frames
+Processed 8850 frames
+Processed 8900 frames
+Processed 8950 frames
+Processed 9000 frames
+Processed 9050 frames
+Processed 9100 frames
+Processed 9150 frames
+Processed 9200 frames
+Processed 9250 frames
+Processed 9300 frames
+Processed 9350 frames
+Processed 9400 frames
+Processed 9450 frames
+Processed 9500 frames
+Processed 9550 frames
+Processed 9600 frames
+Processed 9650 frames
+Processed 9700 frames
+Processed 9750 frames
+Processed 9800 frames
+Processed 9850 frames
+Processed 9900 frames
+Processed 9950 frames
+Processed 10000 frames
+Wrote /home/gridsan/btapia/StatMech/gmx/7_map_votca/16_nvt_run/sq_analysis.csv
+Estimated first-peak q* ≈ 0.4585 1/Å
+Loading universe...
+===Trajectory Info===
+Atoms: 3700
+Frames: 10001
+=====================
+Using selection [type 2 3]: 2300 atoms
+Selected atoms: 2300
+Sampled dt = 1 ps
+MAX_LAG_PS = 2000 ps -> max_lag = 2000 frames
+ORIGIN_STRIDE_PS = 10 ps -> origin_stride = 10 frames
+q = 0.4584999978542328 1/Å
+Streaming trajectory and computing Fs(q,t)...
+Processed sampled frame 200 (t ~ 200.00 ps)
+Processed sampled frame 400 (t ~ 400.00 ps)
+Processed sampled frame 600 (t ~ 600.00 ps)
+Processed sampled frame 800 (t ~ 800.00 ps)
+Processed sampled frame 1000 (t ~ 1000.00 ps)
+Processed sampled frame 1200 (t ~ 1200.00 ps)
+Processed sampled frame 1400 (t ~ 1400.00 ps)
+Processed sampled frame 1600 (t ~ 1600.00 ps)
+Processed sampled frame 1800 (t ~ 1800.00 ps)
+Processed sampled frame 2000 (t ~ 2000.00 ps)
+Processed sampled frame 2200 (t ~ 2200.00 ps)
+Processed sampled frame 2400 (t ~ 2400.00 ps)
+Processed sampled frame 2600 (t ~ 2600.00 ps)
+Processed sampled frame 2800 (t ~ 2800.00 ps)
+Processed sampled frame 3000 (t ~ 3000.00 ps)
+Processed sampled frame 3200 (t ~ 3200.00 ps)
+Processed sampled frame 3400 (t ~ 3400.00 ps)
+Processed sampled frame 3600 (t ~ 3600.00 ps)
+Processed sampled frame 3800 (t ~ 3800.00 ps)
+Processed sampled frame 4000 (t ~ 4000.00 ps)
+Processed sampled frame 4200 (t ~ 4200.00 ps)
+Processed sampled frame 4400 (t ~ 4400.00 ps)
+Processed sampled frame 4600 (t ~ 4600.00 ps)
+Processed sampled frame 4800 (t ~ 4800.00 ps)
+Processed sampled frame 5000 (t ~ 5000.00 ps)
+Processed sampled frame 5200 (t ~ 5200.00 ps)
+Processed sampled frame 5400 (t ~ 5400.00 ps)
+Processed sampled frame 5600 (t ~ 5600.00 ps)
+Processed sampled frame 5800 (t ~ 5800.00 ps)
+Processed sampled frame 6000 (t ~ 6000.00 ps)
+Processed sampled frame 6200 (t ~ 6200.00 ps)
+Processed sampled frame 6400 (t ~ 6400.00 ps)
+Processed sampled frame 6600 (t ~ 6600.00 ps)
+Processed sampled frame 6800 (t ~ 6800.00 ps)
+Processed sampled frame 7000 (t ~ 7000.00 ps)
+Processed sampled frame 7200 (t ~ 7200.00 ps)
+Processed sampled frame 7400 (t ~ 7400.00 ps)
+Processed sampled frame 7600 (t ~ 7600.00 ps)
+Processed sampled frame 7800 (t ~ 7800.00 ps)
+Processed sampled frame 8000 (t ~ 8000.00 ps)
+Processed sampled frame 8200 (t ~ 8200.00 ps)
+Processed sampled frame 8400 (t ~ 8400.00 ps)
+Processed sampled frame 8600 (t ~ 8600.00 ps)
+Processed sampled frame 8800 (t ~ 8800.00 ps)
+Processed sampled frame 9000 (t ~ 9000.00 ps)
+Processed sampled frame 9200 (t ~ 9200.00 ps)
+Processed sampled frame 9400 (t ~ 9400.00 ps)
+Processed sampled frame 9600 (t ~ 9600.00 ps)
+Processed sampled frame 9800 (t ~ 9800.00 ps)
+Processed sampled frame 10000 (t ~ 10000.00 ps)
+Done. Wrote /home/gridsan/btapia/StatMech/gmx/7_map_votca/16_nvt_run/fs_analysis.csv
+Loading universe...
+===Topology Info===
+Atoms: 3700
+Frames: 10001
+Bonds: 4892
+===================
+Using all bonds: 4892 bonds
+Sampled dt = 1 ps
+MAX_LAG_PS = 2000 ps -> max_lag = 2000 frames
+ORIGIN_STRIDE_PS = 10 ps -> origin_stride = 10 frames
+Streaming trajectory and computing C2...
+Processed sampled frame 200 (t ~ 200.00 ps)
+Processed sampled frame 400 (t ~ 400.00 ps)
+Processed sampled frame 600 (t ~ 600.00 ps)
+Processed sampled frame 800 (t ~ 800.00 ps)
+Processed sampled frame 1000 (t ~ 1000.00 ps)
+Processed sampled frame 1200 (t ~ 1200.00 ps)
+Processed sampled frame 1400 (t ~ 1400.00 ps)
+Processed sampled frame 1600 (t ~ 1600.00 ps)
+Processed sampled frame 1800 (t ~ 1800.00 ps)
+Processed sampled frame 2000 (t ~ 2000.00 ps)
+Processed sampled frame 2200 (t ~ 2200.00 ps)
+Processed sampled frame 2400 (t ~ 2400.00 ps)
+Processed sampled frame 2600 (t ~ 2600.00 ps)
+Processed sampled frame 2800 (t ~ 2800.00 ps)
+Processed sampled frame 3000 (t ~ 3000.00 ps)
+Processed sampled frame 3200 (t ~ 3200.00 ps)
+Processed sampled frame 3400 (t ~ 3400.00 ps)
+Processed sampled frame 3600 (t ~ 3600.00 ps)
+Processed sampled frame 3800 (t ~ 3800.00 ps)
+Processed sampled frame 4000 (t ~ 4000.00 ps)
+Processed sampled frame 4200 (t ~ 4200.00 ps)
+Processed sampled frame 4400 (t ~ 4400.00 ps)
+Processed sampled frame 4600 (t ~ 4600.00 ps)
+Processed sampled frame 4800 (t ~ 4800.00 ps)
+Processed sampled frame 5000 (t ~ 5000.00 ps)
+Processed sampled frame 5200 (t ~ 5200.00 ps)
+Processed sampled frame 5400 (t ~ 5400.00 ps)
+Processed sampled frame 5600 (t ~ 5600.00 ps)
+Processed sampled frame 5800 (t ~ 5800.00 ps)
+Processed sampled frame 6000 (t ~ 6000.00 ps)
+Processed sampled frame 6200 (t ~ 6200.00 ps)
+Processed sampled frame 6400 (t ~ 6400.00 ps)
+Processed sampled frame 6600 (t ~ 6600.00 ps)
+Processed sampled frame 6800 (t ~ 6800.00 ps)
+Processed sampled frame 7000 (t ~ 7000.00 ps)
+Processed sampled frame 7200 (t ~ 7200.00 ps)
+Processed sampled frame 7400 (t ~ 7400.00 ps)
+Processed sampled frame 7600 (t ~ 7600.00 ps)
+Processed sampled frame 7800 (t ~ 7800.00 ps)
+Processed sampled frame 8000 (t ~ 8000.00 ps)
+Processed sampled frame 8200 (t ~ 8200.00 ps)
+Processed sampled frame 8400 (t ~ 8400.00 ps)
+Processed sampled frame 8600 (t ~ 8600.00 ps)
+Processed sampled frame 8800 (t ~ 8800.00 ps)
+Processed sampled frame 9000 (t ~ 9000.00 ps)
+Processed sampled frame 9200 (t ~ 9200.00 ps)
+Processed sampled frame 9400 (t ~ 9400.00 ps)
+Processed sampled frame 9600 (t ~ 9600.00 ps)
+Processed sampled frame 9800 (t ~ 9800.00 ps)
+Processed sampled frame 10000 (t ~ 10000.00 ps)
+Done. Wrote /home/gridsan/btapia/StatMech/gmx/7_map_votca/16_nvt_run/c2_analysis_all.csv
+Loading universe...
+Using all atoms: 3700
+Selected atoms: 3700
+Frames: 10001 (stride=1)
+Processed 50 frames
+Processed 100 frames
+Processed 150 frames
+Processed 200 frames
+Processed 250 frames
+Processed 300 frames
+Processed 350 frames
+Processed 400 frames
+Processed 450 frames
+Processed 500 frames
+Processed 550 frames
+Processed 600 frames
+Processed 650 frames
+Processed 700 frames
+Processed 750 frames
+Processed 800 frames
+Processed 850 frames
+Processed 900 frames
+Processed 950 frames
+Processed 1000 frames
+Processed 1050 frames
+Processed 1100 frames
+Processed 1150 frames
+Processed 1200 frames
+Processed 1250 frames
+Processed 1300 frames
+Processed 1350 frames
+Processed 1400 frames
+Processed 1450 frames
+Processed 1500 frames
+Processed 1550 frames
+Processed 1600 frames
+Processed 1650 frames
+Processed 1700 frames
+Processed 1750 frames
+Processed 1800 frames
+Processed 1850 frames
+Processed 1900 frames
+Processed 1950 frames
+Processed 2000 frames
+Processed 2050 frames
+Processed 2100 frames
+Processed 2150 frames
+Processed 2200 frames
+Processed 2250 frames
+Processed 2300 frames
+Processed 2350 frames
+Processed 2400 frames
+Processed 2450 frames
+Processed 2500 frames
+Processed 2550 frames
+Processed 2600 frames
+Processed 2650 frames
+Processed 2700 frames
+Processed 2750 frames
+Processed 2800 frames
+Processed 2850 frames
+Processed 2900 frames
+Processed 2950 frames
+Processed 3000 frames
+Processed 3050 frames
+Processed 3100 frames
+Processed 3150 frames
+Processed 3200 frames
+Processed 3250 frames
+Processed 3300 frames
+Processed 3350 frames
+Processed 3400 frames
+Processed 3450 frames
+Processed 3500 frames
+Processed 3550 frames
+Processed 3600 frames
+Processed 3650 frames
+Processed 3700 frames
+Processed 3750 frames
+Processed 3800 frames
+Processed 3850 frames
+Processed 3900 frames
+Processed 3950 frames
+Processed 4000 frames
+Processed 4050 frames
+Processed 4100 frames
+Processed 4150 frames
+Processed 4200 frames
+Processed 4250 frames
+Processed 4300 frames
+Processed 4350 frames
+Processed 4400 frames
+Processed 4450 frames
+Processed 4500 frames
+Processed 4550 frames
+Processed 4600 frames
+Processed 4650 frames
+Processed 4700 frames
+Processed 4750 frames
+Processed 4800 frames
+Processed 4850 frames
+Processed 4900 frames
+Processed 4950 frames
+Processed 5000 frames
+Processed 5050 frames
+Processed 5100 frames
+Processed 5150 frames
+Processed 5200 frames
+Processed 5250 frames
+Processed 5300 frames
+Processed 5350 frames
+Processed 5400 frames
+Processed 5450 frames
+Processed 5500 frames
+Processed 5550 frames
+Processed 5600 frames
+Processed 5650 frames
+Processed 5700 frames
+Processed 5750 frames
+Processed 5800 frames
+Processed 5850 frames
+Processed 5900 frames
+Processed 5950 frames
+Processed 6000 frames
+Processed 6050 frames
+Processed 6100 frames
+Processed 6150 frames
+Processed 6200 frames
+Processed 6250 frames
+Processed 6300 frames
+Processed 6350 frames
+Processed 6400 frames
+Processed 6450 frames
+Processed 6500 frames
+Processed 6550 frames
+Processed 6600 frames
+Processed 6650 frames
+Processed 6700 frames
+Processed 6750 frames
+Processed 6800 frames
+Processed 6850 frames
+Processed 6900 frames
+Processed 6950 frames
+Processed 7000 frames
+Processed 7050 frames
+Processed 7100 frames
+Processed 7150 frames
+Processed 7200 frames
+Processed 7250 frames
+Processed 7300 frames
+Processed 7350 frames
+Processed 7400 frames
+Processed 7450 frames
+Processed 7500 frames
+Processed 7550 frames
+Processed 7600 frames
+Processed 7650 frames
+Processed 7700 frames
+Processed 7750 frames
+Processed 7800 frames
+Processed 7850 frames
+Processed 7900 frames
+Processed 7950 frames
+Processed 8000 frames
+Processed 8050 frames
+Processed 8100 frames
+Processed 8150 frames
+Processed 8200 frames
+Processed 8250 frames
+Processed 8300 frames
+Processed 8350 frames
+Processed 8400 frames
+Processed 8450 frames
+Processed 8500 frames
+Processed 8550 frames
+Processed 8600 frames
+Processed 8650 frames
+Processed 8700 frames
+Processed 8750 frames
+Processed 8800 frames
+Processed 8850 frames
+Processed 8900 frames
+Processed 8950 frames
+Processed 9000 frames
+Processed 9050 frames
+Processed 9100 frames
+Processed 9150 frames
+Processed 9200 frames
+Processed 9250 frames
+Processed 9300 frames
+Processed 9350 frames
+Processed 9400 frames
+Processed 9450 frames
+Processed 9500 frames
+Processed 9550 frames
+Processed 9600 frames
+Processed 9650 frames
+Processed 9700 frames
+Processed 9750 frames
+Processed 9800 frames
+Processed 9850 frames
+Processed 9900 frames
+Processed 9950 frames
+Processed 10000 frames
+Wrote /home/gridsan/btapia/StatMech/gmx/7_map_votca/16_nvt_run/sq_analysis_all.csv
+Estimated first-peak q* ≈ 0.4585 1/Å
+Loading universe...
+===Trajectory Info===
+Atoms: 3700
+Frames: 10001
+=====================
+Using all atoms: 3700
+Selected atoms: 3700
+Sampled dt = 1 ps
+MAX_LAG_PS = 2000 ps -> max_lag = 2000 frames
+ORIGIN_STRIDE_PS = 10 ps -> origin_stride = 10 frames
+q = 0.4584999978542328 1/Å
+Streaming trajectory and computing Fs(q,t)...
+Processed sampled frame 200 (t ~ 200.00 ps)
+Processed sampled frame 400 (t ~ 400.00 ps)
+Processed sampled frame 600 (t ~ 600.00 ps)
+Processed sampled frame 800 (t ~ 800.00 ps)
+Processed sampled frame 1000 (t ~ 1000.00 ps)
+Processed sampled frame 1200 (t ~ 1200.00 ps)
+Processed sampled frame 1400 (t ~ 1400.00 ps)
+Processed sampled frame 1600 (t ~ 1600.00 ps)
+Processed sampled frame 1800 (t ~ 1800.00 ps)
+Processed sampled frame 2000 (t ~ 2000.00 ps)
+Processed sampled frame 2200 (t ~ 2200.00 ps)
+Processed sampled frame 2400 (t ~ 2400.00 ps)
+Processed sampled frame 2600 (t ~ 2600.00 ps)
+Processed sampled frame 2800 (t ~ 2800.00 ps)
+Processed sampled frame 3000 (t ~ 3000.00 ps)
+Processed sampled frame 3200 (t ~ 3200.00 ps)
+Processed sampled frame 3400 (t ~ 3400.00 ps)
+Processed sampled frame 3600 (t ~ 3600.00 ps)
+Processed sampled frame 3800 (t ~ 3800.00 ps)
+Processed sampled frame 4000 (t ~ 4000.00 ps)
+Processed sampled frame 4200 (t ~ 4200.00 ps)
+Processed sampled frame 4400 (t ~ 4400.00 ps)
+Processed sampled frame 4600 (t ~ 4600.00 ps)
+Processed sampled frame 4800 (t ~ 4800.00 ps)
+Processed sampled frame 5000 (t ~ 5000.00 ps)
+Processed sampled frame 5200 (t ~ 5200.00 ps)
+Processed sampled frame 5400 (t ~ 5400.00 ps)
+Processed sampled frame 5600 (t ~ 5600.00 ps)
+Processed sampled frame 5800 (t ~ 5800.00 ps)
+Processed sampled frame 6000 (t ~ 6000.00 ps)
+Processed sampled frame 6200 (t ~ 6200.00 ps)
+Processed sampled frame 6400 (t ~ 6400.00 ps)
+Processed sampled frame 6600 (t ~ 6600.00 ps)
+Processed sampled frame 6800 (t ~ 6800.00 ps)
+Processed sampled frame 7000 (t ~ 7000.00 ps)
+Processed sampled frame 7200 (t ~ 7200.00 ps)
+Processed sampled frame 7400 (t ~ 7400.00 ps)
+Processed sampled frame 7600 (t ~ 7600.00 ps)
+Processed sampled frame 7800 (t ~ 7800.00 ps)
+Processed sampled frame 8000 (t ~ 8000.00 ps)
+Processed sampled frame 8200 (t ~ 8200.00 ps)
+Processed sampled frame 8400 (t ~ 8400.00 ps)
+Processed sampled frame 8600 (t ~ 8600.00 ps)
+Processed sampled frame 8800 (t ~ 8800.00 ps)
+Processed sampled frame 9000 (t ~ 9000.00 ps)
+Processed sampled frame 9200 (t ~ 9200.00 ps)
+Processed sampled frame 9400 (t ~ 9400.00 ps)
+Processed sampled frame 9600 (t ~ 9600.00 ps)
+Processed sampled frame 9800 (t ~ 9800.00 ps)
+Processed sampled frame 10000 (t ~ 10000.00 ps)
+Done. Wrote /home/gridsan/btapia/StatMech/gmx/7_map_votca/16_nvt_run/fs_analysis_all.csv

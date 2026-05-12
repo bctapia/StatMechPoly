@@ -1,0 +1,100 @@
+Loading intel/oneapi/compiler/latest
+  Loading requirement: intel/oneapi/tbb/latest intel/oneapi/compiler-rt/latest
+    intel/oneapi/umf/latest
+                      :-) GROMACS - gmx grompp, 2025.2 (-:
+
+Executable:   /home/gridsan/btapia/programs/gromacs-cpu/bin/gmx_mpi
+Data prefix:  /home/gridsan/btapia/programs/gromacs-cpu
+Working dir:  /home/gridsan/btapia/StatMech/gmx
+Command line:
+  gmx_mpi grompp -f nvt.mdp -c nvt_converted_strict.gro -p nvt_converted_fixed.top -o nvt.tpr
+
+
+NOTE 1 [file nvt.mdp]:
+  leapfrog does not yet support Nose-Hoover chains, nhchainlength reset to
+  1
+
+Generating 1-4 interactions: fudge = 0.5
+Number of degrees of freedom in T-Coupling group System is 20697.00
+
+NOTE 2 [file nvt.mdp]:
+  This run will generate roughly 5477 Mb of data
+
+
+There were 2 NOTEs
+
+Back Off! I just backed up nvt.tpr to ./#nvt.tpr.1#
+
+GROMACS reminds you: "BioBeat is Not Available In Regular Shops" (P.J. Meulenhoff)
+
+Setting the LD random seed to -337723393
+
+Generated 45 of the 45 non-bonded parameter combinations
+
+Generated 45 of the 45 1-4 parameter combinations
+
+Excluding 3 bonded neighbours molecule type 'lmp_system'
+
+Velocities were taken from a Maxwell distribution at 308 K
+Analysing residue names:
+There are:     1      Other residues
+Analysing residues not classified as Protein/DNA/RNA/Water and splitting into groups...
+
+The largest distance between excluded atoms is 0.425 nm between atom 4037 and 4064
+
+Determining Verlet buffer for a tolerance of 0.005 kJ/mol/ps at 308 K
+
+Calculated rlist for 1x1 atom pair-list as 1.000 nm, buffer size 0.000 nm
+
+Set rlist, assuming 4x4 atom pair-list, to 1.000 nm, buffer size 0.000 nm
+
+Note that mdrun will redetermine rlist based on the actual pair-list setup
+Calculating fourier grid dimensions for X Y Z
+Using a fourier grid of 40x40x40, spacing 0.111 0.111 0.111
+
+Estimate for the relative computational load of the PME mesh part: 0.29
+                      :-) GROMACS - gmx mdrun, 2025.2 (-:
+
+Executable:   /home/gridsan/btapia/programs/gromacs-cpu/bin/gmx_mpi
+Data prefix:  /home/gridsan/btapia/programs/gromacs-cpu
+Working dir:  /home/gridsan/btapia/StatMech/gmx
+Command line:
+  gmx_mpi mdrun -deffnm nvt -ntomp 48 -pin on
+
+
+Back Off! I just backed up nvt.log to ./#nvt.log.1#
+Reading file nvt.tpr, VERSION 2025.2 (single precision)
+Changing nstlist from 10 to 80, rlist from 1 to 1.133
+
+Using 1 MPI process
+
+NOTE: Thread-affinity variable(s) set, will turn off gmx mdrun internal affinity
+      setting as the two can conflict and cause performance degradation.
+      To keep using the gmx mdrun internal affinity setting, unset the
+      following environment variable(s):
+      OMP_PROC_BIND
+
+Using 48 OpenMP threads 
+
+
+Back Off! I just backed up nvt.xtc to ./#nvt.xtc.1#
+
+Back Off! I just backed up nvt.edr to ./#nvt.edr.1#
+
+WARNING: This run will generate roughly 5426 Mb of data
+
+starting mdrun 'Untitled'
+20000000 steps,  20000.0 ps.
+
+Writing final coordinates.
+
+Back Off! I just backed up nvt.gro to ./#nvt.gro.1#
+
+               Core t (s)   Wall t (s)        (%)
+       Time:   816783.526    17016.520     4799.9
+                         4h43:36
+                 (ns/day)    (hour/ns)
+Performance:      101.548        0.236
+
+GROMACS reminds you: "Forcefields are like dating; things go fine for a while and then sometimes it goes really bad." (Alex MacKerell)
+

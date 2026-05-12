@@ -1,0 +1,39 @@
+integrator              = md
+dt                      = 0.001
+nsteps                  = 20000000
+
+nstlog                  = 1000
+nstenergy               = 1000
+nstxout-compressed      = 1000
+nstxout                 = 1000
+nstvout                 = 1000
+nstfout                 = 1000
+
+cutoff-scheme           = Verlet
+nstlist                 = 10
+
+coulombtype             = PME
+rcoulomb                = 1.0
+vdwtype                 = Cut-off
+rvdw-switch             = 0.9
+rvdw                    = 1.0
+vdw-modifier            = Force-switch
+coulomb-modifier        = None
+epsilon-r               = 1.0
+pme-order               = 4
+fourierspacing          = 0.12
+
+tcoupl                  = nose-hoover
+tc-grps                 = System
+tau-t                   = 0.1
+ref-t                   = 308
+
+pcoupl                  = no
+
+gen-vel                 = yes
+gen-temp                = 308
+gen-seed                = 58447419
+
+pbc                     = xyz
+constraints             = none
+continuation            = no

@@ -1,0 +1,6 @@
+Loading intel/oneapi/mkl/latest
+  Loading requirement: intel/oneapi/tbb/latest intel/oneapi/compiler-rt/latest
+Reading file nvt.tpr, VERSION 2025.2 (single precision)
+I have 6900 beads in 1 molecules
+I have 3700 beads in 1 molecules for the coarsegraining
+writing coarse-grained trajectory to ua.gro

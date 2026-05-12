@@ -1,0 +1,41 @@
+# General
+units real
+atom_style full
+dimension 3
+newton on
+boundary p p p
+
+# Styles
+pair_style lj/cut/coul/long 10.0 10.0 
+#pair_modify shift no mix arithmetic # comment out for intermol!
+pair_modify mix arithmetic
+kspace_style pppm 1.0e-5
+bond_style       harmonic
+angle_style      harmonic
+dihedral_style   fourier
+improper_style   harmonic
+# special_bonds    amber # comment out for intermol!
+special_bonds lj 0.0 0.0 0.5 coul 0.0 0.0 0.8333
+
+# System definition
+read_data equilibrated_out_noimp.lmps
+
+# Settings
+dielectric 1.0
+neighbor 2.0 bin
+neigh_modify delay 0 every 1 check yes one 5000
+timestep 1.0
+run_style verlet
+
+# Output
+dump 1 all custom 1000 compress.lammpstrj id xu yu zu vx vy vz ix iy iz
+thermo_style custom step vol temp press etotal evdwl ecoul ebond eangle edihed eimp density
+thermo 1000
+
+# 1
+fix 1 all nvt temp 308 308 100
+velocity all create 308 58447419
+run 20000000
+unfix 1
+
+write_data CANAL-Me-Me2F_308_out.lmps

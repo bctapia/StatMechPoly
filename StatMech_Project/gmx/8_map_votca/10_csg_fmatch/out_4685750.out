@@ -1,0 +1,1928 @@
+Loading intel/oneapi/mkl/latest
+  Loading requirement: intel/oneapi/tbb/latest intel/oneapi/compiler-rt/latest
+Reading file nb_exclusion.tpr, VERSION 2025.2 (single precision)
+I have 6900 beads in 1 molecules
+I have 3700 beads in 1 molecules for the coarsegraining
+trr version: GMX_trn_file (single precision)
+Reading frame       0 time    0.000   
+Reading frame       1 time    1.000   Reading frame       2 time    2.000   Reading frame       3 time    3.000   Reading frame       4 time    4.000   Reading frame       5 time    5.000   Reading frame       6 time    6.000   Reading frame       7 time    7.000   Reading frame       8 time    8.000   Reading frame       9 time    9.000   Reading frame      10 time   10.000   Reading frame      11 time   11.000   Reading frame      12 time   12.000   Reading frame      13 time   13.000   Reading frame      14 time   14.000   Reading frame      15 time   15.000   Reading frame      16 time   16.000   Reading frame      17 time   17.000   Reading frame      18 time   18.000   Reading frame      19 time   19.000   Reading frame      20 time   20.000   Reading frame      30 time   30.000   Reading frame      40 time   40.000   Reading frame      50 time   50.000   Reading frame      60 time   60.000   Reading frame      70 time   70.000   Reading frame      80 time   80.000   Reading frame      90 time   90.000   Reading frame     100 time  100.000   Reading frame     110 time  110.000   Reading frame     120 time  120.000   Reading frame     130 time  130.000   Reading frame     140 time  140.000   Reading frame     150 time  150.000   Reading frame     160 time  160.000   Reading frame     170 time  170.000   Reading frame     180 time  180.000   Reading frame     190 time  190.000   Reading frame     200 time  200.000   Reading frame     300 time  300.000   Reading frame     400 time  400.000   Reading frame     500 time  500.000   Reading frame     600 time  600.000   Reading frame     700 time  700.000   Reading frame     800 time  800.000   Reading frame     900 time  900.000   Reading frame    1000 time 1000.000   Reading frame    1100 time 1100.000   Reading frame    1200 time 1200.000   Reading frame    1300 time 1300.000   Reading frame    1400 time 1400.000   Reading frame    1500 time 1500.000   Reading frame    1600 time 1600.000   Reading frame    1700 time 1700.000   Reading frame    1800 time 1800.000   Reading frame    1900 time 1900.000   Reading frame    2000 time 2000.000   Reading frame    3000 time 3000.000   Reading frame    4000 time 4000.000   Reading frame    5000 time 5000.000   Reading frame    6000 time 6000.000   Reading frame    7000 time 7000.000   Reading frame    8000 time 8000.000   Reading frame    9000 time 9000.000   Reading frame   10000 time 10000.000   a: 0.37 ,sigma: 1 ,gamma: 0.12
+Number of spline functions for the interaction nb_c3-c3:34
+a: 0.37 ,sigma: 1 ,gamma: 0.12
+Number of spline functions for the interaction nb_c3-c5:34
+a: 0.37 ,sigma: 1 ,gamma: 0.12
+Number of spline functions for the interaction nb_c3-ca:34
+a: 0.37 ,sigma: 1 ,gamma: 0.12
+Number of spline functions for the interaction nb_c5-c5:34
+a: 0.37 ,sigma: 1 ,gamma: 0.12
+Number of spline functions for the interaction nb_c5-ca:34
+a: 0.37 ,sigma: 1 ,gamma: 0.12
+Number of spline functions for the interaction nb_ca-ca:35
+
+You are using VOTCA!
+
+hey, somebody wants to forcematch!
+
+Using simple Least Squares! 
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = 20648.7
+#################################
+
+This should be a number: 6.39315 
+This should be a number: -1.05168 
+This should be a number: -1.64442 
+This should be a number: -0.513877 
+This should be a number: -2.3089 
+This should be a number: 1.59254 
+
+Block No1 done!
+Updating file: nb_c3-c3.force
+Updating file: nb_c3-c5.force
+Updating file: nb_c3-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = 20599.9
+#################################
+
+This should be a number: 5.95446 
+This should be a number: -0.791658 
+This should be a number: -1.73165 
+This should be a number: -0.0791768 
+This should be a number: -2.36105 
+This should be a number: 1.56001 
+
+Block No2 done!
+Updating file: nb_c3-c3.force
+Updating file: nb_c3-c5.force
+Updating file: nb_c3-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = 20662
+#################################
+
+This should be a number: 6.12864 
+This should be a number: -1.06305 
+This should be a number: -1.51247 
+This should be a number: -0.643334 
+This should be a number: -2.17586 
+This should be a number: 1.87874 
+
+Block No3 done!
+Updating file: nb_c3-c3.force
+Updating file: nb_c3-c5.force
+Updating file: nb_c3-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = 20730.1
+#################################
+
+This should be a number: 6.02296 
+This should be a number: -0.850362 
+This should be a number: -1.5619 
+This should be a number: -0.53133 
+This should be a number: -2.13211 
+This should be a number: 1.81345 
+
+Block No4 done!
+Updating file: nb_c3-c3.force
+Updating file: nb_c3-c5.force
+Updating file: nb_c3-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = 20631.1
+#################################
+
+This should be a number: 6.33614 
+This should be a number: -1.03825 
+This should be a number: -1.59762 
+This should be a number: -0.40983 
+This should be a number: -2.56476 
+This should be a number: 1.62493 
+
+Block No5 done!
+Updating file: nb_c3-c3.force
+Updating file: nb_c3-c5.force
+Updating file: nb_c3-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = 20725
+#################################
+
+This should be a number: 6.24585 
+This should be a number: -1.149 
+This should be a number: -1.22366 
+This should be a number: -0.370816 
+This should be a number: -2.48864 
+This should be a number: 1.74698 
+
+Block No6 done!
+Updating file: nb_c3-c3.force
+Updating file: nb_c3-c5.force
+Updating file: nb_c3-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = 20633.7
+#################################
+
+This should be a number: 5.48672 
+This should be a number: -0.824759 
+This should be a number: -1.60925 
+This should be a number: -0.425309 
+This should be a number: -2.24682 
+This should be a number: 1.90003 
+
+Block No7 done!
+Updating file: nb_c3-c3.force
+Updating file: nb_c3-c5.force
+Updating file: nb_c3-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = 20615.6
+#################################
+
+This should be a number: 5.49088 
+This should be a number: -0.517324 
+This should be a number: -1.75087 
+This should be a number: -0.575243 
+This should be a number: -2.47774 
+This should be a number: 1.84289 
+
+Block No8 done!
+Updating file: nb_c3-c3.force
+Updating file: nb_c3-c5.force
+Updating file: nb_c3-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = 20668.6
+#################################
+
+This should be a number: 5.53542 
+This should be a number: -0.901475 
+This should be a number: -1.59148 
+This should be a number: -0.555648 
+This should be a number: -2.27023 
+This should be a number: 1.85173 
+
+Block No9 done!
+Updating file: nb_c3-c3.force
+Updating file: nb_c3-c5.force
+Updating file: nb_c3-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = 20523.8
+#################################
+
+This should be a number: 6.53861 
+This should be a number: -0.605861 
+This should be a number: -1.46812 
+This should be a number: -0.728646 
+This should be a number: -2.15592 
+This should be a number: 1.88045 
+
+Block No10 done!
+Updating file: nb_c3-c3.force
+Updating file: nb_c3-c5.force
+Updating file: nb_c3-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+Reading frame   11000 time 11000.000   
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = 20676.9
+#################################
+
+This should be a number: 6.46071 
+This should be a number: -1.07615 
+This should be a number: -1.71349 
+This should be a number: -0.749533 
+This should be a number: -2.29561 
+This should be a number: 1.7239 
+
+Block No11 done!
+Updating file: nb_c3-c3.force
+Updating file: nb_c3-c5.force
+Updating file: nb_c3-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = 20800.2
+#################################
+
+This should be a number: 6.0269 
+This should be a number: -1.28493 
+This should be a number: -1.62526 
+This should be a number: -0.470477 
+This should be a number: -2.46875 
+This should be a number: 1.80441 
+
+Block No12 done!
+Updating file: nb_c3-c3.force
+Updating file: nb_c3-c5.force
+Updating file: nb_c3-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = 20702.4
+#################################
+
+This should be a number: 7.24604 
+This should be a number: -1.02718 
+This should be a number: -1.47424 
+This should be a number: -0.597742 
+This should be a number: -2.31544 
+This should be a number: 1.77621 
+
+Block No13 done!
+Updating file: nb_c3-c3.force
+Updating file: nb_c3-c5.force
+Updating file: nb_c3-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = 20854.2
+#################################
+
+This should be a number: 6.55327 
+This should be a number: -0.965838 
+This should be a number: -1.74824 
+This should be a number: -0.568169 
+This should be a number: -2.53971 
+This should be a number: 1.55939 
+
+Block No14 done!
+Updating file: nb_c3-c3.force
+Updating file: nb_c3-c5.force
+Updating file: nb_c3-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = 20623.5
+#################################
+
+This should be a number: 5.78337 
+This should be a number: -1.09351 
+This should be a number: -1.3461 
+This should be a number: -0.351202 
+This should be a number: -2.33959 
+This should be a number: 1.65357 
+
+Block No15 done!
+Updating file: nb_c3-c3.force
+Updating file: nb_c3-c5.force
+Updating file: nb_c3-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = 20600.2
+#################################
+
+This should be a number: 5.99425 
+This should be a number: -0.780047 
+This should be a number: -1.77867 
+This should be a number: -0.623029 
+This should be a number: -2.21806 
+This should be a number: 1.58687 
+
+Block No16 done!
+Updating file: nb_c3-c3.force
+Updating file: nb_c3-c5.force
+Updating file: nb_c3-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = 20749
+#################################
+
+This should be a number: 5.77856 
+This should be a number: -1.28489 
+This should be a number: -1.25807 
+This should be a number: -0.596964 
+This should be a number: -2.28375 
+This should be a number: 1.64101 
+
+Block No17 done!
+Updating file: nb_c3-c3.force
+Updating file: nb_c3-c5.force
+Updating file: nb_c3-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = 20718
+#################################
+
+This should be a number: 6.98064 
+This should be a number: -1.50214 
+This should be a number: -1.32644 
+This should be a number: -0.41358 
+This should be a number: -2.42579 
+This should be a number: 1.60876 
+
+Block No18 done!
+Updating file: nb_c3-c3.force
+Updating file: nb_c3-c5.force
+Updating file: nb_c3-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = 20705.5
+#################################
+
+This should be a number: 5.77364 
+This should be a number: -0.952028 
+This should be a number: -1.60258 
+This should be a number: -0.669546 
+This should be a number: -2.21358 
+This should be a number: 1.98608 
+
+Block No19 done!
+Updating file: nb_c3-c3.force
+Updating file: nb_c3-c5.force
+Updating file: nb_c3-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = 20464.4
+#################################
+
+This should be a number: 5.08539 
+This should be a number: -1.38917 
+This should be a number: -1.44114 
+This should be a number: -0.200093 
+This should be a number: -2.52143 
+This should be a number: 1.54512 
+
+Block No20 done!
+Updating file: nb_c3-c3.force
+Updating file: nb_c3-c5.force
+Updating file: nb_c3-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+Reading frame   12000 time 12000.000   
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = 20691.3
+#################################
+
+This should be a number: 5.95308 
+This should be a number: -1.13074 
+This should be a number: -1.36766 
+This should be a number: -0.0829118 
+This should be a number: -2.41923 
+This should be a number: 1.47337 
+
+Block No21 done!
+Updating file: nb_c3-c3.force
+Updating file: nb_c3-c5.force
+Updating file: nb_c3-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = 20677.6
+#################################
+
+This should be a number: 5.88082 
+This should be a number: -0.701315 
+This should be a number: -1.46914 
+This should be a number: -1.00978 
+This should be a number: -1.98264 
+This should be a number: 1.44995 
+
+Block No22 done!
+Updating file: nb_c3-c3.force
+Updating file: nb_c3-c5.force
+Updating file: nb_c3-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = 20682.7
+#################################
+
+This should be a number: 5.53977 
+This should be a number: -0.305303 
+This should be a number: -1.80967 
+This should be a number: -0.734532 
+This should be a number: -2.10691 
+This should be a number: 1.7313 
+
+Block No23 done!
+Updating file: nb_c3-c3.force
+Updating file: nb_c3-c5.force
+Updating file: nb_c3-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = 20659.4
+#################################
+
+This should be a number: 4.97333 
+This should be a number: -0.81879 
+This should be a number: -1.52675 
+This should be a number: -0.271363 
+This should be a number: -2.12732 
+This should be a number: 1.35532 
+
+Block No24 done!
+Updating file: nb_c3-c3.force
+Updating file: nb_c3-c5.force
+Updating file: nb_c3-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = 20544.5
+#################################
+
+This should be a number: 5.92882 
+This should be a number: -0.688526 
+This should be a number: -1.65549 
+This should be a number: -0.804003 
+This should be a number: -1.95786 
+This should be a number: 1.50455 
+
+Block No25 done!
+Updating file: nb_c3-c3.force
+Updating file: nb_c3-c5.force
+Updating file: nb_c3-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = 20783.5
+#################################
+
+This should be a number: 6.01815 
+This should be a number: -1.14301 
+This should be a number: -1.69719 
+This should be a number: -0.881906 
+This should be a number: -1.99799 
+This should be a number: 1.62584 
+
+Block No26 done!
+Updating file: nb_c3-c3.force
+Updating file: nb_c3-c5.force
+Updating file: nb_c3-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = 20599.3
+#################################
+
+This should be a number: 6.02627 
+This should be a number: -1.36148 
+This should be a number: -1.58226 
+This should be a number: -0.485468 
+This should be a number: -2.38759 
+This should be a number: 1.37045 
+
+Block No27 done!
+Updating file: nb_c3-c3.force
+Updating file: nb_c3-c5.force
+Updating file: nb_c3-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = 20708.5
+#################################
+
+This should be a number: 5.59686 
+This should be a number: -0.764474 
+This should be a number: -1.70353 
+This should be a number: -0.368743 
+This should be a number: -2.3978 
+This should be a number: 1.54686 
+
+Block No28 done!
+Updating file: nb_c3-c3.force
+Updating file: nb_c3-c5.force
+Updating file: nb_c3-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = 20570.5
+#################################
+
+This should be a number: 5.88297 
+This should be a number: -0.284708 
+This should be a number: -1.8178 
+This should be a number: -0.0397583 
+This should be a number: -2.37294 
+This should be a number: 1.51174 
+
+Block No29 done!
+Updating file: nb_c3-c3.force
+Updating file: nb_c3-c5.force
+Updating file: nb_c3-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = 20645.2
+#################################
+
+This should be a number: 5.18509 
+This should be a number: -0.577778 
+This should be a number: -1.73604 
+This should be a number: -0.316689 
+This should be a number: -2.50231 
+This should be a number: 1.73015 
+
+Block No30 done!
+Updating file: nb_c3-c3.force
+Updating file: nb_c3-c5.force
+Updating file: nb_c3-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+Reading frame   13000 time 13000.000   
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = 20798.9
+#################################
+
+This should be a number: 6.81497 
+This should be a number: -1.30102 
+This should be a number: -1.42186 
+This should be a number: -0.584066 
+This should be a number: -2.23173 
+This should be a number: 1.65873 
+
+Block No31 done!
+Updating file: nb_c3-c3.force
+Updating file: nb_c3-c5.force
+Updating file: nb_c3-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = 20545.3
+#################################
+
+This should be a number: 6.19877 
+This should be a number: -0.761941 
+This should be a number: -1.34519 
+This should be a number: -0.554453 
+This should be a number: -2.15944 
+This should be a number: 1.82809 
+
+Block No32 done!
+Updating file: nb_c3-c3.force
+Updating file: nb_c3-c5.force
+Updating file: nb_c3-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = 20620.9
+#################################
+
+This should be a number: 5.73641 
+This should be a number: -1.03463 
+This should be a number: -1.43169 
+This should be a number: -0.86749 
+This should be a number: -2.14601 
+This should be a number: 1.95575 
+
+Block No33 done!
+Updating file: nb_c3-c3.force
+Updating file: nb_c3-c5.force
+Updating file: nb_c3-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = 20795.1
+#################################
+
+This should be a number: 5.49457 
+This should be a number: -0.507217 
+This should be a number: -1.70216 
+This should be a number: -0.732795 
+This should be a number: -2.30299 
+This should be a number: 2.15349 
+
+Block No34 done!
+Updating file: nb_c3-c3.force
+Updating file: nb_c3-c5.force
+Updating file: nb_c3-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = 20726.9
+#################################
+
+This should be a number: 5.19438 
+This should be a number: -1.11713 
+This should be a number: -1.88904 
+This should be a number: -0.5386 
+This should be a number: -2.28691 
+This should be a number: 1.64124 
+
+Block No35 done!
+Updating file: nb_c3-c3.force
+Updating file: nb_c3-c5.force
+Updating file: nb_c3-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = 20777
+#################################
+
+This should be a number: 5.93488 
+This should be a number: -0.98051 
+This should be a number: -1.56909 
+This should be a number: -0.868854 
+This should be a number: -1.98141 
+This should be a number: 1.63625 
+
+Block No36 done!
+Updating file: nb_c3-c3.force
+Updating file: nb_c3-c5.force
+Updating file: nb_c3-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = 20613.8
+#################################
+
+This should be a number: 6.11096 
+This should be a number: -1.04831 
+This should be a number: -1.51434 
+This should be a number: -0.572517 
+This should be a number: -2.2372 
+This should be a number: 1.92584 
+
+Block No37 done!
+Updating file: nb_c3-c3.force
+Updating file: nb_c3-c5.force
+Updating file: nb_c3-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = 20588.5
+#################################
+
+This should be a number: 4.16117 
+This should be a number: -0.0550834 
+This should be a number: -2.14336 
+This should be a number: -0.204408 
+This should be a number: -2.26868 
+This should be a number: 2.46549 
+
+Block No38 done!
+Updating file: nb_c3-c3.force
+Updating file: nb_c3-c5.force
+Updating file: nb_c3-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = 20645.4
+#################################
+
+This should be a number: 3.91196 
+This should be a number: -0.0110157 
+This should be a number: -2.09215 
+This should be a number: -0.188097 
+This should be a number: -2.3844 
+This should be a number: 2.44717 
+
+Block No39 done!
+Updating file: nb_c3-c3.force
+Updating file: nb_c3-c5.force
+Updating file: nb_c3-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = 20557.4
+#################################
+
+This should be a number: 4.27989 
+This should be a number: -0.0647246 
+This should be a number: -2.34518 
+This should be a number: -0.172273 
+This should be a number: -2.09043 
+This should be a number: 2.33571 
+
+Block No40 done!
+Updating file: nb_c3-c3.force
+Updating file: nb_c3-c5.force
+Updating file: nb_c3-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+Reading frame   14000 time 14000.000   
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = 20587.7
+#################################
+
+This should be a number: 4.48495 
+This should be a number: 0.267527 
+This should be a number: -2.09105 
+This should be a number: -0.0705344 
+This should be a number: -2.18642 
+This should be a number: 2.66672 
+
+Block No41 done!
+Updating file: nb_c3-c3.force
+Updating file: nb_c3-c5.force
+Updating file: nb_c3-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = 20599.5
+#################################
+
+This should be a number: 5.15842 
+This should be a number: 0.0609216 
+This should be a number: -2.21011 
+This should be a number: 0.182861 
+This should be a number: -2.27589 
+This should be a number: 2.59945 
+
+Block No42 done!
+Updating file: nb_c3-c3.force
+Updating file: nb_c3-c5.force
+Updating file: nb_c3-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = 20599.6
+#################################
+
+This should be a number: 4.30146 
+This should be a number: -0.329108 
+This should be a number: -2.2239 
+This should be a number: 0.0866781 
+This should be a number: -2.35456 
+This should be a number: 2.34828 
+
+Block No43 done!
+Updating file: nb_c3-c3.force
+Updating file: nb_c3-c5.force
+Updating file: nb_c3-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = 20502
+#################################
+
+This should be a number: 3.91818 
+This should be a number: -0.690873 
+This should be a number: -1.93895 
+This should be a number: -0.252913 
+This should be a number: -2.01705 
+This should be a number: 1.85864 
+
+Block No44 done!
+Updating file: nb_c3-c3.force
+Updating file: nb_c3-c5.force
+Updating file: nb_c3-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = 20614.5
+#################################
+
+This should be a number: 6.26826 
+This should be a number: -1.22055 
+This should be a number: -1.48577 
+This should be a number: -0.400637 
+This should be a number: -1.98857 
+This should be a number: 1.53249 
+
+Block No45 done!
+Updating file: nb_c3-c3.force
+Updating file: nb_c3-c5.force
+Updating file: nb_c3-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = 20605.1
+#################################
+
+This should be a number: 5.34016 
+This should be a number: -1.11289 
+This should be a number: -1.65328 
+This should be a number: -0.242536 
+This should be a number: -2.17125 
+This should be a number: 1.6361 
+
+Block No46 done!
+Updating file: nb_c3-c3.force
+Updating file: nb_c3-c5.force
+Updating file: nb_c3-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = 20610.7
+#################################
+
+This should be a number: 5.4103 
+This should be a number: -0.976306 
+This should be a number: -1.43003 
+This should be a number: -0.0178875 
+This should be a number: -2.11703 
+This should be a number: 1.6427 
+
+Block No47 done!
+Updating file: nb_c3-c3.force
+Updating file: nb_c3-c5.force
+Updating file: nb_c3-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = 20694.6
+#################################
+
+This should be a number: 6.0955 
+This should be a number: -1.26587 
+This should be a number: -1.36995 
+This should be a number: -0.0469131 
+This should be a number: -2.37049 
+This should be a number: 1.43681 
+
+Block No48 done!
+Updating file: nb_c3-c3.force
+Updating file: nb_c3-c5.force
+Updating file: nb_c3-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = 20695.5
+#################################
+
+This should be a number: 5.97827 
+This should be a number: -1.24005 
+This should be a number: -1.08399 
+This should be a number: 0.00319917 
+This should be a number: -2.21038 
+This should be a number: 1.62729 
+
+Block No49 done!
+Updating file: nb_c3-c3.force
+Updating file: nb_c3-c5.force
+Updating file: nb_c3-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = 20655.6
+#################################
+
+This should be a number: 5.98555 
+This should be a number: -1.12212 
+This should be a number: -1.60214 
+This should be a number: 0.0171432 
+This should be a number: -2.25921 
+This should be a number: 1.48051 
+
+Block No50 done!
+Updating file: nb_c3-c3.force
+Updating file: nb_c3-c5.force
+Updating file: nb_c3-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+Reading frame   15000 time 15000.000   
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = 20774.6
+#################################
+
+This should be a number: 6.02981 
+This should be a number: -1.45997 
+This should be a number: -1.29052 
+This should be a number: -0.164822 
+This should be a number: -2.16998 
+This should be a number: 1.5582 
+
+Block No51 done!
+Updating file: nb_c3-c3.force
+Updating file: nb_c3-c5.force
+Updating file: nb_c3-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = 20571.6
+#################################
+
+This should be a number: 4.84127 
+This should be a number: -1.22594 
+This should be a number: -1.58782 
+This should be a number: 0.00976761 
+This should be a number: -2.36061 
+This should be a number: 1.72683 
+
+Block No52 done!
+Updating file: nb_c3-c3.force
+Updating file: nb_c3-c5.force
+Updating file: nb_c3-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = 20696.2
+#################################
+
+This should be a number: 3.95176 
+This should be a number: -0.228338 
+This should be a number: -1.71009 
+This should be a number: -0.0771506 
+This should be a number: -2.17508 
+This should be a number: 2.02003 
+
+Block No53 done!
+Updating file: nb_c3-c3.force
+Updating file: nb_c3-c5.force
+Updating file: nb_c3-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = 20636
+#################################
+
+This should be a number: 3.57526 
+This should be a number: -0.169983 
+This should be a number: -2.02859 
+This should be a number: -0.358031 
+This should be a number: -2.25406 
+This should be a number: 2.27837 
+
+Block No54 done!
+Updating file: nb_c3-c3.force
+Updating file: nb_c3-c5.force
+Updating file: nb_c3-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = 20543.9
+#################################
+
+This should be a number: 4.3076 
+This should be a number: -0.361642 
+This should be a number: -2.06414 
+This should be a number: -0.444315 
+This should be a number: -2.07548 
+This should be a number: 2.34149 
+
+Block No55 done!
+Updating file: nb_c3-c3.force
+Updating file: nb_c3-c5.force
+Updating file: nb_c3-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = 20454.9
+#################################
+
+This should be a number: 3.56805 
+This should be a number: -0.58563 
+This should be a number: -1.99327 
+This should be a number: -0.488507 
+This should be a number: -2.0634 
+This should be a number: 2.44995 
+
+Block No56 done!
+Updating file: nb_c3-c3.force
+Updating file: nb_c3-c5.force
+Updating file: nb_c3-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = 20475.2
+#################################
+
+This should be a number: 5.56298 
+This should be a number: -1.05489 
+This should be a number: -2.30435 
+This should be a number: -0.270039 
+This should be a number: -2.21903 
+This should be a number: 1.98992 
+
+Block No57 done!
+Updating file: nb_c3-c3.force
+Updating file: nb_c3-c5.force
+Updating file: nb_c3-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = 20485.6
+#################################
+
+This should be a number: 3.94902 
+This should be a number: -0.761703 
+This should be a number: -2.00885 
+This should be a number: -0.35659 
+This should be a number: -2.24399 
+This should be a number: 2.0914 
+
+Block No58 done!
+Updating file: nb_c3-c3.force
+Updating file: nb_c3-c5.force
+Updating file: nb_c3-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = 20591.6
+#################################
+
+This should be a number: 4.65338 
+This should be a number: -0.0634431 
+This should be a number: -2.04818 
+This should be a number: -0.188955 
+This should be a number: -2.19267 
+This should be a number: 2.23469 
+
+Block No59 done!
+Updating file: nb_c3-c3.force
+Updating file: nb_c3-c5.force
+Updating file: nb_c3-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = 20590.7
+#################################
+
+This should be a number: 5.26625 
+This should be a number: -0.42184 
+This should be a number: -2.25252 
+This should be a number: -0.244605 
+This should be a number: -2.36845 
+This should be a number: 2.32749 
+
+Block No60 done!
+Updating file: nb_c3-c3.force
+Updating file: nb_c3-c5.force
+Updating file: nb_c3-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+Reading frame   16000 time 16000.000   
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = 20695.4
+#################################
+
+This should be a number: 3.65648 
+This should be a number: -0.153976 
+This should be a number: -2.10083 
+This should be a number: 0.362567 
+This should be a number: -2.46997 
+This should be a number: 2.34928 
+
+Block No61 done!
+Updating file: nb_c3-c3.force
+Updating file: nb_c3-c5.force
+Updating file: nb_c3-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = 20698.1
+#################################
+
+This should be a number: 3.37684 
+This should be a number: 0.309157 
+This should be a number: -2.03228 
+This should be a number: -0.0462864 
+This should be a number: -2.29053 
+This should be a number: 2.52046 
+
+Block No62 done!
+Updating file: nb_c3-c3.force
+Updating file: nb_c3-c5.force
+Updating file: nb_c3-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = 20453.1
+#################################
+
+This should be a number: 4.49937 
+This should be a number: -1.09885 
+This should be a number: -2.06715 
+This should be a number: -0.254542 
+This should be a number: -2.40121 
+This should be a number: 1.96647 
+
+Block No63 done!
+Updating file: nb_c3-c3.force
+Updating file: nb_c3-c5.force
+Updating file: nb_c3-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = 20642.4
+#################################
+
+This should be a number: 5.41298 
+This should be a number: -0.768288 
+This should be a number: -2.13845 
+This should be a number: -0.181136 
+This should be a number: -2.32992 
+This should be a number: 2.03448 
+
+Block No64 done!
+Updating file: nb_c3-c3.force
+Updating file: nb_c3-c5.force
+Updating file: nb_c3-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = 20499.2
+#################################
+
+This should be a number: 4.61281 
+This should be a number: -1.06517 
+This should be a number: -1.66684 
+This should be a number: -0.176501 
+This should be a number: -2.25528 
+This should be a number: 1.86305 
+
+Block No65 done!
+Updating file: nb_c3-c3.force
+Updating file: nb_c3-c5.force
+Updating file: nb_c3-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = 20460
+#################################
+
+This should be a number: 4.156 
+This should be a number: -0.668762 
+This should be a number: -1.99317 
+This should be a number: -0.345371 
+This should be a number: -2.16948 
+This should be a number: 1.93383 
+
+Block No66 done!
+Updating file: nb_c3-c3.force
+Updating file: nb_c3-c5.force
+Updating file: nb_c3-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = 20489.1
+#################################
+
+This should be a number: 4.0818 
+This should be a number: -0.324554 
+This should be a number: -1.90898 
+This should be a number: -0.143604 
+This should be a number: -2.29167 
+This should be a number: 2.39567 
+
+Block No67 done!
+Updating file: nb_c3-c3.force
+Updating file: nb_c3-c5.force
+Updating file: nb_c3-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = 20561.4
+#################################
+
+This should be a number: 4.39566 
+This should be a number: -0.318164 
+This should be a number: -2.27761 
+This should be a number: 0.0551058 
+This should be a number: -2.50762 
+This should be a number: 2.44198 
+
+Block No68 done!
+Updating file: nb_c3-c3.force
+Updating file: nb_c3-c5.force
+Updating file: nb_c3-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = 20426.4
+#################################
+
+This should be a number: 4.39533 
+This should be a number: 0.323605 
+This should be a number: -2.08445 
+This should be a number: -0.573939 
+This should be a number: -2.88215 
+This should be a number: 2.39855 
+
+Block No69 done!
+Updating file: nb_c3-c3.force
+Updating file: nb_c3-c5.force
+Updating file: nb_c3-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = 20340.5
+#################################
+
+This should be a number: 5.62071 
+This should be a number: 1.1635 
+This should be a number: -2.54424 
+This should be a number: -0.441378 
+This should be a number: -2.73249 
+This should be a number: 2.2215 
+
+Block No70 done!
+Updating file: nb_c3-c3.force
+Updating file: nb_c3-c5.force
+Updating file: nb_c3-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+Reading frame   17000 time 17000.000   
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = 20373.5
+#################################
+
+This should be a number: 8.01217 
+This should be a number: 1.65015 
+This should be a number: -3.14334 
+This should be a number: 0.123761 
+This should be a number: -2.63561 
+This should be a number: 2.36103 
+
+Block No71 done!
+Updating file: nb_c3-c3.force
+Updating file: nb_c3-c5.force
+Updating file: nb_c3-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = 20209.3
+#################################
+
+This should be a number: 8.04028 
+This should be a number: 1.46618 
+This should be a number: -3.79707 
+This should be a number: -0.168296 
+This should be a number: -2.64571 
+This should be a number: 2.35158 
+
+Block No72 done!
+Updating file: nb_c3-c3.force
+Updating file: nb_c3-c5.force
+Updating file: nb_c3-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = 20211
+#################################
+
+This should be a number: 9.34986 
+This should be a number: 1.4516 
+This should be a number: -3.56887 
+This should be a number: -0.479348 
+This should be a number: -2.53484 
+This should be a number: 2.10354 
+
+Block No73 done!
+Updating file: nb_c3-c3.force
+Updating file: nb_c3-c5.force
+Updating file: nb_c3-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = 20218.1
+#################################
+
+This should be a number: 6.94991 
+This should be a number: 0.94569 
+This should be a number: -3.10387 
+This should be a number: -0.328821 
+This should be a number: -2.45604 
+This should be a number: 2.212 
+
+Block No74 done!
+Updating file: nb_c3-c3.force
+Updating file: nb_c3-c5.force
+Updating file: nb_c3-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = 20215.3
+#################################
+
+This should be a number: 5.75469 
+This should be a number: 0.181478 
+This should be a number: -2.21959 
+This should be a number: -0.336032 
+This should be a number: -2.55521 
+This should be a number: 2.11048 
+
+Block No75 done!
+Updating file: nb_c3-c3.force
+Updating file: nb_c3-c5.force
+Updating file: nb_c3-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = 20249.6
+#################################
+
+This should be a number: 6.44204 
+This should be a number: 1.08 
+This should be a number: -2.94225 
+This should be a number: -0.129656 
+This should be a number: -2.66271 
+This should be a number: 2.10467 
+
+Block No76 done!
+Updating file: nb_c3-c3.force
+Updating file: nb_c3-c5.force
+Updating file: nb_c3-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = 20295.1
+#################################
+
+This should be a number: 6.39569 
+This should be a number: 0.87892 
+This should be a number: -2.67345 
+This should be a number: 0.253379 
+This should be a number: -2.60017 
+This should be a number: 2.37834 
+
+Block No77 done!
+Updating file: nb_c3-c3.force
+Updating file: nb_c3-c5.force
+Updating file: nb_c3-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = 20380.8
+#################################
+
+This should be a number: 5.32004 
+This should be a number: 1.33788 
+This should be a number: -2.79422 
+This should be a number: 1.02437 
+This should be a number: -3.0714 
+This should be a number: 2.65639 
+
+Block No78 done!
+Updating file: nb_c3-c3.force
+Updating file: nb_c3-c5.force
+Updating file: nb_c3-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = 20426.3
+#################################
+
+This should be a number: 4.92653 
+This should be a number: 2.08067 
+This should be a number: -3.5457 
+This should be a number: 1.40989 
+This should be a number: -3.02329 
+This should be a number: 2.44324 
+
+Block No79 done!
+Updating file: nb_c3-c3.force
+Updating file: nb_c3-c5.force
+Updating file: nb_c3-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = 20463.6
+#################################
+
+This should be a number: 4.9203 
+This should be a number: 1.8776 
+This should be a number: -3.57368 
+This should be a number: 0.916951 
+This should be a number: -2.69571 
+This should be a number: 2.5224 
+
+Block No80 done!
+Updating file: nb_c3-c3.force
+Updating file: nb_c3-c5.force
+Updating file: nb_c3-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+Reading frame   18000 time 18000.000   
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = 20374.8
+#################################
+
+This should be a number: 4.62877 
+This should be a number: 1.16723 
+This should be a number: -3.15535 
+This should be a number: 0.808487 
+This should be a number: -2.80966 
+This should be a number: 1.96793 
+
+Block No81 done!
+Updating file: nb_c3-c3.force
+Updating file: nb_c3-c5.force
+Updating file: nb_c3-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = 20509
+#################################
+
+This should be a number: 4.23132 
+This should be a number: 1.94928 
+This should be a number: -3.35194 
+This should be a number: 1.31962 
+This should be a number: -3.00963 
+This should be a number: 2.38078 
+
+Block No82 done!
+Updating file: nb_c3-c3.force
+Updating file: nb_c3-c5.force
+Updating file: nb_c3-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = 20534.7
+#################################
+
+This should be a number: 5.78958 
+This should be a number: 2.58311 
+This should be a number: -3.87131 
+This should be a number: 0.728956 
+This should be a number: -2.83546 
+This should be a number: 2.2697 
+
+Block No83 done!
+Updating file: nb_c3-c3.force
+Updating file: nb_c3-c5.force
+Updating file: nb_c3-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = 20489.6
+#################################
+
+This should be a number: 6.27513 
+This should be a number: 2.08281 
+This should be a number: -3.44359 
+This should be a number: 0.568425 
+This should be a number: -2.35559 
+This should be a number: 2.37967 
+
+Block No84 done!
+Updating file: nb_c3-c3.force
+Updating file: nb_c3-c5.force
+Updating file: nb_c3-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = 20517.7
+#################################
+
+This should be a number: 6.28196 
+This should be a number: 2.12313 
+This should be a number: -3.39026 
+This should be a number: 0.355714 
+This should be a number: -2.4624 
+This should be a number: 2.48323 
+
+Block No85 done!
+Updating file: nb_c3-c3.force
+Updating file: nb_c3-c5.force
+Updating file: nb_c3-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = 20593.8
+#################################
+
+This should be a number: 4.73046 
+This should be a number: 2.08253 
+This should be a number: -3.46226 
+This should be a number: 0.627676 
+This should be a number: -2.50272 
+This should be a number: 2.4793 
+
+Block No86 done!
+Updating file: nb_c3-c3.force
+Updating file: nb_c3-c5.force
+Updating file: nb_c3-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = 20695.3
+#################################
+
+This should be a number: 6.61177 
+This should be a number: 2.60256 
+This should be a number: -3.43744 
+This should be a number: 0.301859 
+This should be a number: -3.13516 
+This should be a number: 2.87459 
+
+Block No87 done!
+Updating file: nb_c3-c3.force
+Updating file: nb_c3-c5.force
+Updating file: nb_c3-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = 20630.5
+#################################
+
+This should be a number: 6.03469 
+This should be a number: 2.0818 
+This should be a number: -3.68909 
+This should be a number: 0.175273 
+This should be a number: -3.09907 
+This should be a number: 3.11451 
+
+Block No88 done!
+Updating file: nb_c3-c3.force
+Updating file: nb_c3-c5.force
+Updating file: nb_c3-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = 20656.3
+#################################
+
+This should be a number: 6.98924 
+This should be a number: 2.91156 
+This should be a number: -4.06182 
+This should be a number: 0.621165 
+This should be a number: -3.53722 
+This should be a number: 3.37395 
+
+Block No89 done!
+Updating file: nb_c3-c3.force
+Updating file: nb_c3-c5.force
+Updating file: nb_c3-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = 20606.7
+#################################
+
+This should be a number: 7.16448 
+This should be a number: 2.51186 
+This should be a number: -4.04155 
+This should be a number: 0.850729 
+This should be a number: -3.4617 
+This should be a number: 3.531 
+
+Block No90 done!
+Updating file: nb_c3-c3.force
+Updating file: nb_c3-c5.force
+Updating file: nb_c3-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+Reading frame   19000 time 19000.000   
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = 20412.6
+#################################
+
+This should be a number: 7.96076 
+This should be a number: 2.66173 
+This should be a number: -4.11732 
+This should be a number: 1.17164 
+This should be a number: -3.83086 
+This should be a number: 3.84081 
+
+Block No91 done!
+Updating file: nb_c3-c3.force
+Updating file: nb_c3-c5.force
+Updating file: nb_c3-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = 20449
+#################################
+
+This should be a number: 8.21077 
+This should be a number: 2.02173 
+This should be a number: -3.62463 
+This should be a number: 0.878626 
+This should be a number: -3.69604 
+This should be a number: 3.60017 
+
+Block No92 done!
+Updating file: nb_c3-c3.force
+Updating file: nb_c3-c5.force
+Updating file: nb_c3-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = 20337.3
+#################################
+
+This should be a number: 7.53597 
+This should be a number: 2.51023 
+This should be a number: -3.56663 
+This should be a number: 0.984337 
+This should be a number: -3.59521 
+This should be a number: 3.6881 
+
+Block No93 done!
+Updating file: nb_c3-c3.force
+Updating file: nb_c3-c5.force
+Updating file: nb_c3-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = 20537.6
+#################################
+
+This should be a number: 6.22852 
+This should be a number: 1.74803 
+This should be a number: -3.2185 
+This should be a number: 0.497838 
+This should be a number: -3.35244 
+This should be a number: 3.64191 
+
+Block No94 done!
+Updating file: nb_c3-c3.force
+Updating file: nb_c3-c5.force
+Updating file: nb_c3-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = 20686.4
+#################################
+
+This should be a number: 6.56005 
+This should be a number: 1.4809 
+This should be a number: -2.26838 
+This should be a number: 0.076716 
+This should be a number: -3.29326 
+This should be a number: 3.60711 
+
+Block No95 done!
+Updating file: nb_c3-c3.force
+Updating file: nb_c3-c5.force
+Updating file: nb_c3-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = 20463.5
+#################################
+
+This should be a number: 6.48698 
+This should be a number: 1.51311 
+This should be a number: -2.40746 
+This should be a number: 0.456156 
+This should be a number: -3.53443 
+This should be a number: 3.24768 
+
+Block No96 done!
+Updating file: nb_c3-c3.force
+Updating file: nb_c3-c5.force
+Updating file: nb_c3-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = 20556.3
+#################################
+
+This should be a number: 7.06429 
+This should be a number: 1.53645 
+This should be a number: -2.99325 
+This should be a number: 0.41095 
+This should be a number: -3.43342 
+This should be a number: 3.42128 
+
+Block No97 done!
+Updating file: nb_c3-c3.force
+Updating file: nb_c3-c5.force
+Updating file: nb_c3-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = 20560.8
+#################################
+
+This should be a number: 6.68968 
+This should be a number: 1.83058 
+This should be a number: -2.63809 
+This should be a number: 0.378584 
+This should be a number: -3.4249 
+This should be a number: 3.56718 
+
+Block No98 done!
+Updating file: nb_c3-c3.force
+Updating file: nb_c3-c5.force
+Updating file: nb_c3-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = 20532.1
+#################################
+
+This should be a number: 6.41305 
+This should be a number: 1.80945 
+This should be a number: -2.77926 
+This should be a number: 0.325867 
+This should be a number: -3.28914 
+This should be a number: 3.48117 
+
+Block No99 done!
+Updating file: nb_c3-c3.force
+Updating file: nb_c3-c5.force
+Updating file: nb_c3-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = 20397.4
+#################################
+
+This should be a number: 5.72389 
+This should be a number: 1.60825 
+This should be a number: -2.5421 
+This should be a number: 0.286584 
+This should be a number: -3.32204 
+This should be a number: 3.37759 
+
+Block No100 done!
+Updating file: nb_c3-c3.force
+Updating file: nb_c3-c5.force
+Updating file: nb_c3-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+Reading frame   20000 time 20000.000   Last frame      20000 time 20000.000   
+
+We are done, thank you very much!

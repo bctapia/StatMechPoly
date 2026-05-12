@@ -1,0 +1,4554 @@
+Loading intel/oneapi/mkl/latest
+  Loading requirement: intel/oneapi/tbb/latest intel/oneapi/compiler-rt/latest
+Reading file nvt.tpr, VERSION 2025.2 (single precision)
+I have 6900 beads in 1 molecules
+I have 3700 beads in 1 molecules for the coarsegraining
+trr version: GMX_trn_file (single precision)
+Reading frame       0 time    0.000   
+Reading frame       1 time    1.000   Reading frame       2 time    2.000   Reading frame       3 time    3.000   Reading frame       4 time    4.000   Reading frame       5 time    5.000   Reading frame       6 time    6.000   Reading frame       7 time    7.000   Reading frame       8 time    8.000   Reading frame       9 time    9.000   Reading frame      10 time   10.000   Reading frame      11 time   11.000   Reading frame      12 time   12.000   Reading frame      13 time   13.000   Reading frame      14 time   14.000   Reading frame      15 time   15.000   Reading frame      16 time   16.000   Reading frame      17 time   17.000   Reading frame      18 time   18.000   Reading frame      19 time   19.000   Reading frame      20 time   20.000   Reading frame      30 time   30.000   Reading frame      40 time   40.000   Reading frame      50 time   50.000   Reading frame      60 time   60.000   Reading frame      70 time   70.000   Reading frame      80 time   80.000   Reading frame      90 time   90.000   Reading frame     100 time  100.000   Reading frame     110 time  110.000   Reading frame     120 time  120.000   Reading frame     130 time  130.000   Reading frame     140 time  140.000   Reading frame     150 time  150.000   Reading frame     160 time  160.000   Reading frame     170 time  170.000   Reading frame     180 time  180.000   Reading frame     190 time  190.000   Reading frame     200 time  200.000   Reading frame     300 time  300.000   Reading frame     400 time  400.000   Reading frame     500 time  500.000   Reading frame     600 time  600.000   Reading frame     700 time  700.000   Reading frame     800 time  800.000   Reading frame     900 time  900.000   Reading frame    1000 time 1000.000   Reading frame    1100 time 1100.000   Reading frame    1200 time 1200.000   Reading frame    1300 time 1300.000   Reading frame    1400 time 1400.000   Reading frame    1500 time 1500.000   Reading frame    1600 time 1600.000   Reading frame    1700 time 1700.000   Reading frame    1800 time 1800.000   Reading frame    1900 time 1900.000   Reading frame    2000 time 2000.000   Reading frame    3000 time 3000.000   Reading frame    4000 time 4000.000   Reading frame    5000 time 5000.000   Reading frame    6000 time 6000.000   Reading frame    7000 time 7000.000   Reading frame    8000 time 8000.000   Reading frame    9000 time 9000.000   Reading frame   10000 time 10000.000   a: 0.37 ,sigma: 1 ,gamma: 0.12
+Number of spline functions for the interaction bond_c5-c5:200
+a: 0.37 ,sigma: 1 ,gamma: 0.12
+Number of spline functions for the interaction bond_c5-ca:200
+a: 0.37 ,sigma: 1 ,gamma: 0.12
+Number of spline functions for the interaction bond_ca-ca:200
+a: 0.37 ,sigma: 1 ,gamma: 0.12
+Number of spline functions for the interaction angle_c5-c5-c5:11
+a: 0.37 ,sigma: 1 ,gamma: 0.12
+Number of spline functions for the interaction angle_c5-c5-ca:21
+a: 0.37 ,sigma: 1 ,gamma: 0.12
+Number of spline functions for the interaction angle_c5-ca-ca:21
+a: 0.37 ,sigma: 1 ,gamma: 0.12
+Number of spline functions for the interaction angle_ca-c5-ca:5
+a: 0.37 ,sigma: 1 ,gamma: 0.12
+Number of spline functions for the interaction angle_ca-ca-ca:11
+a: 0.37 ,sigma: 1 ,gamma: 0.12
+Number of spline functions for the interaction dihedral_c5-c5-c5-c5:59
+a: 0.37 ,sigma: 1 ,gamma: 0.12
+Number of spline functions for the interaction dihedral_c5-c5-c5-ca:124
+a: 0.37 ,sigma: 1 ,gamma: 0.12
+Number of spline functions for the interaction dihedral_c5-c5-ca-ca:125
+a: 0.37 ,sigma: 1 ,gamma: 0.12
+Number of spline functions for the interaction dihedral_c5-ca-ca-c5:34
+a: 0.37 ,sigma: 1 ,gamma: 0.12
+Number of spline functions for the interaction dihedral_c5-ca-ca-ca:125
+a: 0.37 ,sigma: 1 ,gamma: 0.12
+Number of spline functions for the interaction dihedral_ca-c5-c5-ca:8
+a: 0.37 ,sigma: 1 ,gamma: 0.12
+Number of spline functions for the interaction dihedral_ca-c5-ca-ca:125
+a: 0.37 ,sigma: 1 ,gamma: 0.12
+Number of spline functions for the interaction dihedral_ca-ca-ca-ca:125
+a: 0.37 ,sigma: 1 ,gamma: 0.12
+Number of spline functions for the interaction nb_c5-c5:34
+a: 0.37 ,sigma: 1 ,gamma: 0.12
+Number of spline functions for the interaction nb_c5-ca:34
+a: 0.37 ,sigma: 1 ,gamma: 0.12
+Number of spline functions for the interaction nb_ca-ca:35
+
+You are using VOTCA!
+
+hey, somebody wants to forcematch!
+
+Using simple Least Squares! 
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = inf
+#################################
+
+This should be a number: -8.67007e+200 
+This should be a number: 217.472 
+This should be a number: -240.067 
+This should be a number: 0.851526 
+This should be a number: -23.8172 
+This should be a number: 81.4322 
+This should be a number: -62.1628 
+This should be a number: 87.1661 
+This should be a number: 1.57651 
+This should be a number: -49.7299 
+This should be a number: -0.143128 
+This should be a number: -0.788824 
+This should be a number: 1.69602 
+This should be a number: -62.2046 
+This should be a number: -1.54595 
+This should be a number: 1.26519 
+This should be a number: 0.750605 
+This should be a number: -2.55029 
+This should be a number: -1.4359 
+
+Block No1 done!
+Updating file: bond_c5-c5.force
+Updating file: bond_c5-ca.force
+Updating file: bond_ca-ca.force
+Updating file: angle_c5-c5-c5.force
+Updating file: angle_c5-c5-ca.force
+Updating file: angle_c5-ca-ca.force
+Updating file: angle_ca-c5-ca.force
+Updating file: angle_ca-ca-ca.force
+Updating file: dihedral_c5-c5-c5-c5.force
+Updating file: dihedral_c5-c5-c5-ca.force
+Updating file: dihedral_c5-c5-ca-ca.force
+Updating file: dihedral_c5-ca-ca-c5.force
+Updating file: dihedral_c5-ca-ca-ca.force
+Updating file: dihedral_ca-c5-c5-ca.force
+Updating file: dihedral_ca-c5-ca-ca.force
+Updating file: dihedral_ca-ca-ca-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = inf
+#################################
+
+This should be a number: -1.19688e+202 
+This should be a number: 219.356 
+This should be a number: -245.816 
+This should be a number: 1.21108 
+This should be a number: -24.0521 
+This should be a number: 80.7515 
+This should be a number: -60.4352 
+This should be a number: 88.0748 
+This should be a number: 0.706912 
+This should be a number: -47.0651 
+This should be a number: 2.828 
+This should be a number: 0.0785873 
+This should be a number: 1.2686 
+This should be a number: -55.8364 
+This should be a number: -2.71847 
+This should be a number: 1.39226 
+This should be a number: 0.98702 
+This should be a number: -3.00256 
+This should be a number: -1.08375 
+
+Block No2 done!
+Updating file: bond_c5-c5.force
+Updating file: bond_c5-ca.force
+Updating file: bond_ca-ca.force
+Updating file: angle_c5-c5-c5.force
+Updating file: angle_c5-c5-ca.force
+Updating file: angle_c5-ca-ca.force
+Updating file: angle_ca-c5-ca.force
+Updating file: angle_ca-ca-ca.force
+Updating file: dihedral_c5-c5-c5-c5.force
+Updating file: dihedral_c5-c5-c5-ca.force
+Updating file: dihedral_c5-c5-ca-ca.force
+Updating file: dihedral_c5-ca-ca-c5.force
+Updating file: dihedral_c5-ca-ca-ca.force
+Updating file: dihedral_ca-c5-c5-ca.force
+Updating file: dihedral_ca-c5-ca-ca.force
+Updating file: dihedral_ca-ca-ca-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = inf
+#################################
+
+This should be a number: -5.42283e+200 
+This should be a number: 215.806 
+This should be a number: -254.607 
+This should be a number: 2.01732 
+This should be a number: -24.7236 
+This should be a number: 81.2877 
+This should be a number: -59.358 
+This should be a number: 88.9269 
+This should be a number: 2.59207 
+This should be a number: -27.0201 
+This should be a number: 5.0201 
+This should be a number: -0.335422 
+This should be a number: 2.1796 
+This should be a number: -47.1631 
+This should be a number: -1.11778 
+This should be a number: 1.48759 
+This should be a number: 0.734129 
+This should be a number: -3.01362 
+This should be a number: 0.0117162 
+
+Block No3 done!
+Updating file: bond_c5-c5.force
+Updating file: bond_c5-ca.force
+Updating file: bond_ca-ca.force
+Updating file: angle_c5-c5-c5.force
+Updating file: angle_c5-c5-ca.force
+Updating file: angle_c5-ca-ca.force
+Updating file: angle_ca-c5-ca.force
+Updating file: angle_ca-ca-ca.force
+Updating file: dihedral_c5-c5-c5-c5.force
+Updating file: dihedral_c5-c5-c5-ca.force
+Updating file: dihedral_c5-c5-ca-ca.force
+Updating file: dihedral_c5-ca-ca-c5.force
+Updating file: dihedral_c5-ca-ca-ca.force
+Updating file: dihedral_ca-c5-c5-ca.force
+Updating file: dihedral_ca-c5-ca-ca.force
+Updating file: dihedral_ca-ca-ca-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = inf
+#################################
+
+This should be a number: 6.96311e+200 
+This should be a number: 216.391 
+This should be a number: -243.921 
+This should be a number: 2.67037 
+This should be a number: -22.7551 
+This should be a number: 80.9859 
+This should be a number: -59.7633 
+This should be a number: 88.9615 
+This should be a number: 2.79481 
+This should be a number: -37.845 
+This should be a number: 7.62055 
+This should be a number: -0.967 
+This should be a number: 1.58582 
+This should be a number: -46.3725 
+This should be a number: -1.7071 
+This should be a number: 1.09122 
+This should be a number: 1.26983 
+This should be a number: -3.18017 
+This should be a number: -0.447275 
+
+Block No4 done!
+Updating file: bond_c5-c5.force
+Updating file: bond_c5-ca.force
+Updating file: bond_ca-ca.force
+Updating file: angle_c5-c5-c5.force
+Updating file: angle_c5-c5-ca.force
+Updating file: angle_c5-ca-ca.force
+Updating file: angle_ca-c5-ca.force
+Updating file: angle_ca-ca-ca.force
+Updating file: dihedral_c5-c5-c5-c5.force
+Updating file: dihedral_c5-c5-c5-ca.force
+Updating file: dihedral_c5-c5-ca-ca.force
+Updating file: dihedral_c5-ca-ca-c5.force
+Updating file: dihedral_c5-ca-ca-ca.force
+Updating file: dihedral_ca-c5-c5-ca.force
+Updating file: dihedral_ca-c5-ca-ca.force
+Updating file: dihedral_ca-ca-ca-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = inf
+#################################
+
+This should be a number: 2.0418e+200 
+This should be a number: 221.934 
+This should be a number: -240.315 
+This should be a number: 1.30002 
+This should be a number: -24.5978 
+This should be a number: 80.1746 
+This should be a number: -59.8859 
+This should be a number: 89.0014 
+This should be a number: 7.1399 
+This should be a number: -40.0495 
+This should be a number: 5.58226 
+This should be a number: -0.927408 
+This should be a number: 1.18361 
+This should be a number: -45.2921 
+This should be a number: -2.46278 
+This should be a number: 1.29854 
+This should be a number: 0.479382 
+This should be a number: -3.08033 
+This should be a number: 0.076188 
+
+Block No5 done!
+Updating file: bond_c5-c5.force
+Updating file: bond_c5-ca.force
+Updating file: bond_ca-ca.force
+Updating file: angle_c5-c5-c5.force
+Updating file: angle_c5-c5-ca.force
+Updating file: angle_c5-ca-ca.force
+Updating file: angle_ca-c5-ca.force
+Updating file: angle_ca-ca-ca.force
+Updating file: dihedral_c5-c5-c5-c5.force
+Updating file: dihedral_c5-c5-c5-ca.force
+Updating file: dihedral_c5-c5-ca-ca.force
+Updating file: dihedral_c5-ca-ca-c5.force
+Updating file: dihedral_c5-ca-ca-ca.force
+Updating file: dihedral_ca-c5-c5-ca.force
+Updating file: dihedral_ca-c5-ca-ca.force
+Updating file: dihedral_ca-ca-ca-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = inf
+#################################
+
+This should be a number: -2.21978e+200 
+This should be a number: 217.845 
+This should be a number: -243.973 
+This should be a number: 1.87349 
+This should be a number: -24.4057 
+This should be a number: 80.99 
+This should be a number: -59.3029 
+This should be a number: 89.0591 
+This should be a number: 3.07058 
+This should be a number: -45.6002 
+This should be a number: 7.09397 
+This should be a number: 0.343406 
+This should be a number: 0.706606 
+This should be a number: -46.4763 
+This should be a number: -4.70393 
+This should be a number: 1.13045 
+This should be a number: 1.01678 
+This should be a number: -2.7965 
+This should be a number: -0.366053 
+
+Block No6 done!
+Updating file: bond_c5-c5.force
+Updating file: bond_c5-ca.force
+Updating file: bond_ca-ca.force
+Updating file: angle_c5-c5-c5.force
+Updating file: angle_c5-c5-ca.force
+Updating file: angle_c5-ca-ca.force
+Updating file: angle_ca-c5-ca.force
+Updating file: angle_ca-ca-ca.force
+Updating file: dihedral_c5-c5-c5-c5.force
+Updating file: dihedral_c5-c5-c5-ca.force
+Updating file: dihedral_c5-c5-ca-ca.force
+Updating file: dihedral_c5-ca-ca-c5.force
+Updating file: dihedral_c5-ca-ca-ca.force
+Updating file: dihedral_ca-c5-c5-ca.force
+Updating file: dihedral_ca-c5-ca-ca.force
+Updating file: dihedral_ca-ca-ca-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = inf
+#################################
+
+This should be a number: 6.25072e+199 
+This should be a number: 216.929 
+This should be a number: -242.345 
+This should be a number: 1.62123 
+This should be a number: -24.1874 
+This should be a number: 79.0293 
+This should be a number: -60.6095 
+This should be a number: 87.3951 
+This should be a number: 3.74146 
+This should be a number: -33.1249 
+This should be a number: 0.737357 
+This should be a number: -0.673198 
+This should be a number: 1.70499 
+This should be a number: -55.039 
+This should be a number: -2.27767 
+This should be a number: 2.08977 
+This should be a number: 0.37517 
+This should be a number: -2.96375 
+This should be a number: -0.288994 
+
+Block No7 done!
+Updating file: bond_c5-c5.force
+Updating file: bond_c5-ca.force
+Updating file: bond_ca-ca.force
+Updating file: angle_c5-c5-c5.force
+Updating file: angle_c5-c5-ca.force
+Updating file: angle_c5-ca-ca.force
+Updating file: angle_ca-c5-ca.force
+Updating file: angle_ca-ca-ca.force
+Updating file: dihedral_c5-c5-c5-c5.force
+Updating file: dihedral_c5-c5-c5-ca.force
+Updating file: dihedral_c5-c5-ca-ca.force
+Updating file: dihedral_c5-ca-ca-c5.force
+Updating file: dihedral_c5-ca-ca-ca.force
+Updating file: dihedral_ca-c5-c5-ca.force
+Updating file: dihedral_ca-c5-ca-ca.force
+Updating file: dihedral_ca-ca-ca-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = inf
+#################################
+
+This should be a number: 3.37047e+200 
+This should be a number: 211.737 
+This should be a number: -236.191 
+This should be a number: 1.32889 
+This should be a number: -24.8687 
+This should be a number: 79.4163 
+This should be a number: -60.6533 
+This should be a number: 87.0589 
+This should be a number: 5.9902 
+This should be a number: -34.7053 
+This should be a number: -2.26188 
+This should be a number: -0.661179 
+This should be a number: 1.96554 
+This should be a number: -63.0774 
+This should be a number: -1.3351 
+This should be a number: 0.96894 
+This should be a number: 0.994308 
+This should be a number: -2.94284 
+This should be a number: -0.692547 
+
+Block No8 done!
+Updating file: bond_c5-c5.force
+Updating file: bond_c5-ca.force
+Updating file: bond_ca-ca.force
+Updating file: angle_c5-c5-c5.force
+Updating file: angle_c5-c5-ca.force
+Updating file: angle_c5-ca-ca.force
+Updating file: angle_ca-c5-ca.force
+Updating file: angle_ca-ca-ca.force
+Updating file: dihedral_c5-c5-c5-c5.force
+Updating file: dihedral_c5-c5-c5-ca.force
+Updating file: dihedral_c5-c5-ca-ca.force
+Updating file: dihedral_c5-ca-ca-c5.force
+Updating file: dihedral_c5-ca-ca-ca.force
+Updating file: dihedral_ca-c5-c5-ca.force
+Updating file: dihedral_ca-c5-ca-ca.force
+Updating file: dihedral_ca-ca-ca-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = inf
+#################################
+
+This should be a number: 1.78549e+199 
+This should be a number: 217.749 
+This should be a number: -243.146 
+This should be a number: 2.69038 
+This should be a number: -23.8849 
+This should be a number: 80.484 
+This should be a number: -60.3975 
+This should be a number: 88.3749 
+This should be a number: 2.16728 
+This should be a number: -19.3026 
+This should be a number: 5.57276 
+This should be a number: -0.343803 
+This should be a number: 1.27519 
+This should be a number: -49.1165 
+This should be a number: -3.41747 
+This should be a number: 1.60179 
+This should be a number: 1.44948 
+This should be a number: -3.03646 
+This should be a number: -0.527929 
+
+Block No9 done!
+Updating file: bond_c5-c5.force
+Updating file: bond_c5-ca.force
+Updating file: bond_ca-ca.force
+Updating file: angle_c5-c5-c5.force
+Updating file: angle_c5-c5-ca.force
+Updating file: angle_c5-ca-ca.force
+Updating file: angle_ca-c5-ca.force
+Updating file: angle_ca-ca-ca.force
+Updating file: dihedral_c5-c5-c5-c5.force
+Updating file: dihedral_c5-c5-c5-ca.force
+Updating file: dihedral_c5-c5-ca-ca.force
+Updating file: dihedral_c5-ca-ca-c5.force
+Updating file: dihedral_c5-ca-ca-ca.force
+Updating file: dihedral_ca-c5-c5-ca.force
+Updating file: dihedral_ca-c5-ca-ca.force
+Updating file: dihedral_ca-ca-ca-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = inf
+#################################
+
+This should be a number: 8.06082e+202 
+This should be a number: 222.412 
+This should be a number: -234.593 
+This should be a number: 1.57257 
+This should be a number: -24.2263 
+This should be a number: 81.2129 
+This should be a number: -62.3752 
+This should be a number: 87.84 
+This should be a number: 0.533392 
+This should be a number: -24.2909 
+This should be a number: 3.99228 
+This should be a number: -0.535193 
+This should be a number: 1.81097 
+This should be a number: -50.68 
+This should be a number: -2.61149 
+This should be a number: 1.75256 
+This should be a number: 1.11452 
+This should be a number: -3.11048 
+This should be a number: -0.368662 
+
+Block No10 done!
+Updating file: bond_c5-c5.force
+Updating file: bond_c5-ca.force
+Updating file: bond_ca-ca.force
+Updating file: angle_c5-c5-c5.force
+Updating file: angle_c5-c5-ca.force
+Updating file: angle_c5-ca-ca.force
+Updating file: angle_ca-c5-ca.force
+Updating file: angle_ca-ca-ca.force
+Updating file: dihedral_c5-c5-c5-c5.force
+Updating file: dihedral_c5-c5-c5-ca.force
+Updating file: dihedral_c5-c5-ca-ca.force
+Updating file: dihedral_c5-ca-ca-c5.force
+Updating file: dihedral_c5-ca-ca-ca.force
+Updating file: dihedral_ca-c5-c5-ca.force
+Updating file: dihedral_ca-c5-ca-ca.force
+Updating file: dihedral_ca-ca-ca-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+Reading frame   11000 time 11000.000   
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = -nan
+#################################
+
+This should be a number: -nan 
+This should be a number: -nan 
+This should be a number: -nan 
+This should be a number: -nan 
+This should be a number: -nan 
+This should be a number: -nan 
+This should be a number: -nan 
+This should be a number: -nan 
+This should be a number: -nan 
+This should be a number: -nan 
+This should be a number: -nan 
+This should be a number: -nan 
+This should be a number: -nan 
+This should be a number: -nan 
+This should be a number: -nan 
+This should be a number: -nan 
+This should be a number: -nan 
+This should be a number: -nan 
+This should be a number: -nan 
+
+Block No11 done!
+Updating file: bond_c5-c5.force
+Updating file: bond_c5-ca.force
+Updating file: bond_ca-ca.force
+Updating file: angle_c5-c5-c5.force
+Updating file: angle_c5-c5-ca.force
+Updating file: angle_c5-ca-ca.force
+Updating file: angle_ca-c5-ca.force
+Updating file: angle_ca-ca-ca.force
+Updating file: dihedral_c5-c5-c5-c5.force
+Updating file: dihedral_c5-c5-c5-ca.force
+Updating file: dihedral_c5-c5-ca-ca.force
+Updating file: dihedral_c5-ca-ca-c5.force
+Updating file: dihedral_c5-ca-ca-ca.force
+Updating file: dihedral_ca-c5-c5-ca.force
+Updating file: dihedral_ca-c5-ca-ca.force
+Updating file: dihedral_ca-ca-ca-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = inf
+#################################
+
+This should be a number: -4.21431e+196 
+This should be a number: 215.002 
+This should be a number: -244.404 
+This should be a number: 1.46243 
+This should be a number: -23.643 
+This should be a number: 79.9301 
+This should be a number: -60.5935 
+This should be a number: 88.1374 
+This should be a number: 5.58658 
+This should be a number: -18.7735 
+This should be a number: 2.10507 
+This should be a number: -0.161338 
+This should be a number: 1.06216 
+This should be a number: -51.781 
+This should be a number: -4.17577 
+This should be a number: 1.3114 
+This should be a number: 1.03929 
+This should be a number: -3.31554 
+This should be a number: -0.306891 
+
+Block No12 done!
+Updating file: bond_c5-c5.force
+Updating file: bond_c5-ca.force
+Updating file: bond_ca-ca.force
+Updating file: angle_c5-c5-c5.force
+Updating file: angle_c5-c5-ca.force
+Updating file: angle_c5-ca-ca.force
+Updating file: angle_ca-c5-ca.force
+Updating file: angle_ca-ca-ca.force
+Updating file: dihedral_c5-c5-c5-c5.force
+Updating file: dihedral_c5-c5-c5-ca.force
+Updating file: dihedral_c5-c5-ca-ca.force
+Updating file: dihedral_c5-ca-ca-c5.force
+Updating file: dihedral_c5-ca-ca-ca.force
+Updating file: dihedral_ca-c5-c5-ca.force
+Updating file: dihedral_ca-c5-ca-ca.force
+Updating file: dihedral_ca-ca-ca-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = inf
+#################################
+
+This should be a number: 1.50163e+201 
+This should be a number: 221.347 
+This should be a number: -245.726 
+This should be a number: 2.40736 
+This should be a number: -23.0656 
+This should be a number: 78.9349 
+This should be a number: -59.7091 
+This should be a number: 87.9779 
+This should be a number: 2.2445 
+This should be a number: -30.3809 
+This should be a number: 8.90469 
+This should be a number: -0.90177 
+This should be a number: 0.799212 
+This should be a number: -41.5639 
+This should be a number: -3.72604 
+This should be a number: 0.994947 
+This should be a number: 1.06861 
+This should be a number: -2.88352 
+This should be a number: -0.543203 
+
+Block No13 done!
+Updating file: bond_c5-c5.force
+Updating file: bond_c5-ca.force
+Updating file: bond_ca-ca.force
+Updating file: angle_c5-c5-c5.force
+Updating file: angle_c5-c5-ca.force
+Updating file: angle_c5-ca-ca.force
+Updating file: angle_ca-c5-ca.force
+Updating file: angle_ca-ca-ca.force
+Updating file: dihedral_c5-c5-c5-c5.force
+Updating file: dihedral_c5-c5-c5-ca.force
+Updating file: dihedral_c5-c5-ca-ca.force
+Updating file: dihedral_c5-ca-ca-c5.force
+Updating file: dihedral_c5-ca-ca-ca.force
+Updating file: dihedral_ca-c5-c5-ca.force
+Updating file: dihedral_ca-c5-ca-ca.force
+Updating file: dihedral_ca-ca-ca-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = inf
+#################################
+
+This should be a number: -1.16949e+200 
+This should be a number: 220.505 
+This should be a number: -249.572 
+This should be a number: 1.93808 
+This should be a number: -22.7239 
+This should be a number: 81.5037 
+This should be a number: -59.3001 
+This should be a number: 88.6415 
+This should be a number: 1.40433 
+This should be a number: -10.9664 
+This should be a number: 11.2502 
+This should be a number: -0.414929 
+This should be a number: 2.3494 
+This should be a number: -36.164 
+This should be a number: -1.25848 
+This should be a number: 0.856029 
+This should be a number: 0.633825 
+This should be a number: -3.15818 
+This should be a number: 0.0174489 
+
+Block No14 done!
+Updating file: bond_c5-c5.force
+Updating file: bond_c5-ca.force
+Updating file: bond_ca-ca.force
+Updating file: angle_c5-c5-c5.force
+Updating file: angle_c5-c5-ca.force
+Updating file: angle_c5-ca-ca.force
+Updating file: angle_ca-c5-ca.force
+Updating file: angle_ca-ca-ca.force
+Updating file: dihedral_c5-c5-c5-c5.force
+Updating file: dihedral_c5-c5-c5-ca.force
+Updating file: dihedral_c5-c5-ca-ca.force
+Updating file: dihedral_c5-ca-ca-c5.force
+Updating file: dihedral_c5-ca-ca-ca.force
+Updating file: dihedral_ca-c5-c5-ca.force
+Updating file: dihedral_ca-c5-ca-ca.force
+Updating file: dihedral_ca-ca-ca-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = -nan
+#################################
+
+This should be a number: -nan 
+This should be a number: -nan 
+This should be a number: -nan 
+This should be a number: -nan 
+This should be a number: -nan 
+This should be a number: -nan 
+This should be a number: -nan 
+This should be a number: -nan 
+This should be a number: -nan 
+This should be a number: -nan 
+This should be a number: -nan 
+This should be a number: -nan 
+This should be a number: -nan 
+This should be a number: -nan 
+This should be a number: -nan 
+This should be a number: -nan 
+This should be a number: -nan 
+This should be a number: -nan 
+This should be a number: -nan 
+
+Block No15 done!
+Updating file: bond_c5-c5.force
+Updating file: bond_c5-ca.force
+Updating file: bond_ca-ca.force
+Updating file: angle_c5-c5-c5.force
+Updating file: angle_c5-c5-ca.force
+Updating file: angle_c5-ca-ca.force
+Updating file: angle_ca-c5-ca.force
+Updating file: angle_ca-ca-ca.force
+Updating file: dihedral_c5-c5-c5-c5.force
+Updating file: dihedral_c5-c5-c5-ca.force
+Updating file: dihedral_c5-c5-ca-ca.force
+Updating file: dihedral_c5-ca-ca-c5.force
+Updating file: dihedral_c5-ca-ca-ca.force
+Updating file: dihedral_ca-c5-c5-ca.force
+Updating file: dihedral_ca-c5-ca-ca.force
+Updating file: dihedral_ca-ca-ca-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = inf
+#################################
+
+This should be a number: 4.38657e+199 
+This should be a number: 214.323 
+This should be a number: -248.72 
+This should be a number: 1.58881 
+This should be a number: -24.1236 
+This should be a number: 80.1887 
+This should be a number: -60.8081 
+This should be a number: 86.715 
+This should be a number: 3.1406 
+This should be a number: -8.40148 
+This should be a number: 0.878371 
+This should be a number: -1.02955 
+This should be a number: 1.50163 
+This should be a number: -57.147 
+This should be a number: -3.62177 
+This should be a number: 0.860583 
+This should be a number: 1.04272 
+This should be a number: -2.82686 
+This should be a number: -0.279588 
+
+Block No16 done!
+Updating file: bond_c5-c5.force
+Updating file: bond_c5-ca.force
+Updating file: bond_ca-ca.force
+Updating file: angle_c5-c5-c5.force
+Updating file: angle_c5-c5-ca.force
+Updating file: angle_c5-ca-ca.force
+Updating file: angle_ca-c5-ca.force
+Updating file: angle_ca-ca-ca.force
+Updating file: dihedral_c5-c5-c5-c5.force
+Updating file: dihedral_c5-c5-c5-ca.force
+Updating file: dihedral_c5-c5-ca-ca.force
+Updating file: dihedral_c5-ca-ca-c5.force
+Updating file: dihedral_c5-ca-ca-ca.force
+Updating file: dihedral_ca-c5-c5-ca.force
+Updating file: dihedral_ca-c5-ca-ca.force
+Updating file: dihedral_ca-ca-ca-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = inf
+#################################
+
+This should be a number: -1.66836e+202 
+This should be a number: 221.697 
+This should be a number: -242.515 
+This should be a number: 2.90919 
+This should be a number: -22.7685 
+This should be a number: 80.0915 
+This should be a number: -58.3124 
+This should be a number: 88.4731 
+This should be a number: 3.19035 
+This should be a number: -27.2777 
+This should be a number: 10.2868 
+This should be a number: -0.421648 
+This should be a number: 2.81282 
+This should be a number: -35.179 
+This should be a number: 0.031425 
+This should be a number: 2.297 
+This should be a number: 0.728258 
+This should be a number: -2.76767 
+This should be a number: -0.511517 
+
+Block No17 done!
+Updating file: bond_c5-c5.force
+Updating file: bond_c5-ca.force
+Updating file: bond_ca-ca.force
+Updating file: angle_c5-c5-c5.force
+Updating file: angle_c5-c5-ca.force
+Updating file: angle_c5-ca-ca.force
+Updating file: angle_ca-c5-ca.force
+Updating file: angle_ca-ca-ca.force
+Updating file: dihedral_c5-c5-c5-c5.force
+Updating file: dihedral_c5-c5-c5-ca.force
+Updating file: dihedral_c5-c5-ca-ca.force
+Updating file: dihedral_c5-ca-ca-c5.force
+Updating file: dihedral_c5-ca-ca-ca.force
+Updating file: dihedral_ca-c5-c5-ca.force
+Updating file: dihedral_ca-c5-ca-ca.force
+Updating file: dihedral_ca-ca-ca-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = inf
+#################################
+
+This should be a number: -2.84603e+201 
+This should be a number: 217.375 
+This should be a number: -245.541 
+This should be a number: 1.94932 
+This should be a number: -24.0164 
+This should be a number: 80.1486 
+This should be a number: -61.5851 
+This should be a number: 88.7046 
+This should be a number: 6.66187 
+This should be a number: -33.303 
+This should be a number: 9.48829 
+This should be a number: 0.258134 
+This should be a number: 1.88739 
+This should be a number: -40.9019 
+This should be a number: -1.59082 
+This should be a number: 1.55154 
+This should be a number: 0.650318 
+This should be a number: -2.96 
+This should be a number: -0.487028 
+
+Block No18 done!
+Updating file: bond_c5-c5.force
+Updating file: bond_c5-ca.force
+Updating file: bond_ca-ca.force
+Updating file: angle_c5-c5-c5.force
+Updating file: angle_c5-c5-ca.force
+Updating file: angle_c5-ca-ca.force
+Updating file: angle_ca-c5-ca.force
+Updating file: angle_ca-ca-ca.force
+Updating file: dihedral_c5-c5-c5-c5.force
+Updating file: dihedral_c5-c5-c5-ca.force
+Updating file: dihedral_c5-c5-ca-ca.force
+Updating file: dihedral_c5-ca-ca-c5.force
+Updating file: dihedral_c5-ca-ca-ca.force
+Updating file: dihedral_ca-c5-c5-ca.force
+Updating file: dihedral_ca-c5-ca-ca.force
+Updating file: dihedral_ca-ca-ca-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = inf
+#################################
+
+This should be a number: -8.79078e+200 
+This should be a number: 218.464 
+This should be a number: -241.651 
+This should be a number: 2.38862 
+This should be a number: -23.4318 
+This should be a number: 77.4623 
+This should be a number: -59.1912 
+This should be a number: 88.4838 
+This should be a number: 8.4835 
+This should be a number: -16.0403 
+This should be a number: 4.14845 
+This should be a number: 0.454942 
+This should be a number: 2.5562 
+This should be a number: -49.7493 
+This should be a number: -1.05741 
+This should be a number: 1.71631 
+This should be a number: 1.01603 
+This should be a number: -2.77761 
+This should be a number: -0.578806 
+
+Block No19 done!
+Updating file: bond_c5-c5.force
+Updating file: bond_c5-ca.force
+Updating file: bond_ca-ca.force
+Updating file: angle_c5-c5-c5.force
+Updating file: angle_c5-c5-ca.force
+Updating file: angle_c5-ca-ca.force
+Updating file: angle_ca-c5-ca.force
+Updating file: angle_ca-ca-ca.force
+Updating file: dihedral_c5-c5-c5-c5.force
+Updating file: dihedral_c5-c5-c5-ca.force
+Updating file: dihedral_c5-c5-ca-ca.force
+Updating file: dihedral_c5-ca-ca-c5.force
+Updating file: dihedral_c5-ca-ca-ca.force
+Updating file: dihedral_ca-c5-c5-ca.force
+Updating file: dihedral_ca-c5-ca-ca.force
+Updating file: dihedral_ca-ca-ca-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = inf
+#################################
+
+This should be a number: -8.76937e+201 
+This should be a number: 215.052 
+This should be a number: -243.973 
+This should be a number: 1.45435 
+This should be a number: -23.4341 
+This should be a number: 78.7473 
+This should be a number: -59.882 
+This should be a number: 88.3608 
+This should be a number: 3.2571 
+This should be a number: -37.5682 
+This should be a number: 4.42952 
+This should be a number: 0.503408 
+This should be a number: 1.83059 
+This should be a number: -50.6204 
+This should be a number: -2.14436 
+This should be a number: 1.07309 
+This should be a number: 1.15401 
+This should be a number: -2.9607 
+This should be a number: -0.995842 
+
+Block No20 done!
+Updating file: bond_c5-c5.force
+Updating file: bond_c5-ca.force
+Updating file: bond_ca-ca.force
+Updating file: angle_c5-c5-c5.force
+Updating file: angle_c5-c5-ca.force
+Updating file: angle_c5-ca-ca.force
+Updating file: angle_ca-c5-ca.force
+Updating file: angle_ca-ca-ca.force
+Updating file: dihedral_c5-c5-c5-c5.force
+Updating file: dihedral_c5-c5-c5-ca.force
+Updating file: dihedral_c5-c5-ca-ca.force
+Updating file: dihedral_c5-ca-ca-c5.force
+Updating file: dihedral_c5-ca-ca-ca.force
+Updating file: dihedral_ca-c5-c5-ca.force
+Updating file: dihedral_ca-c5-ca-ca.force
+Updating file: dihedral_ca-ca-ca-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+Reading frame   12000 time 12000.000   
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = inf
+#################################
+
+This should be a number: -5.18603e+203 
+This should be a number: 221.022 
+This should be a number: -243.837 
+This should be a number: 1.84998 
+This should be a number: -23.8007 
+This should be a number: 80.0545 
+This should be a number: -62.3009 
+This should be a number: 86.4056 
+This should be a number: -0.580973 
+This should be a number: -21.9715 
+This should be a number: 9.86724 
+This should be a number: -0.70169 
+This should be a number: 1.72494 
+This should be a number: -39.3155 
+This should be a number: -1.45824 
+This should be a number: 1.16581 
+This should be a number: 0.849808 
+This should be a number: -2.95468 
+This should be a number: -0.825069 
+
+Block No21 done!
+Updating file: bond_c5-c5.force
+Updating file: bond_c5-ca.force
+Updating file: bond_ca-ca.force
+Updating file: angle_c5-c5-c5.force
+Updating file: angle_c5-c5-ca.force
+Updating file: angle_c5-ca-ca.force
+Updating file: angle_ca-c5-ca.force
+Updating file: angle_ca-ca-ca.force
+Updating file: dihedral_c5-c5-c5-c5.force
+Updating file: dihedral_c5-c5-c5-ca.force
+Updating file: dihedral_c5-c5-ca-ca.force
+Updating file: dihedral_c5-ca-ca-c5.force
+Updating file: dihedral_c5-ca-ca-ca.force
+Updating file: dihedral_ca-c5-c5-ca.force
+Updating file: dihedral_ca-c5-ca-ca.force
+Updating file: dihedral_ca-ca-ca-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = inf
+#################################
+
+This should be a number: 1.71596e+200 
+This should be a number: 219.509 
+This should be a number: -238.229 
+This should be a number: 1.03728 
+This should be a number: -23.2968 
+This should be a number: 80.5685 
+This should be a number: -59.9112 
+This should be a number: 88.4477 
+This should be a number: 6.26302 
+This should be a number: -13.1649 
+This should be a number: 2.98595 
+This should be a number: -0.0530931 
+This should be a number: 0.183845 
+This should be a number: -52.8614 
+This should be a number: -6.00063 
+This should be a number: 0.657334 
+This should be a number: 0.984297 
+This should be a number: -2.88032 
+This should be a number: -0.246996 
+
+Block No22 done!
+Updating file: bond_c5-c5.force
+Updating file: bond_c5-ca.force
+Updating file: bond_ca-ca.force
+Updating file: angle_c5-c5-c5.force
+Updating file: angle_c5-c5-ca.force
+Updating file: angle_c5-ca-ca.force
+Updating file: angle_ca-c5-ca.force
+Updating file: angle_ca-ca-ca.force
+Updating file: dihedral_c5-c5-c5-c5.force
+Updating file: dihedral_c5-c5-c5-ca.force
+Updating file: dihedral_c5-c5-ca-ca.force
+Updating file: dihedral_c5-ca-ca-c5.force
+Updating file: dihedral_c5-ca-ca-ca.force
+Updating file: dihedral_ca-c5-c5-ca.force
+Updating file: dihedral_ca-c5-ca-ca.force
+Updating file: dihedral_ca-ca-ca-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = inf
+#################################
+
+This should be a number: 2.82517e+202 
+This should be a number: 218.462 
+This should be a number: -244.491 
+This should be a number: 1.70767 
+This should be a number: -23.3811 
+This should be a number: 80.7848 
+This should be a number: -60.6395 
+This should be a number: 87.8401 
+This should be a number: 8.90603 
+This should be a number: -13.4281 
+This should be a number: 9.56766 
+This should be a number: -0.527109 
+This should be a number: 2.56164 
+This should be a number: -40.0662 
+This should be a number: -0.0177226 
+This should be a number: 1.3538 
+This should be a number: 0.865763 
+This should be a number: -3.08397 
+This should be a number: -0.954714 
+
+Block No23 done!
+Updating file: bond_c5-c5.force
+Updating file: bond_c5-ca.force
+Updating file: bond_ca-ca.force
+Updating file: angle_c5-c5-c5.force
+Updating file: angle_c5-c5-ca.force
+Updating file: angle_c5-ca-ca.force
+Updating file: angle_ca-c5-ca.force
+Updating file: angle_ca-ca-ca.force
+Updating file: dihedral_c5-c5-c5-c5.force
+Updating file: dihedral_c5-c5-c5-ca.force
+Updating file: dihedral_c5-c5-ca-ca.force
+Updating file: dihedral_c5-ca-ca-c5.force
+Updating file: dihedral_c5-ca-ca-ca.force
+Updating file: dihedral_ca-c5-c5-ca.force
+Updating file: dihedral_ca-c5-ca-ca.force
+Updating file: dihedral_ca-ca-ca-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = inf
+#################################
+
+This should be a number: 2.18536e+199 
+This should be a number: 217.067 
+This should be a number: -246.181 
+This should be a number: 2.36815 
+This should be a number: -22.4015 
+This should be a number: 80.7146 
+This should be a number: -59.7344 
+This should be a number: 87.0331 
+This should be a number: 12.1189 
+This should be a number: -28.7127 
+This should be a number: 7.72852 
+This should be a number: -0.992546 
+This should be a number: 2.89499 
+This should be a number: -40.8019 
+This should be a number: -0.297212 
+This should be a number: 0.729119 
+This should be a number: 0.488577 
+This should be a number: -2.99041 
+This should be a number: -0.268587 
+
+Block No24 done!
+Updating file: bond_c5-c5.force
+Updating file: bond_c5-ca.force
+Updating file: bond_ca-ca.force
+Updating file: angle_c5-c5-c5.force
+Updating file: angle_c5-c5-ca.force
+Updating file: angle_c5-ca-ca.force
+Updating file: angle_ca-c5-ca.force
+Updating file: angle_ca-ca-ca.force
+Updating file: dihedral_c5-c5-c5-c5.force
+Updating file: dihedral_c5-c5-c5-ca.force
+Updating file: dihedral_c5-c5-ca-ca.force
+Updating file: dihedral_c5-ca-ca-c5.force
+Updating file: dihedral_c5-ca-ca-ca.force
+Updating file: dihedral_ca-c5-c5-ca.force
+Updating file: dihedral_ca-c5-ca-ca.force
+Updating file: dihedral_ca-ca-ca-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = inf
+#################################
+
+This should be a number: -3.82796e+199 
+This should be a number: 223.756 
+This should be a number: -234.3 
+This should be a number: 0.736293 
+This should be a number: -23.1906 
+This should be a number: 80.4096 
+This should be a number: -62.8314 
+This should be a number: 86.7379 
+This should be a number: 11.4767 
+This should be a number: -12.7752 
+This should be a number: 7.53916 
+This should be a number: -0.273933 
+This should be a number: 2.36184 
+This should be a number: -36.6742 
+This should be a number: -1.43104 
+This should be a number: 0.726187 
+This should be a number: 1.1265 
+This should be a number: -2.80996 
+This should be a number: -0.437172 
+
+Block No25 done!
+Updating file: bond_c5-c5.force
+Updating file: bond_c5-ca.force
+Updating file: bond_ca-ca.force
+Updating file: angle_c5-c5-c5.force
+Updating file: angle_c5-c5-ca.force
+Updating file: angle_c5-ca-ca.force
+Updating file: angle_ca-c5-ca.force
+Updating file: angle_ca-ca-ca.force
+Updating file: dihedral_c5-c5-c5-c5.force
+Updating file: dihedral_c5-c5-c5-ca.force
+Updating file: dihedral_c5-c5-ca-ca.force
+Updating file: dihedral_c5-ca-ca-c5.force
+Updating file: dihedral_c5-ca-ca-ca.force
+Updating file: dihedral_ca-c5-c5-ca.force
+Updating file: dihedral_ca-c5-ca-ca.force
+Updating file: dihedral_ca-ca-ca-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = inf
+#################################
+
+This should be a number: 3.20358e+200 
+This should be a number: 222.345 
+This should be a number: -238.681 
+This should be a number: -0.561599 
+This should be a number: -23.812 
+This should be a number: 80.3647 
+This should be a number: -61.7529 
+This should be a number: 89.2426 
+This should be a number: 6.29987 
+This should be a number: -32.1804 
+This should be a number: 6.91505 
+This should be a number: -0.137005 
+This should be a number: 1.68845 
+This should be a number: -42.8939 
+This should be a number: -0.920654 
+This should be a number: 1.3003 
+This should be a number: 0.713623 
+This should be a number: -3.13647 
+This should be a number: -0.893664 
+
+Block No26 done!
+Updating file: bond_c5-c5.force
+Updating file: bond_c5-ca.force
+Updating file: bond_ca-ca.force
+Updating file: angle_c5-c5-c5.force
+Updating file: angle_c5-c5-ca.force
+Updating file: angle_c5-ca-ca.force
+Updating file: angle_ca-c5-ca.force
+Updating file: angle_ca-ca-ca.force
+Updating file: dihedral_c5-c5-c5-c5.force
+Updating file: dihedral_c5-c5-c5-ca.force
+Updating file: dihedral_c5-c5-ca-ca.force
+Updating file: dihedral_c5-ca-ca-c5.force
+Updating file: dihedral_c5-ca-ca-ca.force
+Updating file: dihedral_ca-c5-c5-ca.force
+Updating file: dihedral_ca-c5-ca-ca.force
+Updating file: dihedral_ca-ca-ca-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = inf
+#################################
+
+This should be a number: 1.38435e+199 
+This should be a number: 215.316 
+This should be a number: -237.917 
+This should be a number: 1.27985 
+This should be a number: -24.3454 
+This should be a number: 78.8475 
+This should be a number: -61.5775 
+This should be a number: 87.9169 
+This should be a number: 7.94609 
+This should be a number: -25.2125 
+This should be a number: 4.30167 
+This should be a number: -0.453587 
+This should be a number: 3.11665 
+This should be a number: -50.6117 
+This should be a number: 2.63529 
+This should be a number: 1.70982 
+This should be a number: 0.840981 
+This should be a number: -2.61543 
+This should be a number: -0.384932 
+
+Block No27 done!
+Updating file: bond_c5-c5.force
+Updating file: bond_c5-ca.force
+Updating file: bond_ca-ca.force
+Updating file: angle_c5-c5-c5.force
+Updating file: angle_c5-c5-ca.force
+Updating file: angle_c5-ca-ca.force
+Updating file: angle_ca-c5-ca.force
+Updating file: angle_ca-ca-ca.force
+Updating file: dihedral_c5-c5-c5-c5.force
+Updating file: dihedral_c5-c5-c5-ca.force
+Updating file: dihedral_c5-c5-ca-ca.force
+Updating file: dihedral_c5-ca-ca-c5.force
+Updating file: dihedral_c5-ca-ca-ca.force
+Updating file: dihedral_ca-c5-c5-ca.force
+Updating file: dihedral_ca-c5-ca-ca.force
+Updating file: dihedral_ca-ca-ca-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = inf
+#################################
+
+This should be a number: -4.73264e+200 
+This should be a number: 216.582 
+This should be a number: -241.405 
+This should be a number: 0.82955 
+This should be a number: -24.9835 
+This should be a number: 79.4919 
+This should be a number: -60.8978 
+This should be a number: 86.8528 
+This should be a number: 5.5758 
+This should be a number: -14.7763 
+This should be a number: 3.56891 
+This should be a number: 0.0547033 
+This should be a number: 3.12946 
+This should be a number: -50.847 
+This should be a number: 0.146051 
+This should be a number: 1.01032 
+This should be a number: 1.09801 
+This should be a number: -3.06962 
+This should be a number: -0.516683 
+
+Block No28 done!
+Updating file: bond_c5-c5.force
+Updating file: bond_c5-ca.force
+Updating file: bond_ca-ca.force
+Updating file: angle_c5-c5-c5.force
+Updating file: angle_c5-c5-ca.force
+Updating file: angle_c5-ca-ca.force
+Updating file: angle_ca-c5-ca.force
+Updating file: angle_ca-ca-ca.force
+Updating file: dihedral_c5-c5-c5-c5.force
+Updating file: dihedral_c5-c5-c5-ca.force
+Updating file: dihedral_c5-c5-ca-ca.force
+Updating file: dihedral_c5-ca-ca-c5.force
+Updating file: dihedral_c5-ca-ca-ca.force
+Updating file: dihedral_ca-c5-c5-ca.force
+Updating file: dihedral_ca-c5-ca-ca.force
+Updating file: dihedral_ca-ca-ca-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = inf
+#################################
+
+This should be a number: 4.92141e+197 
+This should be a number: 219.595 
+This should be a number: -243.103 
+This should be a number: 0.551201 
+This should be a number: -25.2248 
+This should be a number: 79.6791 
+This should be a number: -62.0654 
+This should be a number: 87.4653 
+This should be a number: 6.59269 
+This should be a number: -31.6097 
+This should be a number: 4.18547 
+This should be a number: -0.0171969 
+This should be a number: 1.61246 
+This should be a number: -51.3363 
+This should be a number: -1.31059 
+This should be a number: 0.750348 
+This should be a number: 1.28578 
+This should be a number: -3.20243 
+This should be a number: -0.878481 
+
+Block No29 done!
+Updating file: bond_c5-c5.force
+Updating file: bond_c5-ca.force
+Updating file: bond_ca-ca.force
+Updating file: angle_c5-c5-c5.force
+Updating file: angle_c5-c5-ca.force
+Updating file: angle_c5-ca-ca.force
+Updating file: angle_ca-c5-ca.force
+Updating file: angle_ca-ca-ca.force
+Updating file: dihedral_c5-c5-c5-c5.force
+Updating file: dihedral_c5-c5-c5-ca.force
+Updating file: dihedral_c5-c5-ca-ca.force
+Updating file: dihedral_c5-ca-ca-c5.force
+Updating file: dihedral_c5-ca-ca-ca.force
+Updating file: dihedral_ca-c5-c5-ca.force
+Updating file: dihedral_ca-c5-ca-ca.force
+Updating file: dihedral_ca-ca-ca-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = inf
+#################################
+
+This should be a number: -6.74002e+201 
+This should be a number: 217.776 
+This should be a number: -254.608 
+This should be a number: 1.53688 
+This should be a number: -24.8585 
+This should be a number: 78.5425 
+This should be a number: -59.1117 
+This should be a number: 88.4714 
+This should be a number: 10.5917 
+This should be a number: -51.657 
+This should be a number: 6.70598 
+This should be a number: -1.09362 
+This should be a number: 2.08964 
+This should be a number: -46.2513 
+This should be a number: -2.06729 
+This should be a number: 0.77615 
+This should be a number: 0.749691 
+This should be a number: -3.13537 
+This should be a number: -0.671157 
+
+Block No30 done!
+Updating file: bond_c5-c5.force
+Updating file: bond_c5-ca.force
+Updating file: bond_ca-ca.force
+Updating file: angle_c5-c5-c5.force
+Updating file: angle_c5-c5-ca.force
+Updating file: angle_c5-ca-ca.force
+Updating file: angle_ca-c5-ca.force
+Updating file: angle_ca-ca-ca.force
+Updating file: dihedral_c5-c5-c5-c5.force
+Updating file: dihedral_c5-c5-c5-ca.force
+Updating file: dihedral_c5-c5-ca-ca.force
+Updating file: dihedral_c5-ca-ca-c5.force
+Updating file: dihedral_c5-ca-ca-ca.force
+Updating file: dihedral_ca-c5-c5-ca.force
+Updating file: dihedral_ca-c5-ca-ca.force
+Updating file: dihedral_ca-ca-ca-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+Reading frame   13000 time 13000.000   
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = inf
+#################################
+
+This should be a number: 1.43191e+204 
+This should be a number: 229.388 
+This should be a number: -236.592 
+This should be a number: 1.58361 
+This should be a number: -24.3209 
+This should be a number: 79.9152 
+This should be a number: -59.8242 
+This should be a number: 88.9895 
+This should be a number: 7.36131 
+This should be a number: -23.3136 
+This should be a number: 3.57676 
+This should be a number: -0.845137 
+This should be a number: 2.6036 
+This should be a number: -51.0327 
+This should be a number: -0.0209889 
+This should be a number: 1.45586 
+This should be a number: 0.526439 
+This should be a number: -3.15355 
+This should be a number: -1.23324 
+
+Block No31 done!
+Updating file: bond_c5-c5.force
+Updating file: bond_c5-ca.force
+Updating file: bond_ca-ca.force
+Updating file: angle_c5-c5-c5.force
+Updating file: angle_c5-c5-ca.force
+Updating file: angle_c5-ca-ca.force
+Updating file: angle_ca-c5-ca.force
+Updating file: angle_ca-ca-ca.force
+Updating file: dihedral_c5-c5-c5-c5.force
+Updating file: dihedral_c5-c5-c5-ca.force
+Updating file: dihedral_c5-c5-ca-ca.force
+Updating file: dihedral_c5-ca-ca-c5.force
+Updating file: dihedral_c5-ca-ca-ca.force
+Updating file: dihedral_ca-c5-c5-ca.force
+Updating file: dihedral_ca-c5-ca-ca.force
+Updating file: dihedral_ca-ca-ca-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = inf
+#################################
+
+This should be a number: 1.96462e+201 
+This should be a number: 209.779 
+This should be a number: -250.894 
+This should be a number: 0.852832 
+This should be a number: -26.2556 
+This should be a number: 78.8212 
+This should be a number: -62.1604 
+This should be a number: 87.2 
+This should be a number: 9.67833 
+This should be a number: -19.7448 
+This should be a number: 2.41619 
+This should be a number: -0.708546 
+This should be a number: 3.06217 
+This should be a number: -55.7386 
+This should be a number: 1.35329 
+This should be a number: 1.28857 
+This should be a number: 0.622387 
+This should be a number: -2.99495 
+This should be a number: -0.835226 
+
+Block No32 done!
+Updating file: bond_c5-c5.force
+Updating file: bond_c5-ca.force
+Updating file: bond_ca-ca.force
+Updating file: angle_c5-c5-c5.force
+Updating file: angle_c5-c5-ca.force
+Updating file: angle_c5-ca-ca.force
+Updating file: angle_ca-c5-ca.force
+Updating file: angle_ca-ca-ca.force
+Updating file: dihedral_c5-c5-c5-c5.force
+Updating file: dihedral_c5-c5-c5-ca.force
+Updating file: dihedral_c5-c5-ca-ca.force
+Updating file: dihedral_c5-ca-ca-c5.force
+Updating file: dihedral_c5-ca-ca-ca.force
+Updating file: dihedral_ca-c5-c5-ca.force
+Updating file: dihedral_ca-c5-ca-ca.force
+Updating file: dihedral_ca-ca-ca-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = inf
+#################################
+
+This should be a number: 8.75595e+198 
+This should be a number: 222.342 
+This should be a number: -244.893 
+This should be a number: 2.49416 
+This should be a number: -24.5511 
+This should be a number: 79.7646 
+This should be a number: -60.0559 
+This should be a number: 87.0656 
+This should be a number: 6.78165 
+This should be a number: -26.8728 
+This should be a number: 1.72421 
+This should be a number: -0.71792 
+This should be a number: 1.10172 
+This should be a number: -53.4122 
+This should be a number: -4.08862 
+This should be a number: 1.46032 
+This should be a number: 0.512907 
+This should be a number: -2.93276 
+This should be a number: -0.281146 
+
+Block No33 done!
+Updating file: bond_c5-c5.force
+Updating file: bond_c5-ca.force
+Updating file: bond_ca-ca.force
+Updating file: angle_c5-c5-c5.force
+Updating file: angle_c5-c5-ca.force
+Updating file: angle_c5-ca-ca.force
+Updating file: angle_ca-c5-ca.force
+Updating file: angle_ca-ca-ca.force
+Updating file: dihedral_c5-c5-c5-c5.force
+Updating file: dihedral_c5-c5-c5-ca.force
+Updating file: dihedral_c5-c5-ca-ca.force
+Updating file: dihedral_c5-ca-ca-c5.force
+Updating file: dihedral_c5-ca-ca-ca.force
+Updating file: dihedral_ca-c5-c5-ca.force
+Updating file: dihedral_ca-c5-ca-ca.force
+Updating file: dihedral_ca-ca-ca-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = inf
+#################################
+
+This should be a number: 1.60712e+201 
+This should be a number: 214.843 
+This should be a number: -243.765 
+This should be a number: 1.04275 
+This should be a number: -24.1318 
+This should be a number: 77.1008 
+This should be a number: -59.5975 
+This should be a number: 87.156 
+This should be a number: 9.66437 
+This should be a number: -17.2761 
+This should be a number: 2.05189 
+This should be a number: -0.826286 
+This should be a number: 2.30577 
+This should be a number: -53.4006 
+This should be a number: 1.56092 
+This should be a number: 0.811064 
+This should be a number: 1.10893 
+This should be a number: -2.86025 
+This should be a number: -0.340357 
+
+Block No34 done!
+Updating file: bond_c5-c5.force
+Updating file: bond_c5-ca.force
+Updating file: bond_ca-ca.force
+Updating file: angle_c5-c5-c5.force
+Updating file: angle_c5-c5-ca.force
+Updating file: angle_c5-ca-ca.force
+Updating file: angle_ca-c5-ca.force
+Updating file: angle_ca-ca-ca.force
+Updating file: dihedral_c5-c5-c5-c5.force
+Updating file: dihedral_c5-c5-c5-ca.force
+Updating file: dihedral_c5-c5-ca-ca.force
+Updating file: dihedral_c5-ca-ca-c5.force
+Updating file: dihedral_c5-ca-ca-ca.force
+Updating file: dihedral_ca-c5-c5-ca.force
+Updating file: dihedral_ca-c5-ca-ca.force
+Updating file: dihedral_ca-ca-ca-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = inf
+#################################
+
+This should be a number: -1.28281e+201 
+This should be a number: 214.797 
+This should be a number: -238.004 
+This should be a number: 2.39095 
+This should be a number: -24.0912 
+This should be a number: 78.6423 
+This should be a number: -61.6028 
+This should be a number: 86.1249 
+This should be a number: 10.2906 
+This should be a number: -22.0151 
+This should be a number: -0.907454 
+This should be a number: -0.314231 
+This should be a number: 1.38938 
+This should be a number: -62.1686 
+This should be a number: -2.84462 
+This should be a number: 1.73089 
+This should be a number: 0.891857 
+This should be a number: -2.80332 
+This should be a number: -0.658603 
+
+Block No35 done!
+Updating file: bond_c5-c5.force
+Updating file: bond_c5-ca.force
+Updating file: bond_ca-ca.force
+Updating file: angle_c5-c5-c5.force
+Updating file: angle_c5-c5-ca.force
+Updating file: angle_c5-ca-ca.force
+Updating file: angle_ca-c5-ca.force
+Updating file: angle_ca-ca-ca.force
+Updating file: dihedral_c5-c5-c5-c5.force
+Updating file: dihedral_c5-c5-c5-ca.force
+Updating file: dihedral_c5-c5-ca-ca.force
+Updating file: dihedral_c5-ca-ca-c5.force
+Updating file: dihedral_c5-ca-ca-ca.force
+Updating file: dihedral_ca-c5-c5-ca.force
+Updating file: dihedral_ca-c5-ca-ca.force
+Updating file: dihedral_ca-ca-ca-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = inf
+#################################
+
+This should be a number: -2.37945e+202 
+This should be a number: 219.39 
+This should be a number: -248.845 
+This should be a number: 1.17114 
+This should be a number: -24.6972 
+This should be a number: 78.0969 
+This should be a number: -62.3978 
+This should be a number: 89.2429 
+This should be a number: 11.8915 
+This should be a number: -45.666 
+This should be a number: 11.6097 
+This should be a number: -0.596606 
+This should be a number: 2.0016 
+This should be a number: -33.0208 
+This should be a number: -1.08186 
+This should be a number: 0.978508 
+This should be a number: 0.942035 
+This should be a number: -2.88136 
+This should be a number: 0.0980131 
+
+Block No36 done!
+Updating file: bond_c5-c5.force
+Updating file: bond_c5-ca.force
+Updating file: bond_ca-ca.force
+Updating file: angle_c5-c5-c5.force
+Updating file: angle_c5-c5-ca.force
+Updating file: angle_c5-ca-ca.force
+Updating file: angle_ca-c5-ca.force
+Updating file: angle_ca-ca-ca.force
+Updating file: dihedral_c5-c5-c5-c5.force
+Updating file: dihedral_c5-c5-c5-ca.force
+Updating file: dihedral_c5-c5-ca-ca.force
+Updating file: dihedral_c5-ca-ca-c5.force
+Updating file: dihedral_c5-ca-ca-ca.force
+Updating file: dihedral_ca-c5-c5-ca.force
+Updating file: dihedral_ca-c5-ca-ca.force
+Updating file: dihedral_ca-ca-ca-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = -nan
+#################################
+
+This should be a number: -nan 
+This should be a number: -nan 
+This should be a number: -nan 
+This should be a number: -nan 
+This should be a number: -nan 
+This should be a number: -nan 
+This should be a number: -nan 
+This should be a number: -nan 
+This should be a number: -nan 
+This should be a number: -nan 
+This should be a number: -nan 
+This should be a number: -nan 
+This should be a number: -nan 
+This should be a number: -nan 
+This should be a number: -nan 
+This should be a number: -nan 
+This should be a number: -nan 
+This should be a number: -nan 
+This should be a number: -nan 
+
+Block No37 done!
+Updating file: bond_c5-c5.force
+Updating file: bond_c5-ca.force
+Updating file: bond_ca-ca.force
+Updating file: angle_c5-c5-c5.force
+Updating file: angle_c5-c5-ca.force
+Updating file: angle_c5-ca-ca.force
+Updating file: angle_ca-c5-ca.force
+Updating file: angle_ca-ca-ca.force
+Updating file: dihedral_c5-c5-c5-c5.force
+Updating file: dihedral_c5-c5-c5-ca.force
+Updating file: dihedral_c5-c5-ca-ca.force
+Updating file: dihedral_c5-ca-ca-c5.force
+Updating file: dihedral_c5-ca-ca-ca.force
+Updating file: dihedral_ca-c5-c5-ca.force
+Updating file: dihedral_ca-c5-ca-ca.force
+Updating file: dihedral_ca-ca-ca-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = inf
+#################################
+
+This should be a number: 6.9218e+200 
+This should be a number: 222.354 
+This should be a number: -239.529 
+This should be a number: 1.02554 
+This should be a number: -23.3599 
+This should be a number: 80.5492 
+This should be a number: -62.1002 
+This should be a number: 85.8145 
+This should be a number: 12.3538 
+This should be a number: -14.3797 
+This should be a number: 0.341926 
+This should be a number: -1.23925 
+This should be a number: 2.01347 
+This should be a number: -54.5357 
+This should be a number: 0.82161 
+This should be a number: 0.540677 
+This should be a number: 0.666039 
+This should be a number: -2.27606 
+This should be a number: -0.215497 
+
+Block No38 done!
+Updating file: bond_c5-c5.force
+Updating file: bond_c5-ca.force
+Updating file: bond_ca-ca.force
+Updating file: angle_c5-c5-c5.force
+Updating file: angle_c5-c5-ca.force
+Updating file: angle_c5-ca-ca.force
+Updating file: angle_ca-c5-ca.force
+Updating file: angle_ca-ca-ca.force
+Updating file: dihedral_c5-c5-c5-c5.force
+Updating file: dihedral_c5-c5-c5-ca.force
+Updating file: dihedral_c5-c5-ca-ca.force
+Updating file: dihedral_c5-ca-ca-c5.force
+Updating file: dihedral_c5-ca-ca-ca.force
+Updating file: dihedral_ca-c5-c5-ca.force
+Updating file: dihedral_ca-c5-ca-ca.force
+Updating file: dihedral_ca-ca-ca-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = inf
+#################################
+
+This should be a number: 3.78305e+198 
+This should be a number: 218.756 
+This should be a number: -239.476 
+This should be a number: 1.83131 
+This should be a number: -24.9835 
+This should be a number: 79.5363 
+This should be a number: -61.1364 
+This should be a number: 86.6889 
+This should be a number: 9.56925 
+This should be a number: -40.4613 
+This should be a number: 0.751179 
+This should be a number: 1.44957 
+This should be a number: 0.861258 
+This should be a number: -49.1084 
+This should be a number: -3.20744 
+This should be a number: 0.428844 
+This should be a number: 1.06081 
+This should be a number: -2.13467 
+This should be a number: -0.247513 
+
+Block No39 done!
+Updating file: bond_c5-c5.force
+Updating file: bond_c5-ca.force
+Updating file: bond_ca-ca.force
+Updating file: angle_c5-c5-c5.force
+Updating file: angle_c5-c5-ca.force
+Updating file: angle_c5-ca-ca.force
+Updating file: angle_ca-c5-ca.force
+Updating file: angle_ca-ca-ca.force
+Updating file: dihedral_c5-c5-c5-c5.force
+Updating file: dihedral_c5-c5-c5-ca.force
+Updating file: dihedral_c5-c5-ca-ca.force
+Updating file: dihedral_c5-ca-ca-c5.force
+Updating file: dihedral_c5-ca-ca-ca.force
+Updating file: dihedral_ca-c5-c5-ca.force
+Updating file: dihedral_ca-c5-ca-ca.force
+Updating file: dihedral_ca-ca-ca-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = inf
+#################################
+
+This should be a number: -1.26044e+201 
+This should be a number: 215.574 
+This should be a number: -238.683 
+This should be a number: 2.17905 
+This should be a number: -24.1265 
+This should be a number: 77.8111 
+This should be a number: -60.7679 
+This should be a number: 86.9079 
+This should be a number: 6.87382 
+This should be a number: -22.143 
+This should be a number: 3.20939 
+This should be a number: -0.657106 
+This should be a number: 1.92993 
+This should be a number: -55.599 
+This should be a number: -0.0687778 
+This should be a number: 1.02465 
+This should be a number: 0.624487 
+This should be a number: -1.97757 
+This should be a number: -0.513967 
+
+Block No40 done!
+Updating file: bond_c5-c5.force
+Updating file: bond_c5-ca.force
+Updating file: bond_ca-ca.force
+Updating file: angle_c5-c5-c5.force
+Updating file: angle_c5-c5-ca.force
+Updating file: angle_c5-ca-ca.force
+Updating file: angle_ca-c5-ca.force
+Updating file: angle_ca-ca-ca.force
+Updating file: dihedral_c5-c5-c5-c5.force
+Updating file: dihedral_c5-c5-c5-ca.force
+Updating file: dihedral_c5-c5-ca-ca.force
+Updating file: dihedral_c5-ca-ca-c5.force
+Updating file: dihedral_c5-ca-ca-ca.force
+Updating file: dihedral_ca-c5-c5-ca.force
+Updating file: dihedral_ca-c5-ca-ca.force
+Updating file: dihedral_ca-ca-ca-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+Reading frame   14000 time 14000.000   
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = inf
+#################################
+
+This should be a number: 2.4304e+200 
+This should be a number: 225.587 
+This should be a number: -244.265 
+This should be a number: 1.51174 
+This should be a number: -23.3583 
+This should be a number: 79.668 
+This should be a number: -58.7888 
+This should be a number: 86.509 
+This should be a number: 6.08351 
+This should be a number: -28.5059 
+This should be a number: 0.84619 
+This should be a number: -0.29494 
+This should be a number: 1.08669 
+This should be a number: -46.8144 
+This should be a number: -2.01806 
+This should be a number: 0.381753 
+This should be a number: 0.732026 
+This should be a number: -2.15791 
+This should be a number: -0.204492 
+
+Block No41 done!
+Updating file: bond_c5-c5.force
+Updating file: bond_c5-ca.force
+Updating file: bond_ca-ca.force
+Updating file: angle_c5-c5-c5.force
+Updating file: angle_c5-c5-ca.force
+Updating file: angle_c5-ca-ca.force
+Updating file: angle_ca-c5-ca.force
+Updating file: angle_ca-ca-ca.force
+Updating file: dihedral_c5-c5-c5-c5.force
+Updating file: dihedral_c5-c5-c5-ca.force
+Updating file: dihedral_c5-c5-ca-ca.force
+Updating file: dihedral_c5-ca-ca-c5.force
+Updating file: dihedral_c5-ca-ca-ca.force
+Updating file: dihedral_ca-c5-c5-ca.force
+Updating file: dihedral_ca-c5-ca-ca.force
+Updating file: dihedral_ca-ca-ca-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = inf
+#################################
+
+This should be a number: -4.71985e+200 
+This should be a number: 213.703 
+This should be a number: -250.847 
+This should be a number: 2.53193 
+This should be a number: -24.0341 
+This should be a number: 80.0488 
+This should be a number: -61.6262 
+This should be a number: 87.31 
+This should be a number: 7.53272 
+This should be a number: -13.2944 
+This should be a number: 1.07864 
+This should be a number: 0.638946 
+This should be a number: 1.65151 
+This should be a number: -54.4888 
+This should be a number: -0.704218 
+This should be a number: 1.49788 
+This should be a number: 1.52077 
+This should be a number: -2.05072 
+This should be a number: 0.258139 
+
+Block No42 done!
+Updating file: bond_c5-c5.force
+Updating file: bond_c5-ca.force
+Updating file: bond_ca-ca.force
+Updating file: angle_c5-c5-c5.force
+Updating file: angle_c5-c5-ca.force
+Updating file: angle_c5-ca-ca.force
+Updating file: angle_ca-c5-ca.force
+Updating file: angle_ca-ca-ca.force
+Updating file: dihedral_c5-c5-c5-c5.force
+Updating file: dihedral_c5-c5-c5-ca.force
+Updating file: dihedral_c5-c5-ca-ca.force
+Updating file: dihedral_c5-ca-ca-c5.force
+Updating file: dihedral_c5-ca-ca-ca.force
+Updating file: dihedral_ca-c5-c5-ca.force
+Updating file: dihedral_ca-c5-ca-ca.force
+Updating file: dihedral_ca-ca-ca-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = inf
+#################################
+
+This should be a number: -7.28115e+201 
+This should be a number: 216.931 
+This should be a number: -249.752 
+This should be a number: 2.57679 
+This should be a number: -22.2746 
+This should be a number: 80.5311 
+This should be a number: -60.9419 
+This should be a number: 87.8615 
+This should be a number: 9.74767 
+This should be a number: -18.8496 
+This should be a number: 3.60249 
+This should be a number: -0.515896 
+This should be a number: 1.28151 
+This should be a number: -51.2089 
+This should be a number: -2.05246 
+This should be a number: 1.31352 
+This should be a number: 0.725032 
+This should be a number: -2.56197 
+This should be a number: -0.279003 
+
+Block No43 done!
+Updating file: bond_c5-c5.force
+Updating file: bond_c5-ca.force
+Updating file: bond_ca-ca.force
+Updating file: angle_c5-c5-c5.force
+Updating file: angle_c5-c5-ca.force
+Updating file: angle_c5-ca-ca.force
+Updating file: angle_ca-c5-ca.force
+Updating file: angle_ca-ca-ca.force
+Updating file: dihedral_c5-c5-c5-c5.force
+Updating file: dihedral_c5-c5-c5-ca.force
+Updating file: dihedral_c5-c5-ca-ca.force
+Updating file: dihedral_c5-ca-ca-c5.force
+Updating file: dihedral_c5-ca-ca-ca.force
+Updating file: dihedral_ca-c5-c5-ca.force
+Updating file: dihedral_ca-c5-ca-ca.force
+Updating file: dihedral_ca-ca-ca-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = inf
+#################################
+
+This should be a number: 1.4119e+199 
+This should be a number: 211.666 
+This should be a number: -238.337 
+This should be a number: 2.91889 
+This should be a number: -23.2099 
+This should be a number: 78.7161 
+This should be a number: -60.4381 
+This should be a number: 89.0958 
+This should be a number: 10.9962 
+This should be a number: -31.2241 
+This should be a number: -0.870653 
+This should be a number: -0.726067 
+This should be a number: 3.15533 
+This should be a number: -56.0119 
+This should be a number: 1.07788 
+This should be a number: 1.39325 
+This should be a number: 1.20125 
+This should be a number: -2.69598 
+This should be a number: -0.401244 
+
+Block No44 done!
+Updating file: bond_c5-c5.force
+Updating file: bond_c5-ca.force
+Updating file: bond_ca-ca.force
+Updating file: angle_c5-c5-c5.force
+Updating file: angle_c5-c5-ca.force
+Updating file: angle_c5-ca-ca.force
+Updating file: angle_ca-c5-ca.force
+Updating file: angle_ca-ca-ca.force
+Updating file: dihedral_c5-c5-c5-c5.force
+Updating file: dihedral_c5-c5-c5-ca.force
+Updating file: dihedral_c5-c5-ca-ca.force
+Updating file: dihedral_c5-ca-ca-c5.force
+Updating file: dihedral_c5-ca-ca-ca.force
+Updating file: dihedral_ca-c5-c5-ca.force
+Updating file: dihedral_ca-c5-ca-ca.force
+Updating file: dihedral_ca-ca-ca-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = inf
+#################################
+
+This should be a number: 1.10649e+200 
+This should be a number: 226.724 
+This should be a number: -242.809 
+This should be a number: 1.82149 
+This should be a number: -24.3604 
+This should be a number: 82.0781 
+This should be a number: -59.7375 
+This should be a number: 88.4877 
+This should be a number: 9.3819 
+This should be a number: -25.6667 
+This should be a number: 0.54194 
+This should be a number: -0.261283 
+This should be a number: 1.23073 
+This should be a number: -53.8947 
+This should be a number: -2.60602 
+This should be a number: 1.01896 
+This should be a number: 0.901188 
+This should be a number: -2.58909 
+This should be a number: -0.170756 
+
+Block No45 done!
+Updating file: bond_c5-c5.force
+Updating file: bond_c5-ca.force
+Updating file: bond_ca-ca.force
+Updating file: angle_c5-c5-c5.force
+Updating file: angle_c5-c5-ca.force
+Updating file: angle_c5-ca-ca.force
+Updating file: angle_ca-c5-ca.force
+Updating file: angle_ca-ca-ca.force
+Updating file: dihedral_c5-c5-c5-c5.force
+Updating file: dihedral_c5-c5-c5-ca.force
+Updating file: dihedral_c5-c5-ca-ca.force
+Updating file: dihedral_c5-ca-ca-c5.force
+Updating file: dihedral_c5-ca-ca-ca.force
+Updating file: dihedral_ca-c5-c5-ca.force
+Updating file: dihedral_ca-c5-ca-ca.force
+Updating file: dihedral_ca-ca-ca-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = inf
+#################################
+
+This should be a number: 7.50967e+203 
+This should be a number: 222.807 
+This should be a number: -252.206 
+This should be a number: 1.2796 
+This should be a number: -24.1801 
+This should be a number: 80.4396 
+This should be a number: -61.1379 
+This should be a number: 88.3605 
+This should be a number: 10.1292 
+This should be a number: -26.0726 
+This should be a number: 1.04951 
+This should be a number: -0.571278 
+This should be a number: 2.33241 
+This should be a number: -54.0893 
+This should be a number: 0.42761 
+This should be a number: 1.86025 
+This should be a number: 0.744619 
+This should be a number: -2.7679 
+This should be a number: -0.560789 
+
+Block No46 done!
+Updating file: bond_c5-c5.force
+Updating file: bond_c5-ca.force
+Updating file: bond_ca-ca.force
+Updating file: angle_c5-c5-c5.force
+Updating file: angle_c5-c5-ca.force
+Updating file: angle_c5-ca-ca.force
+Updating file: angle_ca-c5-ca.force
+Updating file: angle_ca-ca-ca.force
+Updating file: dihedral_c5-c5-c5-c5.force
+Updating file: dihedral_c5-c5-c5-ca.force
+Updating file: dihedral_c5-c5-ca-ca.force
+Updating file: dihedral_c5-ca-ca-c5.force
+Updating file: dihedral_c5-ca-ca-ca.force
+Updating file: dihedral_ca-c5-c5-ca.force
+Updating file: dihedral_ca-c5-ca-ca.force
+Updating file: dihedral_ca-ca-ca-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = inf
+#################################
+
+This should be a number: 1.02554e+202 
+This should be a number: 210.941 
+This should be a number: -238.237 
+This should be a number: 2.52144 
+This should be a number: -24.3348 
+This should be a number: 78.92 
+This should be a number: -60.8342 
+This should be a number: 89.4981 
+This should be a number: 8.12728 
+This should be a number: -29.2816 
+This should be a number: 5.57905 
+This should be a number: -2.10394 
+This should be a number: 1.46404 
+This should be a number: -43.8761 
+This should be a number: -1.82083 
+This should be a number: 1.54309 
+This should be a number: 0.96993 
+This should be a number: -3.0425 
+This should be a number: -0.44366 
+
+Block No47 done!
+Updating file: bond_c5-c5.force
+Updating file: bond_c5-ca.force
+Updating file: bond_ca-ca.force
+Updating file: angle_c5-c5-c5.force
+Updating file: angle_c5-c5-ca.force
+Updating file: angle_c5-ca-ca.force
+Updating file: angle_ca-c5-ca.force
+Updating file: angle_ca-ca-ca.force
+Updating file: dihedral_c5-c5-c5-c5.force
+Updating file: dihedral_c5-c5-c5-ca.force
+Updating file: dihedral_c5-c5-ca-ca.force
+Updating file: dihedral_c5-ca-ca-c5.force
+Updating file: dihedral_c5-ca-ca-ca.force
+Updating file: dihedral_ca-c5-c5-ca.force
+Updating file: dihedral_ca-c5-ca-ca.force
+Updating file: dihedral_ca-ca-ca-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = inf
+#################################
+
+This should be a number: 1.93488e+203 
+This should be a number: 214.029 
+This should be a number: -241.838 
+This should be a number: 1.52123 
+This should be a number: -24.4838 
+This should be a number: 80.1542 
+This should be a number: -61.1195 
+This should be a number: 87.3898 
+This should be a number: 8.42133 
+This should be a number: -30.8155 
+This should be a number: 7.67561 
+This should be a number: 0.113206 
+This should be a number: 0.315516 
+This should be a number: -39.9575 
+This should be a number: -6.01318 
+This should be a number: 1.35867 
+This should be a number: 0.69841 
+This should be a number: -3.04963 
+This should be a number: -0.447922 
+
+Block No48 done!
+Updating file: bond_c5-c5.force
+Updating file: bond_c5-ca.force
+Updating file: bond_ca-ca.force
+Updating file: angle_c5-c5-c5.force
+Updating file: angle_c5-c5-ca.force
+Updating file: angle_c5-ca-ca.force
+Updating file: angle_ca-c5-ca.force
+Updating file: angle_ca-ca-ca.force
+Updating file: dihedral_c5-c5-c5-c5.force
+Updating file: dihedral_c5-c5-c5-ca.force
+Updating file: dihedral_c5-c5-ca-ca.force
+Updating file: dihedral_c5-ca-ca-c5.force
+Updating file: dihedral_c5-ca-ca-ca.force
+Updating file: dihedral_ca-c5-c5-ca.force
+Updating file: dihedral_ca-c5-ca-ca.force
+Updating file: dihedral_ca-ca-ca-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = inf
+#################################
+
+This should be a number: -9.52841e+201 
+This should be a number: 223.157 
+This should be a number: -244.122 
+This should be a number: 2.44348 
+This should be a number: -22.9091 
+This should be a number: 80.4355 
+This should be a number: -57.6201 
+This should be a number: 89.1772 
+This should be a number: 7.05679 
+This should be a number: -27.3485 
+This should be a number: 6.63871 
+This should be a number: -0.730527 
+This should be a number: 0.5564 
+This should be a number: -46.8583 
+This should be a number: -5.68839 
+This should be a number: 1.81669 
+This should be a number: 0.727594 
+This should be a number: -3.02189 
+This should be a number: -0.372728 
+
+Block No49 done!
+Updating file: bond_c5-c5.force
+Updating file: bond_c5-ca.force
+Updating file: bond_ca-ca.force
+Updating file: angle_c5-c5-c5.force
+Updating file: angle_c5-c5-ca.force
+Updating file: angle_c5-ca-ca.force
+Updating file: angle_ca-c5-ca.force
+Updating file: angle_ca-ca-ca.force
+Updating file: dihedral_c5-c5-c5-c5.force
+Updating file: dihedral_c5-c5-c5-ca.force
+Updating file: dihedral_c5-c5-ca-ca.force
+Updating file: dihedral_c5-ca-ca-c5.force
+Updating file: dihedral_c5-ca-ca-ca.force
+Updating file: dihedral_ca-c5-c5-ca.force
+Updating file: dihedral_ca-c5-ca-ca.force
+Updating file: dihedral_ca-ca-ca-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = inf
+#################################
+
+This should be a number: 3.74255e+199 
+This should be a number: 220.429 
+This should be a number: -250.664 
+This should be a number: 1.39023 
+This should be a number: -24.6389 
+This should be a number: 79.4995 
+This should be a number: -60.1299 
+This should be a number: 87.363 
+This should be a number: 9.72188 
+This should be a number: 14.264 
+This should be a number: 5.98501 
+This should be a number: -0.927306 
+This should be a number: 1.19755 
+This should be a number: -45.3609 
+This should be a number: -3.42299 
+This should be a number: 1.49793 
+This should be a number: 0.981255 
+This should be a number: -2.75348 
+This should be a number: -0.46693 
+
+Block No50 done!
+Updating file: bond_c5-c5.force
+Updating file: bond_c5-ca.force
+Updating file: bond_ca-ca.force
+Updating file: angle_c5-c5-c5.force
+Updating file: angle_c5-c5-ca.force
+Updating file: angle_c5-ca-ca.force
+Updating file: angle_ca-c5-ca.force
+Updating file: angle_ca-ca-ca.force
+Updating file: dihedral_c5-c5-c5-c5.force
+Updating file: dihedral_c5-c5-c5-ca.force
+Updating file: dihedral_c5-c5-ca-ca.force
+Updating file: dihedral_c5-ca-ca-c5.force
+Updating file: dihedral_c5-ca-ca-ca.force
+Updating file: dihedral_ca-c5-c5-ca.force
+Updating file: dihedral_ca-c5-ca-ca.force
+Updating file: dihedral_ca-ca-ca-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+Reading frame   15000 time 15000.000   
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = inf
+#################################
+
+This should be a number: 3.5083e+200 
+This should be a number: 226.888 
+This should be a number: -249.544 
+This should be a number: 1.02968 
+This should be a number: -24.8813 
+This should be a number: 79.6523 
+This should be a number: -63.0373 
+This should be a number: 88.0679 
+This should be a number: 8.03712 
+This should be a number: -20.1699 
+This should be a number: -0.583725 
+This should be a number: -0.898155 
+This should be a number: 1.4776 
+This should be a number: -55.6012 
+This should be a number: -2.18328 
+This should be a number: 1.74648 
+This should be a number: 0.640585 
+This should be a number: -2.91124 
+This should be a number: -0.572723 
+
+Block No51 done!
+Updating file: bond_c5-c5.force
+Updating file: bond_c5-ca.force
+Updating file: bond_ca-ca.force
+Updating file: angle_c5-c5-c5.force
+Updating file: angle_c5-c5-ca.force
+Updating file: angle_c5-ca-ca.force
+Updating file: angle_ca-c5-ca.force
+Updating file: angle_ca-ca-ca.force
+Updating file: dihedral_c5-c5-c5-c5.force
+Updating file: dihedral_c5-c5-c5-ca.force
+Updating file: dihedral_c5-c5-ca-ca.force
+Updating file: dihedral_c5-ca-ca-c5.force
+Updating file: dihedral_c5-ca-ca-ca.force
+Updating file: dihedral_ca-c5-c5-ca.force
+Updating file: dihedral_ca-c5-ca-ca.force
+Updating file: dihedral_ca-ca-ca-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = inf
+#################################
+
+This should be a number: -2.1691e+202 
+This should be a number: 221.225 
+This should be a number: -248.004 
+This should be a number: 2.68796 
+This should be a number: -24.3715 
+This should be a number: 79.4742 
+This should be a number: -59.1677 
+This should be a number: 87.6616 
+This should be a number: 4.96457 
+This should be a number: -27.7768 
+This should be a number: 7.19937 
+This should be a number: 0.328336 
+This should be a number: 3.19861 
+This should be a number: -42.8792 
+This should be a number: 1.67575 
+This should be a number: 1.07945 
+This should be a number: 0.541128 
+This should be a number: -3.17528 
+This should be a number: -0.287408 
+
+Block No52 done!
+Updating file: bond_c5-c5.force
+Updating file: bond_c5-ca.force
+Updating file: bond_ca-ca.force
+Updating file: angle_c5-c5-c5.force
+Updating file: angle_c5-c5-ca.force
+Updating file: angle_c5-ca-ca.force
+Updating file: angle_ca-c5-ca.force
+Updating file: angle_ca-ca-ca.force
+Updating file: dihedral_c5-c5-c5-c5.force
+Updating file: dihedral_c5-c5-c5-ca.force
+Updating file: dihedral_c5-c5-ca-ca.force
+Updating file: dihedral_c5-ca-ca-c5.force
+Updating file: dihedral_c5-ca-ca-ca.force
+Updating file: dihedral_ca-c5-c5-ca.force
+Updating file: dihedral_ca-c5-ca-ca.force
+Updating file: dihedral_ca-ca-ca-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = inf
+#################################
+
+This should be a number: 1.03154e+202 
+This should be a number: 214.044 
+This should be a number: -237.014 
+This should be a number: 1.27663 
+This should be a number: -22.8539 
+This should be a number: 78.6161 
+This should be a number: -60.7119 
+This should be a number: 86.6594 
+This should be a number: 5.15979 
+This should be a number: -44.589 
+This should be a number: -0.174678 
+This should be a number: -0.900196 
+This should be a number: 2.27147 
+This should be a number: -58.0697 
+This should be a number: -1.12778 
+This should be a number: 1.37201 
+This should be a number: 0.723043 
+This should be a number: -2.73199 
+This should be a number: 0.0103 
+
+Block No53 done!
+Updating file: bond_c5-c5.force
+Updating file: bond_c5-ca.force
+Updating file: bond_ca-ca.force
+Updating file: angle_c5-c5-c5.force
+Updating file: angle_c5-c5-ca.force
+Updating file: angle_c5-ca-ca.force
+Updating file: angle_ca-c5-ca.force
+Updating file: angle_ca-ca-ca.force
+Updating file: dihedral_c5-c5-c5-c5.force
+Updating file: dihedral_c5-c5-c5-ca.force
+Updating file: dihedral_c5-c5-ca-ca.force
+Updating file: dihedral_c5-ca-ca-c5.force
+Updating file: dihedral_c5-ca-ca-ca.force
+Updating file: dihedral_ca-c5-c5-ca.force
+Updating file: dihedral_ca-c5-ca-ca.force
+Updating file: dihedral_ca-ca-ca-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = inf
+#################################
+
+This should be a number: -6.67475e+200 
+This should be a number: 214.425 
+This should be a number: -242.585 
+This should be a number: 0.82869 
+This should be a number: -24.7368 
+This should be a number: 79.4026 
+This should be a number: -61.2695 
+This should be a number: 86.1219 
+This should be a number: 6.77467 
+This should be a number: -8.83708 
+This should be a number: -1.84505 
+This should be a number: -1.31663 
+This should be a number: 2.39515 
+This should be a number: -61.3494 
+This should be a number: 0.851982 
+This should be a number: 1.2269 
+This should be a number: 0.775933 
+This should be a number: -2.45668 
+This should be a number: 0.0775618 
+
+Block No54 done!
+Updating file: bond_c5-c5.force
+Updating file: bond_c5-ca.force
+Updating file: bond_ca-ca.force
+Updating file: angle_c5-c5-c5.force
+Updating file: angle_c5-c5-ca.force
+Updating file: angle_c5-ca-ca.force
+Updating file: angle_ca-c5-ca.force
+Updating file: angle_ca-ca-ca.force
+Updating file: dihedral_c5-c5-c5-c5.force
+Updating file: dihedral_c5-c5-c5-ca.force
+Updating file: dihedral_c5-c5-ca-ca.force
+Updating file: dihedral_c5-ca-ca-c5.force
+Updating file: dihedral_c5-ca-ca-ca.force
+Updating file: dihedral_ca-c5-c5-ca.force
+Updating file: dihedral_ca-c5-ca-ca.force
+Updating file: dihedral_ca-ca-ca-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = inf
+#################################
+
+This should be a number: -2.45637e+200 
+This should be a number: 227.973 
+This should be a number: -238.612 
+This should be a number: 1.98826 
+This should be a number: -24.7063 
+This should be a number: 78.5978 
+This should be a number: -59.605 
+This should be a number: 85.3901 
+This should be a number: -0.787832 
+This should be a number: -30.3141 
+This should be a number: 1.7693 
+This should be a number: 1.19432 
+This should be a number: 2.11259 
+This should be a number: -50.8326 
+This should be a number: -0.204982 
+This should be a number: 1.59361 
+This should be a number: 1.10812 
+This should be a number: -2.42936 
+This should be a number: 0.0676751 
+
+Block No55 done!
+Updating file: bond_c5-c5.force
+Updating file: bond_c5-ca.force
+Updating file: bond_ca-ca.force
+Updating file: angle_c5-c5-c5.force
+Updating file: angle_c5-c5-ca.force
+Updating file: angle_c5-ca-ca.force
+Updating file: angle_ca-c5-ca.force
+Updating file: angle_ca-ca-ca.force
+Updating file: dihedral_c5-c5-c5-c5.force
+Updating file: dihedral_c5-c5-c5-ca.force
+Updating file: dihedral_c5-c5-ca-ca.force
+Updating file: dihedral_c5-ca-ca-c5.force
+Updating file: dihedral_c5-ca-ca-ca.force
+Updating file: dihedral_ca-c5-c5-ca.force
+Updating file: dihedral_ca-c5-ca-ca.force
+Updating file: dihedral_ca-ca-ca-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = nan
+#################################
+
+This should be a number: nan 
+This should be a number: nan 
+This should be a number: nan 
+This should be a number: nan 
+This should be a number: nan 
+This should be a number: nan 
+This should be a number: nan 
+This should be a number: nan 
+This should be a number: nan 
+This should be a number: nan 
+This should be a number: nan 
+This should be a number: nan 
+This should be a number: nan 
+This should be a number: nan 
+This should be a number: nan 
+This should be a number: nan 
+This should be a number: nan 
+This should be a number: nan 
+This should be a number: nan 
+
+Block No56 done!
+Updating file: bond_c5-c5.force
+Updating file: bond_c5-ca.force
+Updating file: bond_ca-ca.force
+Updating file: angle_c5-c5-c5.force
+Updating file: angle_c5-c5-ca.force
+Updating file: angle_c5-ca-ca.force
+Updating file: angle_ca-c5-ca.force
+Updating file: angle_ca-ca-ca.force
+Updating file: dihedral_c5-c5-c5-c5.force
+Updating file: dihedral_c5-c5-c5-ca.force
+Updating file: dihedral_c5-c5-ca-ca.force
+Updating file: dihedral_c5-ca-ca-c5.force
+Updating file: dihedral_c5-ca-ca-ca.force
+Updating file: dihedral_ca-c5-c5-ca.force
+Updating file: dihedral_ca-c5-ca-ca.force
+Updating file: dihedral_ca-ca-ca-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = inf
+#################################
+
+This should be a number: -1.25996e+198 
+This should be a number: 207.051 
+This should be a number: -243.824 
+This should be a number: 2.67763 
+This should be a number: -23.9993 
+This should be a number: 77.8292 
+This should be a number: -59.5792 
+This should be a number: 85.7865 
+This should be a number: 1.82947 
+This should be a number: -41.8354 
+This should be a number: -5.44007 
+This should be a number: 0.033105 
+This should be a number: 0.20762 
+This should be a number: -64.2473 
+This should be a number: -5.76173 
+This should be a number: 1.86812 
+This should be a number: 0.671623 
+This should be a number: -2.72585 
+This should be a number: 0.298189 
+
+Block No57 done!
+Updating file: bond_c5-c5.force
+Updating file: bond_c5-ca.force
+Updating file: bond_ca-ca.force
+Updating file: angle_c5-c5-c5.force
+Updating file: angle_c5-c5-ca.force
+Updating file: angle_c5-ca-ca.force
+Updating file: angle_ca-c5-ca.force
+Updating file: angle_ca-ca-ca.force
+Updating file: dihedral_c5-c5-c5-c5.force
+Updating file: dihedral_c5-c5-c5-ca.force
+Updating file: dihedral_c5-c5-ca-ca.force
+Updating file: dihedral_c5-ca-ca-c5.force
+Updating file: dihedral_c5-ca-ca-ca.force
+Updating file: dihedral_ca-c5-c5-ca.force
+Updating file: dihedral_ca-c5-ca-ca.force
+Updating file: dihedral_ca-ca-ca-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = inf
+#################################
+
+This should be a number: -1.40843e+202 
+This should be a number: 214.852 
+This should be a number: -239.838 
+This should be a number: 3.00167 
+This should be a number: -23.4815 
+This should be a number: 78.5275 
+This should be a number: -59.2793 
+This should be a number: 87.1533 
+This should be a number: 7.43161 
+This should be a number: -44.3234 
+This should be a number: 5.93611 
+This should be a number: -0.919581 
+This should be a number: 2.1126 
+This should be a number: -39.8657 
+This should be a number: 0.283677 
+This should be a number: 1.48189 
+This should be a number: 0.421579 
+This should be a number: -2.04302 
+This should be a number: -0.100038 
+
+Block No58 done!
+Updating file: bond_c5-c5.force
+Updating file: bond_c5-ca.force
+Updating file: bond_ca-ca.force
+Updating file: angle_c5-c5-c5.force
+Updating file: angle_c5-c5-ca.force
+Updating file: angle_c5-ca-ca.force
+Updating file: angle_ca-c5-ca.force
+Updating file: angle_ca-ca-ca.force
+Updating file: dihedral_c5-c5-c5-c5.force
+Updating file: dihedral_c5-c5-c5-ca.force
+Updating file: dihedral_c5-c5-ca-ca.force
+Updating file: dihedral_c5-ca-ca-c5.force
+Updating file: dihedral_c5-ca-ca-ca.force
+Updating file: dihedral_ca-c5-c5-ca.force
+Updating file: dihedral_ca-c5-ca-ca.force
+Updating file: dihedral_ca-ca-ca-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = inf
+#################################
+
+This should be a number: 9.2369e+196 
+This should be a number: 214.581 
+This should be a number: -238.377 
+This should be a number: 2.51227 
+This should be a number: -23.6298 
+This should be a number: 78.4094 
+This should be a number: -59.157 
+This should be a number: 84.9049 
+This should be a number: 11.0997 
+This should be a number: -30.4162 
+This should be a number: 6.68991 
+This should be a number: -0.0494017 
+This should be a number: 1.62174 
+This should be a number: -38.9422 
+This should be a number: -3.54616 
+This should be a number: 1.08116 
+This should be a number: 1.14646 
+This should be a number: -2.52049 
+This should be a number: 0.415472 
+
+Block No59 done!
+Updating file: bond_c5-c5.force
+Updating file: bond_c5-ca.force
+Updating file: bond_ca-ca.force
+Updating file: angle_c5-c5-c5.force
+Updating file: angle_c5-c5-ca.force
+Updating file: angle_c5-ca-ca.force
+Updating file: angle_ca-c5-ca.force
+Updating file: angle_ca-ca-ca.force
+Updating file: dihedral_c5-c5-c5-c5.force
+Updating file: dihedral_c5-c5-c5-ca.force
+Updating file: dihedral_c5-c5-ca-ca.force
+Updating file: dihedral_c5-ca-ca-c5.force
+Updating file: dihedral_c5-ca-ca-ca.force
+Updating file: dihedral_ca-c5-c5-ca.force
+Updating file: dihedral_ca-c5-ca-ca.force
+Updating file: dihedral_ca-ca-ca-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = inf
+#################################
+
+This should be a number: -5.83815e+200 
+This should be a number: 217.924 
+This should be a number: -243.811 
+This should be a number: 1.74817 
+This should be a number: -24.657 
+This should be a number: 81.4132 
+This should be a number: -60.2952 
+This should be a number: 87.5586 
+This should be a number: 12.2506 
+This should be a number: -15.1098 
+This should be a number: 3.61574 
+This should be a number: -0.863894 
+This should be a number: 2.43028 
+This should be a number: -45.6798 
+This should be a number: 0.485588 
+This should be a number: 1.27373 
+This should be a number: 1.1494 
+This should be a number: -2.19175 
+This should be a number: -0.207685 
+
+Block No60 done!
+Updating file: bond_c5-c5.force
+Updating file: bond_c5-ca.force
+Updating file: bond_ca-ca.force
+Updating file: angle_c5-c5-c5.force
+Updating file: angle_c5-c5-ca.force
+Updating file: angle_c5-ca-ca.force
+Updating file: angle_ca-c5-ca.force
+Updating file: angle_ca-ca-ca.force
+Updating file: dihedral_c5-c5-c5-c5.force
+Updating file: dihedral_c5-c5-c5-ca.force
+Updating file: dihedral_c5-c5-ca-ca.force
+Updating file: dihedral_c5-ca-ca-c5.force
+Updating file: dihedral_c5-ca-ca-ca.force
+Updating file: dihedral_ca-c5-c5-ca.force
+Updating file: dihedral_ca-c5-ca-ca.force
+Updating file: dihedral_ca-ca-ca-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+Reading frame   16000 time 16000.000   
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = inf
+#################################
+
+This should be a number: -9.92641e+201 
+This should be a number: 221.044 
+This should be a number: -236.892 
+This should be a number: 2.82566 
+This should be a number: -23.8935 
+This should be a number: 78.2523 
+This should be a number: -57.8594 
+This should be a number: 87.133 
+This should be a number: 10.5747 
+This should be a number: -13.1202 
+This should be a number: 2.47397 
+This should be a number: -0.597382 
+This should be a number: 1.56961 
+This should be a number: -52.3641 
+This should be a number: -1.81426 
+This should be a number: 0.771769 
+This should be a number: 1.21594 
+This should be a number: -1.89867 
+This should be a number: 0.0190892 
+
+Block No61 done!
+Updating file: bond_c5-c5.force
+Updating file: bond_c5-ca.force
+Updating file: bond_ca-ca.force
+Updating file: angle_c5-c5-c5.force
+Updating file: angle_c5-c5-ca.force
+Updating file: angle_c5-ca-ca.force
+Updating file: angle_ca-c5-ca.force
+Updating file: angle_ca-ca-ca.force
+Updating file: dihedral_c5-c5-c5-c5.force
+Updating file: dihedral_c5-c5-c5-ca.force
+Updating file: dihedral_c5-c5-ca-ca.force
+Updating file: dihedral_c5-ca-ca-c5.force
+Updating file: dihedral_c5-ca-ca-ca.force
+Updating file: dihedral_ca-c5-c5-ca.force
+Updating file: dihedral_ca-c5-ca-ca.force
+Updating file: dihedral_ca-ca-ca-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = inf
+#################################
+
+This should be a number: 1.72147e+202 
+This should be a number: 221.206 
+This should be a number: -237.733 
+This should be a number: 3.33431 
+This should be a number: -24.8058 
+This should be a number: 79.2471 
+This should be a number: -58.9138 
+This should be a number: 86.003 
+This should be a number: 12.7328 
+This should be a number: -9.94163 
+This should be a number: 5.12243 
+This should be a number: -0.743988 
+This should be a number: 1.00022 
+This should be a number: -40.9269 
+This should be a number: -2.38765 
+This should be a number: 1.05376 
+This should be a number: 0.815989 
+This should be a number: -2.19068 
+This should be a number: -0.0564008 
+
+Block No62 done!
+Updating file: bond_c5-c5.force
+Updating file: bond_c5-ca.force
+Updating file: bond_ca-ca.force
+Updating file: angle_c5-c5-c5.force
+Updating file: angle_c5-c5-ca.force
+Updating file: angle_c5-ca-ca.force
+Updating file: angle_ca-c5-ca.force
+Updating file: angle_ca-ca-ca.force
+Updating file: dihedral_c5-c5-c5-c5.force
+Updating file: dihedral_c5-c5-c5-ca.force
+Updating file: dihedral_c5-c5-ca-ca.force
+Updating file: dihedral_c5-ca-ca-c5.force
+Updating file: dihedral_c5-ca-ca-ca.force
+Updating file: dihedral_ca-c5-c5-ca.force
+Updating file: dihedral_ca-c5-ca-ca.force
+Updating file: dihedral_ca-ca-ca-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = inf
+#################################
+
+This should be a number: 1.49925e+202 
+This should be a number: 214.81 
+This should be a number: -250.745 
+This should be a number: 3.56447 
+This should be a number: -23.3234 
+This should be a number: 78.7706 
+This should be a number: -61.3264 
+This should be a number: 85.8685 
+This should be a number: 12.1109 
+This should be a number: -20.292 
+This should be a number: -2.50512 
+This should be a number: -0.429309 
+This should be a number: 0.0907869 
+This should be a number: -62.232 
+This should be a number: -6.07444 
+This should be a number: 1.15082 
+This should be a number: 0.834258 
+This should be a number: -2.49719 
+This should be a number: 0.836378 
+
+Block No63 done!
+Updating file: bond_c5-c5.force
+Updating file: bond_c5-ca.force
+Updating file: bond_ca-ca.force
+Updating file: angle_c5-c5-c5.force
+Updating file: angle_c5-c5-ca.force
+Updating file: angle_c5-ca-ca.force
+Updating file: angle_ca-c5-ca.force
+Updating file: angle_ca-ca-ca.force
+Updating file: dihedral_c5-c5-c5-c5.force
+Updating file: dihedral_c5-c5-c5-ca.force
+Updating file: dihedral_c5-c5-ca-ca.force
+Updating file: dihedral_c5-ca-ca-c5.force
+Updating file: dihedral_c5-ca-ca-ca.force
+Updating file: dihedral_ca-c5-c5-ca.force
+Updating file: dihedral_ca-c5-ca-ca.force
+Updating file: dihedral_ca-ca-ca-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = inf
+#################################
+
+This should be a number: 1.2917e+202 
+This should be a number: 211.216 
+This should be a number: -245.08 
+This should be a number: 3.45177 
+This should be a number: -23.2709 
+This should be a number: 78.1283 
+This should be a number: -58.5549 
+This should be a number: 87.1433 
+This should be a number: 7.97347 
+This should be a number: -33.421 
+This should be a number: 5.48778 
+This should be a number: -0.259479 
+This should be a number: 0.877415 
+This should be a number: -43.2314 
+This should be a number: -4.19635 
+This should be a number: 1.77722 
+This should be a number: 1.17961 
+This should be a number: -2.58968 
+This should be a number: 1.05418 
+
+Block No64 done!
+Updating file: bond_c5-c5.force
+Updating file: bond_c5-ca.force
+Updating file: bond_ca-ca.force
+Updating file: angle_c5-c5-c5.force
+Updating file: angle_c5-c5-ca.force
+Updating file: angle_c5-ca-ca.force
+Updating file: angle_ca-c5-ca.force
+Updating file: angle_ca-ca-ca.force
+Updating file: dihedral_c5-c5-c5-c5.force
+Updating file: dihedral_c5-c5-c5-ca.force
+Updating file: dihedral_c5-c5-ca-ca.force
+Updating file: dihedral_c5-ca-ca-c5.force
+Updating file: dihedral_c5-ca-ca-ca.force
+Updating file: dihedral_ca-c5-c5-ca.force
+Updating file: dihedral_ca-c5-ca-ca.force
+Updating file: dihedral_ca-ca-ca-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = inf
+#################################
+
+This should be a number: 1.9059e+174 
+This should be a number: 213.618 
+This should be a number: -250.506 
+This should be a number: 3.96838 
+This should be a number: -23.3448 
+This should be a number: 78.3514 
+This should be a number: -58.3494 
+This should be a number: 88.754 
+This should be a number: 10.5752 
+This should be a number: -22.4066 
+This should be a number: -4.03512 
+This should be a number: -0.425221 
+This should be a number: 1.94971 
+This should be a number: -66.4044 
+This should be a number: -0.584073 
+This should be a number: 1.63823 
+This should be a number: 0.651361 
+This should be a number: -2.46976 
+This should be a number: -0.567163 
+
+Block No65 done!
+Updating file: bond_c5-c5.force
+Updating file: bond_c5-ca.force
+Updating file: bond_ca-ca.force
+Updating file: angle_c5-c5-c5.force
+Updating file: angle_c5-c5-ca.force
+Updating file: angle_c5-ca-ca.force
+Updating file: angle_ca-c5-ca.force
+Updating file: angle_ca-ca-ca.force
+Updating file: dihedral_c5-c5-c5-c5.force
+Updating file: dihedral_c5-c5-c5-ca.force
+Updating file: dihedral_c5-c5-ca-ca.force
+Updating file: dihedral_c5-ca-ca-c5.force
+Updating file: dihedral_c5-ca-ca-ca.force
+Updating file: dihedral_ca-c5-c5-ca.force
+Updating file: dihedral_ca-c5-ca-ca.force
+Updating file: dihedral_ca-ca-ca-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = inf
+#################################
+
+This should be a number: -3.02498e+197 
+This should be a number: 221.261 
+This should be a number: -241.248 
+This should be a number: 2.66331 
+This should be a number: -22.5312 
+This should be a number: 79.6638 
+This should be a number: -59.9074 
+This should be a number: 87.3936 
+This should be a number: 9.23871 
+This should be a number: -31.9258 
+This should be a number: 0.925464 
+This should be a number: -0.25157 
+This should be a number: 1.91387 
+This should be a number: -52.5197 
+This should be a number: -1.26131 
+This should be a number: 1.64197 
+This should be a number: 0.478497 
+This should be a number: -2.44033 
+This should be a number: -0.128806 
+
+Block No66 done!
+Updating file: bond_c5-c5.force
+Updating file: bond_c5-ca.force
+Updating file: bond_ca-ca.force
+Updating file: angle_c5-c5-c5.force
+Updating file: angle_c5-c5-ca.force
+Updating file: angle_c5-ca-ca.force
+Updating file: angle_ca-c5-ca.force
+Updating file: angle_ca-ca-ca.force
+Updating file: dihedral_c5-c5-c5-c5.force
+Updating file: dihedral_c5-c5-c5-ca.force
+Updating file: dihedral_c5-c5-ca-ca.force
+Updating file: dihedral_c5-ca-ca-c5.force
+Updating file: dihedral_c5-ca-ca-ca.force
+Updating file: dihedral_ca-c5-c5-ca.force
+Updating file: dihedral_ca-c5-ca-ca.force
+Updating file: dihedral_ca-ca-ca-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = inf
+#################################
+
+This should be a number: -8.80456e+200 
+This should be a number: 219.938 
+This should be a number: -232.515 
+This should be a number: 3.37752 
+This should be a number: -22.6066 
+This should be a number: 79.6556 
+This should be a number: -59.6621 
+This should be a number: 85.2339 
+This should be a number: 8.08494 
+This should be a number: -48.2337 
+This should be a number: -3.23198 
+This should be a number: -0.322021 
+This should be a number: 2.59281 
+This should be a number: -57.883 
+This should be a number: 1.0327 
+This should be a number: 0.869626 
+This should be a number: 0.902913 
+This should be a number: -2.02759 
+This should be a number: 0.313047 
+
+Block No67 done!
+Updating file: bond_c5-c5.force
+Updating file: bond_c5-ca.force
+Updating file: bond_ca-ca.force
+Updating file: angle_c5-c5-c5.force
+Updating file: angle_c5-c5-ca.force
+Updating file: angle_c5-ca-ca.force
+Updating file: angle_ca-c5-ca.force
+Updating file: angle_ca-ca-ca.force
+Updating file: dihedral_c5-c5-c5-c5.force
+Updating file: dihedral_c5-c5-c5-ca.force
+Updating file: dihedral_c5-c5-ca-ca.force
+Updating file: dihedral_c5-ca-ca-c5.force
+Updating file: dihedral_c5-ca-ca-ca.force
+Updating file: dihedral_ca-c5-c5-ca.force
+Updating file: dihedral_ca-c5-ca-ca.force
+Updating file: dihedral_ca-ca-ca-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = inf
+#################################
+
+This should be a number: -4.72848e+202 
+This should be a number: 218.077 
+This should be a number: -240.248 
+This should be a number: 2.49979 
+This should be a number: -23.4375 
+This should be a number: 79.7291 
+This should be a number: -59.2154 
+This should be a number: 87.2195 
+This should be a number: 6.05789 
+This should be a number: -28.4226 
+This should be a number: 1.29531 
+This should be a number: 0.446307 
+This should be a number: 2.36991 
+This should be a number: -48.1288 
+This should be a number: 1.03352 
+This should be a number: 1.1841 
+This should be a number: 0.984076 
+This should be a number: -2.23734 
+This should be a number: 0.563478 
+
+Block No68 done!
+Updating file: bond_c5-c5.force
+Updating file: bond_c5-ca.force
+Updating file: bond_ca-ca.force
+Updating file: angle_c5-c5-c5.force
+Updating file: angle_c5-c5-ca.force
+Updating file: angle_c5-ca-ca.force
+Updating file: angle_ca-c5-ca.force
+Updating file: angle_ca-ca-ca.force
+Updating file: dihedral_c5-c5-c5-c5.force
+Updating file: dihedral_c5-c5-c5-ca.force
+Updating file: dihedral_c5-c5-ca-ca.force
+Updating file: dihedral_c5-ca-ca-c5.force
+Updating file: dihedral_c5-ca-ca-ca.force
+Updating file: dihedral_ca-c5-c5-ca.force
+Updating file: dihedral_ca-c5-ca-ca.force
+Updating file: dihedral_ca-ca-ca-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = inf
+#################################
+
+This should be a number: -6.58067e+201 
+This should be a number: 219.8 
+This should be a number: -240.669 
+This should be a number: 3.2396 
+This should be a number: -24.1438 
+This should be a number: 80.8354 
+This should be a number: -59.4119 
+This should be a number: 87.3468 
+This should be a number: 0.964618 
+This should be a number: -1.00078 
+This should be a number: 0.864151 
+This should be a number: -0.76894 
+This should be a number: 0.996979 
+This should be a number: -55.2274 
+This should be a number: -4.50111 
+This should be a number: 0.909204 
+This should be a number: 0.861643 
+This should be a number: -2.25998 
+This should be a number: -0.0413445 
+
+Block No69 done!
+Updating file: bond_c5-c5.force
+Updating file: bond_c5-ca.force
+Updating file: bond_ca-ca.force
+Updating file: angle_c5-c5-c5.force
+Updating file: angle_c5-c5-ca.force
+Updating file: angle_c5-ca-ca.force
+Updating file: angle_ca-c5-ca.force
+Updating file: angle_ca-ca-ca.force
+Updating file: dihedral_c5-c5-c5-c5.force
+Updating file: dihedral_c5-c5-c5-ca.force
+Updating file: dihedral_c5-c5-ca-ca.force
+Updating file: dihedral_c5-ca-ca-c5.force
+Updating file: dihedral_c5-ca-ca-ca.force
+Updating file: dihedral_ca-c5-c5-ca.force
+Updating file: dihedral_ca-c5-ca-ca.force
+Updating file: dihedral_ca-ca-ca-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = inf
+#################################
+
+This should be a number: 1.10388e+198 
+This should be a number: 227.084 
+This should be a number: -238.442 
+This should be a number: 3.07516 
+This should be a number: -22.7452 
+This should be a number: 80.7293 
+This should be a number: -57.8723 
+This should be a number: 88.6084 
+This should be a number: 4.75994 
+This should be a number: -32.3555 
+This should be a number: -1.69679 
+This should be a number: -0.453774 
+This should be a number: 2.68375 
+This should be a number: -60.3583 
+This should be a number: -2.40777 
+This should be a number: 0.893385 
+This should be a number: 2.01699 
+This should be a number: -2.4189 
+This should be a number: -0.328033 
+
+Block No70 done!
+Updating file: bond_c5-c5.force
+Updating file: bond_c5-ca.force
+Updating file: bond_ca-ca.force
+Updating file: angle_c5-c5-c5.force
+Updating file: angle_c5-c5-ca.force
+Updating file: angle_c5-ca-ca.force
+Updating file: angle_ca-c5-ca.force
+Updating file: angle_ca-ca-ca.force
+Updating file: dihedral_c5-c5-c5-c5.force
+Updating file: dihedral_c5-c5-c5-ca.force
+Updating file: dihedral_c5-c5-ca-ca.force
+Updating file: dihedral_c5-ca-ca-c5.force
+Updating file: dihedral_c5-ca-ca-ca.force
+Updating file: dihedral_ca-c5-c5-ca.force
+Updating file: dihedral_ca-c5-ca-ca.force
+Updating file: dihedral_ca-ca-ca-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+Reading frame   17000 time 17000.000   
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = nan
+#################################
+
+This should be a number: nan 
+This should be a number: nan 
+This should be a number: nan 
+This should be a number: nan 
+This should be a number: nan 
+This should be a number: nan 
+This should be a number: nan 
+This should be a number: nan 
+This should be a number: nan 
+This should be a number: nan 
+This should be a number: nan 
+This should be a number: nan 
+This should be a number: nan 
+This should be a number: nan 
+This should be a number: nan 
+This should be a number: nan 
+This should be a number: nan 
+This should be a number: nan 
+This should be a number: nan 
+
+Block No71 done!
+Updating file: bond_c5-c5.force
+Updating file: bond_c5-ca.force
+Updating file: bond_ca-ca.force
+Updating file: angle_c5-c5-c5.force
+Updating file: angle_c5-c5-ca.force
+Updating file: angle_c5-ca-ca.force
+Updating file: angle_ca-c5-ca.force
+Updating file: angle_ca-ca-ca.force
+Updating file: dihedral_c5-c5-c5-c5.force
+Updating file: dihedral_c5-c5-c5-ca.force
+Updating file: dihedral_c5-c5-ca-ca.force
+Updating file: dihedral_c5-ca-ca-c5.force
+Updating file: dihedral_c5-ca-ca-ca.force
+Updating file: dihedral_ca-c5-c5-ca.force
+Updating file: dihedral_ca-c5-ca-ca.force
+Updating file: dihedral_ca-ca-ca-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = inf
+#################################
+
+This should be a number: -1.42484e+202 
+This should be a number: 225.821 
+This should be a number: -241.512 
+This should be a number: 2.97231 
+This should be a number: -22.8442 
+This should be a number: 79.1482 
+This should be a number: -57.1558 
+This should be a number: 87.3672 
+This should be a number: 6.59679 
+This should be a number: -29.8327 
+This should be a number: 6.91607 
+This should be a number: 0.178419 
+This should be a number: 1.01926 
+This should be a number: -49.9937 
+This should be a number: -2.57305 
+This should be a number: 0.421755 
+This should be a number: 1.73041 
+This should be a number: -2.11652 
+This should be a number: 0.52122 
+
+Block No72 done!
+Updating file: bond_c5-c5.force
+Updating file: bond_c5-ca.force
+Updating file: bond_ca-ca.force
+Updating file: angle_c5-c5-c5.force
+Updating file: angle_c5-c5-ca.force
+Updating file: angle_c5-ca-ca.force
+Updating file: angle_ca-c5-ca.force
+Updating file: angle_ca-ca-ca.force
+Updating file: dihedral_c5-c5-c5-c5.force
+Updating file: dihedral_c5-c5-c5-ca.force
+Updating file: dihedral_c5-c5-ca-ca.force
+Updating file: dihedral_c5-ca-ca-c5.force
+Updating file: dihedral_c5-ca-ca-ca.force
+Updating file: dihedral_ca-c5-c5-ca.force
+Updating file: dihedral_ca-c5-ca-ca.force
+Updating file: dihedral_ca-ca-ca-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = inf
+#################################
+
+This should be a number: -1.2851e+200 
+This should be a number: 226.871 
+This should be a number: -245.287 
+This should be a number: 1.84441 
+This should be a number: -23.5538 
+This should be a number: 80.6903 
+This should be a number: -57.8635 
+This should be a number: 89.9096 
+This should be a number: 9.60369 
+This should be a number: -35.1155 
+This should be a number: 1.86751 
+This should be a number: -0.670049 
+This should be a number: 1.62459 
+This should be a number: -54.7652 
+This should be a number: -1.27427 
+This should be a number: 0.0664939 
+This should be a number: 1.49269 
+This should be a number: -1.87819 
+This should be a number: 0.567074 
+
+Block No73 done!
+Updating file: bond_c5-c5.force
+Updating file: bond_c5-ca.force
+Updating file: bond_ca-ca.force
+Updating file: angle_c5-c5-c5.force
+Updating file: angle_c5-c5-ca.force
+Updating file: angle_c5-ca-ca.force
+Updating file: angle_ca-c5-ca.force
+Updating file: angle_ca-ca-ca.force
+Updating file: dihedral_c5-c5-c5-c5.force
+Updating file: dihedral_c5-c5-c5-ca.force
+Updating file: dihedral_c5-c5-ca-ca.force
+Updating file: dihedral_c5-ca-ca-c5.force
+Updating file: dihedral_c5-ca-ca-ca.force
+Updating file: dihedral_ca-c5-c5-ca.force
+Updating file: dihedral_ca-c5-ca-ca.force
+Updating file: dihedral_ca-ca-ca-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = inf
+#################################
+
+This should be a number: -1.17659e+201 
+This should be a number: 217.69 
+This should be a number: -243.705 
+This should be a number: 3.04347 
+This should be a number: -22.7769 
+This should be a number: 78.9047 
+This should be a number: -55.9216 
+This should be a number: 88.174 
+This should be a number: 0.217283 
+This should be a number: -18.6049 
+This should be a number: -0.02021 
+This should be a number: 0.341456 
+This should be a number: -0.344999 
+This should be a number: -66.4219 
+This should be a number: -6.82775 
+This should be a number: 1.85109 
+This should be a number: 1.82265 
+This should be a number: -3.16574 
+This should be a number: 0.0826043 
+
+Block No74 done!
+Updating file: bond_c5-c5.force
+Updating file: bond_c5-ca.force
+Updating file: bond_ca-ca.force
+Updating file: angle_c5-c5-c5.force
+Updating file: angle_c5-c5-ca.force
+Updating file: angle_c5-ca-ca.force
+Updating file: angle_ca-c5-ca.force
+Updating file: angle_ca-ca-ca.force
+Updating file: dihedral_c5-c5-c5-c5.force
+Updating file: dihedral_c5-c5-c5-ca.force
+Updating file: dihedral_c5-c5-ca-ca.force
+Updating file: dihedral_c5-ca-ca-c5.force
+Updating file: dihedral_c5-ca-ca-ca.force
+Updating file: dihedral_ca-c5-c5-ca.force
+Updating file: dihedral_ca-c5-ca-ca.force
+Updating file: dihedral_ca-ca-ca-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = inf
+#################################
+
+This should be a number: -6.21048e+199 
+This should be a number: 219.151 
+This should be a number: -245.265 
+This should be a number: 3.415 
+This should be a number: -23.0988 
+This should be a number: 80.5853 
+This should be a number: -56.7474 
+This should be a number: 90.6362 
+This should be a number: 4.47752 
+This should be a number: -60.0828 
+This should be a number: 3.07036 
+This should be a number: -0.486439 
+This should be a number: 0.293745 
+This should be a number: -50.9731 
+This should be a number: -6.73185 
+This should be a number: 2.04101 
+This should be a number: 1.88806 
+This should be a number: -2.40222 
+This should be a number: 0.155225 
+
+Block No75 done!
+Updating file: bond_c5-c5.force
+Updating file: bond_c5-ca.force
+Updating file: bond_ca-ca.force
+Updating file: angle_c5-c5-c5.force
+Updating file: angle_c5-c5-ca.force
+Updating file: angle_c5-ca-ca.force
+Updating file: angle_ca-c5-ca.force
+Updating file: angle_ca-ca-ca.force
+Updating file: dihedral_c5-c5-c5-c5.force
+Updating file: dihedral_c5-c5-c5-ca.force
+Updating file: dihedral_c5-c5-ca-ca.force
+Updating file: dihedral_c5-ca-ca-c5.force
+Updating file: dihedral_c5-ca-ca-ca.force
+Updating file: dihedral_ca-c5-c5-ca.force
+Updating file: dihedral_ca-c5-ca-ca.force
+Updating file: dihedral_ca-ca-ca-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = inf
+#################################
+
+This should be a number: 3.19213e+200 
+This should be a number: 224.639 
+This should be a number: -243.076 
+This should be a number: 3.20032 
+This should be a number: -23.4683 
+This should be a number: 80.822 
+This should be a number: -55.7913 
+This should be a number: 88.1304 
+This should be a number: 10.3801 
+This should be a number: -15.6226 
+This should be a number: -0.95534 
+This should be a number: -0.392019 
+This should be a number: 0.512744 
+This should be a number: -57.5071 
+This should be a number: -6.67276 
+This should be a number: 2.02144 
+This should be a number: 2.62387 
+This should be a number: -2.27763 
+This should be a number: 1.49196 
+
+Block No76 done!
+Updating file: bond_c5-c5.force
+Updating file: bond_c5-ca.force
+Updating file: bond_ca-ca.force
+Updating file: angle_c5-c5-c5.force
+Updating file: angle_c5-c5-ca.force
+Updating file: angle_c5-ca-ca.force
+Updating file: angle_ca-c5-ca.force
+Updating file: angle_ca-ca-ca.force
+Updating file: dihedral_c5-c5-c5-c5.force
+Updating file: dihedral_c5-c5-c5-ca.force
+Updating file: dihedral_c5-c5-ca-ca.force
+Updating file: dihedral_c5-ca-ca-c5.force
+Updating file: dihedral_c5-ca-ca-ca.force
+Updating file: dihedral_ca-c5-c5-ca.force
+Updating file: dihedral_ca-c5-ca-ca.force
+Updating file: dihedral_ca-ca-ca-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = inf
+#################################
+
+This should be a number: 4.53976e+197 
+This should be a number: 218.716 
+This should be a number: -250.334 
+This should be a number: 3.01776 
+This should be a number: -23.3609 
+This should be a number: 80.8827 
+This should be a number: -57.5558 
+This should be a number: 88.5277 
+This should be a number: -2.55319 
+This should be a number: -31.2209 
+This should be a number: -2.47585 
+This should be a number: -0.381548 
+This should be a number: -0.184234 
+This should be a number: -64.1949 
+This should be a number: -7.5002 
+This should be a number: 0.891365 
+This should be a number: 2.00128 
+This should be a number: -2.44061 
+This should be a number: 1.88383 
+
+Block No77 done!
+Updating file: bond_c5-c5.force
+Updating file: bond_c5-ca.force
+Updating file: bond_ca-ca.force
+Updating file: angle_c5-c5-c5.force
+Updating file: angle_c5-c5-ca.force
+Updating file: angle_c5-ca-ca.force
+Updating file: angle_ca-c5-ca.force
+Updating file: angle_ca-ca-ca.force
+Updating file: dihedral_c5-c5-c5-c5.force
+Updating file: dihedral_c5-c5-c5-ca.force
+Updating file: dihedral_c5-c5-ca-ca.force
+Updating file: dihedral_c5-ca-ca-c5.force
+Updating file: dihedral_c5-ca-ca-ca.force
+Updating file: dihedral_ca-c5-c5-ca.force
+Updating file: dihedral_ca-c5-ca-ca.force
+Updating file: dihedral_ca-ca-ca-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = inf
+#################################
+
+This should be a number: -3.85362e+202 
+This should be a number: 220.816 
+This should be a number: -248.031 
+This should be a number: 4.08402 
+This should be a number: -23.2248 
+This should be a number: 83.2251 
+This should be a number: -58.4777 
+This should be a number: 89.2982 
+This should be a number: 5.72183 
+This should be a number: -30.9993 
+This should be a number: 5.83329 
+This should be a number: -0.251215 
+This should be a number: 0.468509 
+This should be a number: -49.4834 
+This should be a number: -3.81583 
+This should be a number: 1.40649 
+This should be a number: 2.46714 
+This should be a number: -2.15033 
+This should be a number: 1.14339 
+
+Block No78 done!
+Updating file: bond_c5-c5.force
+Updating file: bond_c5-ca.force
+Updating file: bond_ca-ca.force
+Updating file: angle_c5-c5-c5.force
+Updating file: angle_c5-c5-ca.force
+Updating file: angle_c5-ca-ca.force
+Updating file: angle_ca-c5-ca.force
+Updating file: angle_ca-ca-ca.force
+Updating file: dihedral_c5-c5-c5-c5.force
+Updating file: dihedral_c5-c5-c5-ca.force
+Updating file: dihedral_c5-c5-ca-ca.force
+Updating file: dihedral_c5-ca-ca-c5.force
+Updating file: dihedral_c5-ca-ca-ca.force
+Updating file: dihedral_ca-c5-c5-ca.force
+Updating file: dihedral_ca-c5-ca-ca.force
+Updating file: dihedral_ca-ca-ca-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = inf
+#################################
+
+This should be a number: -1.38098e+202 
+This should be a number: 221.063 
+This should be a number: -237.818 
+This should be a number: 2.39256 
+This should be a number: -22.9555 
+This should be a number: 80.28 
+This should be a number: -58.7582 
+This should be a number: 88.8067 
+This should be a number: 10.5317 
+This should be a number: -15.5395 
+This should be a number: 2.34797 
+This should be a number: -1.19521 
+This should be a number: 0.538191 
+This should be a number: -50.996 
+This should be a number: -5.37079 
+This should be a number: 0.593529 
+This should be a number: 3.06268 
+This should be a number: -2.97968 
+This should be a number: 1.0498 
+
+Block No79 done!
+Updating file: bond_c5-c5.force
+Updating file: bond_c5-ca.force
+Updating file: bond_ca-ca.force
+Updating file: angle_c5-c5-c5.force
+Updating file: angle_c5-c5-ca.force
+Updating file: angle_c5-ca-ca.force
+Updating file: angle_ca-c5-ca.force
+Updating file: angle_ca-ca-ca.force
+Updating file: dihedral_c5-c5-c5-c5.force
+Updating file: dihedral_c5-c5-c5-ca.force
+Updating file: dihedral_c5-c5-ca-ca.force
+Updating file: dihedral_c5-ca-ca-c5.force
+Updating file: dihedral_c5-ca-ca-ca.force
+Updating file: dihedral_ca-c5-c5-ca.force
+Updating file: dihedral_ca-c5-ca-ca.force
+Updating file: dihedral_ca-ca-ca-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = inf
+#################################
+
+This should be a number: 1.56682e+202 
+This should be a number: 226.396 
+This should be a number: -236.504 
+This should be a number: 2.41273 
+This should be a number: -23.6424 
+This should be a number: 80.8632 
+This should be a number: -61.1972 
+This should be a number: 89.7103 
+This should be a number: 3.07598 
+This should be a number: 4.09075 
+This should be a number: 3.72156 
+This should be a number: -0.659338 
+This should be a number: 1.885 
+This should be a number: -48.3441 
+This should be a number: -1.32324 
+This should be a number: 0.181339 
+This should be a number: 2.13377 
+This should be a number: -2.95342 
+This should be a number: 1.91801 
+
+Block No80 done!
+Updating file: bond_c5-c5.force
+Updating file: bond_c5-ca.force
+Updating file: bond_ca-ca.force
+Updating file: angle_c5-c5-c5.force
+Updating file: angle_c5-c5-ca.force
+Updating file: angle_c5-ca-ca.force
+Updating file: angle_ca-c5-ca.force
+Updating file: angle_ca-ca-ca.force
+Updating file: dihedral_c5-c5-c5-c5.force
+Updating file: dihedral_c5-c5-c5-ca.force
+Updating file: dihedral_c5-c5-ca-ca.force
+Updating file: dihedral_c5-ca-ca-c5.force
+Updating file: dihedral_c5-ca-ca-ca.force
+Updating file: dihedral_ca-c5-c5-ca.force
+Updating file: dihedral_ca-c5-ca-ca.force
+Updating file: dihedral_ca-ca-ca-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+Reading frame   18000 time 18000.000   
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = inf
+#################################
+
+This should be a number: 3.54604e+200 
+This should be a number: 214.745 
+This should be a number: -240.567 
+This should be a number: 4.0557 
+This should be a number: -22.6801 
+This should be a number: 82.3227 
+This should be a number: -59.032 
+This should be a number: 90.2852 
+This should be a number: 1.4072 
+This should be a number: -38.3031 
+This should be a number: 5.55031 
+This should be a number: -0.326755 
+This should be a number: -0.178466 
+This should be a number: -49.4254 
+This should be a number: -6.77881 
+This should be a number: 0.743565 
+This should be a number: 2.47818 
+This should be a number: -2.68449 
+This should be a number: 1.43413 
+
+Block No81 done!
+Updating file: bond_c5-c5.force
+Updating file: bond_c5-ca.force
+Updating file: bond_ca-ca.force
+Updating file: angle_c5-c5-c5.force
+Updating file: angle_c5-c5-ca.force
+Updating file: angle_c5-ca-ca.force
+Updating file: angle_ca-c5-ca.force
+Updating file: angle_ca-ca-ca.force
+Updating file: dihedral_c5-c5-c5-c5.force
+Updating file: dihedral_c5-c5-c5-ca.force
+Updating file: dihedral_c5-c5-ca-ca.force
+Updating file: dihedral_c5-ca-ca-c5.force
+Updating file: dihedral_c5-ca-ca-ca.force
+Updating file: dihedral_ca-c5-c5-ca.force
+Updating file: dihedral_ca-c5-ca-ca.force
+Updating file: dihedral_ca-ca-ca-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = inf
+#################################
+
+This should be a number: 4.41236e+198 
+This should be a number: 227.997 
+This should be a number: -239.387 
+This should be a number: 4.58219 
+This should be a number: -22.7153 
+This should be a number: 81.8534 
+This should be a number: -59.1577 
+This should be a number: 89.6024 
+This should be a number: 6.52628 
+This should be a number: -41.6639 
+This should be a number: 5.3384 
+This should be a number: -0.917396 
+This should be a number: 1.20317 
+This should be a number: -43.9164 
+This should be a number: -6.41385 
+This should be a number: 1.1006 
+This should be a number: 2.62355 
+This should be a number: -2.89339 
+This should be a number: 0.8727 
+
+Block No82 done!
+Updating file: bond_c5-c5.force
+Updating file: bond_c5-ca.force
+Updating file: bond_ca-ca.force
+Updating file: angle_c5-c5-c5.force
+Updating file: angle_c5-c5-ca.force
+Updating file: angle_c5-ca-ca.force
+Updating file: angle_ca-c5-ca.force
+Updating file: angle_ca-ca-ca.force
+Updating file: dihedral_c5-c5-c5-c5.force
+Updating file: dihedral_c5-c5-c5-ca.force
+Updating file: dihedral_c5-c5-ca-ca.force
+Updating file: dihedral_c5-ca-ca-c5.force
+Updating file: dihedral_c5-ca-ca-ca.force
+Updating file: dihedral_ca-c5-c5-ca.force
+Updating file: dihedral_ca-c5-ca-ca.force
+Updating file: dihedral_ca-ca-ca-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = inf
+#################################
+
+This should be a number: -1.13965e+200 
+This should be a number: 221.608 
+This should be a number: -243.969 
+This should be a number: 3.31612 
+This should be a number: -22.7814 
+This should be a number: 80.9942 
+This should be a number: -59.1035 
+This should be a number: 89.1834 
+This should be a number: 7.37292 
+This should be a number: -34.1071 
+This should be a number: 11.8879 
+This should be a number: -0.266947 
+This should be a number: 2.75105 
+This should be a number: -24.2108 
+This should be a number: 0.557844 
+This should be a number: -0.231868 
+This should be a number: 2.6663 
+This should be a number: -2.2395 
+This should be a number: 1.67723 
+
+Block No83 done!
+Updating file: bond_c5-c5.force
+Updating file: bond_c5-ca.force
+Updating file: bond_ca-ca.force
+Updating file: angle_c5-c5-c5.force
+Updating file: angle_c5-c5-ca.force
+Updating file: angle_c5-ca-ca.force
+Updating file: angle_ca-c5-ca.force
+Updating file: angle_ca-ca-ca.force
+Updating file: dihedral_c5-c5-c5-c5.force
+Updating file: dihedral_c5-c5-c5-ca.force
+Updating file: dihedral_c5-c5-ca-ca.force
+Updating file: dihedral_c5-ca-ca-c5.force
+Updating file: dihedral_c5-ca-ca-ca.force
+Updating file: dihedral_ca-c5-c5-ca.force
+Updating file: dihedral_ca-c5-ca-ca.force
+Updating file: dihedral_ca-ca-ca-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = inf
+#################################
+
+This should be a number: -1.91997e+201 
+This should be a number: 229.233 
+This should be a number: -236.59 
+This should be a number: 2.88796 
+This should be a number: -23.213 
+This should be a number: 82.4889 
+This should be a number: -60.0385 
+This should be a number: 90.5755 
+This should be a number: 11.1376 
+This should be a number: -30.6266 
+This should be a number: 4.04101 
+This should be a number: 0.135261 
+This should be a number: 2.1767 
+This should be a number: -46.7366 
+This should be a number: -1.68999 
+This should be a number: 0.395388 
+This should be a number: 2.27363 
+This should be a number: -2.39066 
+This should be a number: 1.08793 
+
+Block No84 done!
+Updating file: bond_c5-c5.force
+Updating file: bond_c5-ca.force
+Updating file: bond_ca-ca.force
+Updating file: angle_c5-c5-c5.force
+Updating file: angle_c5-c5-ca.force
+Updating file: angle_c5-ca-ca.force
+Updating file: angle_ca-c5-ca.force
+Updating file: angle_ca-ca-ca.force
+Updating file: dihedral_c5-c5-c5-c5.force
+Updating file: dihedral_c5-c5-c5-ca.force
+Updating file: dihedral_c5-c5-ca-ca.force
+Updating file: dihedral_c5-ca-ca-c5.force
+Updating file: dihedral_c5-ca-ca-ca.force
+Updating file: dihedral_ca-c5-c5-ca.force
+Updating file: dihedral_ca-c5-ca-ca.force
+Updating file: dihedral_ca-ca-ca-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = inf
+#################################
+
+This should be a number: 4.37218e+203 
+This should be a number: 219.558 
+This should be a number: -233.903 
+This should be a number: 4.57198 
+This should be a number: -22.1991 
+This should be a number: 81.2959 
+This should be a number: -58.7063 
+This should be a number: 88.2437 
+This should be a number: 9.50307 
+This should be a number: -23.0945 
+This should be a number: 10.201 
+This should be a number: -0.229755 
+This should be a number: 1.1132 
+This should be a number: -26.889 
+This should be a number: -2.66378 
+This should be a number: -0.104899 
+This should be a number: 2.33778 
+This should be a number: -2.50888 
+This should be a number: 1.24237 
+
+Block No85 done!
+Updating file: bond_c5-c5.force
+Updating file: bond_c5-ca.force
+Updating file: bond_ca-ca.force
+Updating file: angle_c5-c5-c5.force
+Updating file: angle_c5-c5-ca.force
+Updating file: angle_c5-ca-ca.force
+Updating file: angle_ca-c5-ca.force
+Updating file: angle_ca-ca-ca.force
+Updating file: dihedral_c5-c5-c5-c5.force
+Updating file: dihedral_c5-c5-c5-ca.force
+Updating file: dihedral_c5-c5-ca-ca.force
+Updating file: dihedral_c5-ca-ca-c5.force
+Updating file: dihedral_c5-ca-ca-ca.force
+Updating file: dihedral_ca-c5-c5-ca.force
+Updating file: dihedral_ca-c5-ca-ca.force
+Updating file: dihedral_ca-ca-ca-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = inf
+#################################
+
+This should be a number: 1.44232e+198 
+This should be a number: 218.207 
+This should be a number: -241.356 
+This should be a number: 4.14272 
+This should be a number: -23.3844 
+This should be a number: 81.9387 
+This should be a number: -61.6851 
+This should be a number: 87.9575 
+This should be a number: 7.46048 
+This should be a number: -5.86584 
+This should be a number: 13.8511 
+This should be a number: -0.1566 
+This should be a number: 2.5265 
+This should be a number: -21.6127 
+This should be a number: -2.16347 
+This should be a number: 0.410021 
+This should be a number: 2.74357 
+This should be a number: -2.55069 
+This should be a number: 1.45829 
+
+Block No86 done!
+Updating file: bond_c5-c5.force
+Updating file: bond_c5-ca.force
+Updating file: bond_ca-ca.force
+Updating file: angle_c5-c5-c5.force
+Updating file: angle_c5-c5-ca.force
+Updating file: angle_c5-ca-ca.force
+Updating file: angle_ca-c5-ca.force
+Updating file: angle_ca-ca-ca.force
+Updating file: dihedral_c5-c5-c5-c5.force
+Updating file: dihedral_c5-c5-c5-ca.force
+Updating file: dihedral_c5-c5-ca-ca.force
+Updating file: dihedral_c5-ca-ca-c5.force
+Updating file: dihedral_c5-ca-ca-ca.force
+Updating file: dihedral_ca-c5-c5-ca.force
+Updating file: dihedral_ca-c5-ca-ca.force
+Updating file: dihedral_ca-ca-ca-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = inf
+#################################
+
+This should be a number: -2.5893e+200 
+This should be a number: 225.173 
+This should be a number: -243.666 
+This should be a number: 3.89595 
+This should be a number: -22.8039 
+This should be a number: 82.7469 
+This should be a number: -60.7953 
+This should be a number: 88.3719 
+This should be a number: 7.85657 
+This should be a number: -32.8403 
+This should be a number: 7.3004 
+This should be a number: -0.682242 
+This should be a number: 1.70463 
+This should be a number: -36.6019 
+This should be a number: -2.19804 
+This should be a number: 1.18406 
+This should be a number: 2.27371 
+This should be a number: -2.19729 
+This should be a number: 1.09253 
+
+Block No87 done!
+Updating file: bond_c5-c5.force
+Updating file: bond_c5-ca.force
+Updating file: bond_ca-ca.force
+Updating file: angle_c5-c5-c5.force
+Updating file: angle_c5-c5-ca.force
+Updating file: angle_c5-ca-ca.force
+Updating file: angle_ca-c5-ca.force
+Updating file: angle_ca-ca-ca.force
+Updating file: dihedral_c5-c5-c5-c5.force
+Updating file: dihedral_c5-c5-c5-ca.force
+Updating file: dihedral_c5-c5-ca-ca.force
+Updating file: dihedral_c5-ca-ca-c5.force
+Updating file: dihedral_c5-ca-ca-ca.force
+Updating file: dihedral_ca-c5-c5-ca.force
+Updating file: dihedral_ca-c5-ca-ca.force
+Updating file: dihedral_ca-ca-ca-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = inf
+#################################
+
+This should be a number: 4.4683e+197 
+This should be a number: 218.245 
+This should be a number: -244.349 
+This should be a number: 4.42741 
+This should be a number: -23.1205 
+This should be a number: 83.6975 
+This should be a number: -58.7489 
+This should be a number: 89.8203 
+This should be a number: 10.4303 
+This should be a number: -12.0906 
+This should be a number: 6.90941 
+This should be a number: -0.605241 
+This should be a number: -0.288421 
+This should be a number: -43.4739 
+This should be a number: -5.23296 
+This should be a number: 2.25878 
+This should be a number: 2.02081 
+This should be a number: -2.36936 
+This should be a number: 1.55927 
+
+Block No88 done!
+Updating file: bond_c5-c5.force
+Updating file: bond_c5-ca.force
+Updating file: bond_ca-ca.force
+Updating file: angle_c5-c5-c5.force
+Updating file: angle_c5-c5-ca.force
+Updating file: angle_c5-ca-ca.force
+Updating file: angle_ca-c5-ca.force
+Updating file: angle_ca-ca-ca.force
+Updating file: dihedral_c5-c5-c5-c5.force
+Updating file: dihedral_c5-c5-c5-ca.force
+Updating file: dihedral_c5-c5-ca-ca.force
+Updating file: dihedral_c5-ca-ca-c5.force
+Updating file: dihedral_c5-ca-ca-ca.force
+Updating file: dihedral_ca-c5-c5-ca.force
+Updating file: dihedral_ca-c5-ca-ca.force
+Updating file: dihedral_ca-ca-ca-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = inf
+#################################
+
+This should be a number: -1.14997e+200 
+This should be a number: 219.463 
+This should be a number: -241.975 
+This should be a number: 3.8246 
+This should be a number: -23.5134 
+This should be a number: 82.4217 
+This should be a number: -60.1911 
+This should be a number: 89.747 
+This should be a number: 9.88853 
+This should be a number: -33.3836 
+This should be a number: 15.9877 
+This should be a number: -0.59496 
+This should be a number: 1.25146 
+This should be a number: -19.081 
+This should be a number: -2.30111 
+This should be a number: 1.59096 
+This should be a number: 2.31593 
+This should be a number: -2.72594 
+This should be a number: 1.27685 
+
+Block No89 done!
+Updating file: bond_c5-c5.force
+Updating file: bond_c5-ca.force
+Updating file: bond_ca-ca.force
+Updating file: angle_c5-c5-c5.force
+Updating file: angle_c5-c5-ca.force
+Updating file: angle_c5-ca-ca.force
+Updating file: angle_ca-c5-ca.force
+Updating file: angle_ca-ca-ca.force
+Updating file: dihedral_c5-c5-c5-c5.force
+Updating file: dihedral_c5-c5-c5-ca.force
+Updating file: dihedral_c5-c5-ca-ca.force
+Updating file: dihedral_c5-ca-ca-c5.force
+Updating file: dihedral_c5-ca-ca-ca.force
+Updating file: dihedral_ca-c5-c5-ca.force
+Updating file: dihedral_ca-c5-ca-ca.force
+Updating file: dihedral_ca-ca-ca-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = inf
+#################################
+
+This should be a number: 4.01225e+201 
+This should be a number: 220.406 
+This should be a number: -242.805 
+This should be a number: 5.00529 
+This should be a number: -23.7093 
+This should be a number: 82.9219 
+This should be a number: -62.625 
+This should be a number: 87.4082 
+This should be a number: 8.0188 
+This should be a number: -42.3832 
+This should be a number: 10.5056 
+This should be a number: 0.111456 
+This should be a number: 1.19585 
+This should be a number: -30.573 
+This should be a number: -2.88715 
+This should be a number: 0.967424 
+This should be a number: 2.46241 
+This should be a number: -2.9921 
+This should be a number: 1.0894 
+
+Block No90 done!
+Updating file: bond_c5-c5.force
+Updating file: bond_c5-ca.force
+Updating file: bond_ca-ca.force
+Updating file: angle_c5-c5-c5.force
+Updating file: angle_c5-c5-ca.force
+Updating file: angle_c5-ca-ca.force
+Updating file: angle_ca-c5-ca.force
+Updating file: angle_ca-ca-ca.force
+Updating file: dihedral_c5-c5-c5-c5.force
+Updating file: dihedral_c5-c5-c5-ca.force
+Updating file: dihedral_c5-c5-ca-ca.force
+Updating file: dihedral_c5-ca-ca-c5.force
+Updating file: dihedral_c5-ca-ca-ca.force
+Updating file: dihedral_ca-c5-c5-ca.force
+Updating file: dihedral_ca-c5-ca-ca.force
+Updating file: dihedral_ca-ca-ca-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+Reading frame   19000 time 19000.000   
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = inf
+#################################
+
+This should be a number: 1.42152e+201 
+This should be a number: 215.101 
+This should be a number: -237.919 
+This should be a number: 3.03121 
+This should be a number: -24.7922 
+This should be a number: 81.0266 
+This should be a number: -63.3895 
+This should be a number: 88.3416 
+This should be a number: 5.8553 
+This should be a number: -21.8776 
+This should be a number: 9.2669 
+This should be a number: -0.617322 
+This should be a number: -0.77733 
+This should be a number: -26.2499 
+This should be a number: -7.06964 
+This should be a number: -0.511741 
+This should be a number: 3.04145 
+This should be a number: -3.1515 
+This should be a number: 0.834799 
+
+Block No91 done!
+Updating file: bond_c5-c5.force
+Updating file: bond_c5-ca.force
+Updating file: bond_ca-ca.force
+Updating file: angle_c5-c5-c5.force
+Updating file: angle_c5-c5-ca.force
+Updating file: angle_c5-ca-ca.force
+Updating file: angle_ca-c5-ca.force
+Updating file: angle_ca-ca-ca.force
+Updating file: dihedral_c5-c5-c5-c5.force
+Updating file: dihedral_c5-c5-c5-ca.force
+Updating file: dihedral_c5-c5-ca-ca.force
+Updating file: dihedral_c5-ca-ca-c5.force
+Updating file: dihedral_c5-ca-ca-ca.force
+Updating file: dihedral_ca-c5-c5-ca.force
+Updating file: dihedral_ca-c5-ca-ca.force
+Updating file: dihedral_ca-ca-ca-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = inf
+#################################
+
+This should be a number: -2.30894e+201 
+This should be a number: 227.918 
+This should be a number: -248.923 
+This should be a number: 4.40246 
+This should be a number: -23.4347 
+This should be a number: 81.6212 
+This should be a number: -58.8269 
+This should be a number: 90.979 
+This should be a number: 7.92664 
+This should be a number: -18.2745 
+This should be a number: 7.04571 
+This should be a number: -0.179689 
+This should be a number: 0.630717 
+This should be a number: -41.185 
+This should be a number: -3.3087 
+This should be a number: -0.214387 
+This should be a number: 2.19814 
+This should be a number: -2.56105 
+This should be a number: 1.01653 
+
+Block No92 done!
+Updating file: bond_c5-c5.force
+Updating file: bond_c5-ca.force
+Updating file: bond_ca-ca.force
+Updating file: angle_c5-c5-c5.force
+Updating file: angle_c5-c5-ca.force
+Updating file: angle_c5-ca-ca.force
+Updating file: angle_ca-c5-ca.force
+Updating file: angle_ca-ca-ca.force
+Updating file: dihedral_c5-c5-c5-c5.force
+Updating file: dihedral_c5-c5-c5-ca.force
+Updating file: dihedral_c5-c5-ca-ca.force
+Updating file: dihedral_c5-ca-ca-c5.force
+Updating file: dihedral_c5-ca-ca-ca.force
+Updating file: dihedral_ca-c5-c5-ca.force
+Updating file: dihedral_ca-c5-ca-ca.force
+Updating file: dihedral_ca-ca-ca-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = inf
+#################################
+
+This should be a number: 2.15315e+199 
+This should be a number: 215.207 
+This should be a number: -246.254 
+This should be a number: 4.19146 
+This should be a number: -23.7644 
+This should be a number: 81.2838 
+This should be a number: -59.6923 
+This should be a number: 89.617 
+This should be a number: 9.04868 
+This should be a number: -2.22212 
+This should be a number: 12.8177 
+This should be a number: -1.07729 
+This should be a number: 0.383035 
+This should be a number: -24.7704 
+This should be a number: -2.91877 
+This should be a number: 0.294947 
+This should be a number: 2.35037 
+This should be a number: -2.61112 
+This should be a number: 0.423128 
+
+Block No93 done!
+Updating file: bond_c5-c5.force
+Updating file: bond_c5-ca.force
+Updating file: bond_ca-ca.force
+Updating file: angle_c5-c5-c5.force
+Updating file: angle_c5-c5-ca.force
+Updating file: angle_c5-ca-ca.force
+Updating file: angle_ca-c5-ca.force
+Updating file: angle_ca-ca-ca.force
+Updating file: dihedral_c5-c5-c5-c5.force
+Updating file: dihedral_c5-c5-c5-ca.force
+Updating file: dihedral_c5-c5-ca-ca.force
+Updating file: dihedral_c5-ca-ca-c5.force
+Updating file: dihedral_c5-ca-ca-ca.force
+Updating file: dihedral_ca-c5-c5-ca.force
+Updating file: dihedral_ca-c5-ca-ca.force
+Updating file: dihedral_ca-ca-ca-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = inf
+#################################
+
+This should be a number: -9.36868e+172 
+This should be a number: 219.319 
+This should be a number: -246.935 
+This should be a number: 2.78183 
+This should be a number: -24.1818 
+This should be a number: 80.8146 
+This should be a number: -60.8152 
+This should be a number: 88.7778 
+This should be a number: 10.3806 
+This should be a number: 14.3891 
+This should be a number: 4.46918 
+This should be a number: -0.757581 
+This should be a number: 1.04726 
+This should be a number: -47.9894 
+This should be a number: -3.08237 
+This should be a number: 1.37377 
+This should be a number: 1.78676 
+This should be a number: -2.41249 
+This should be a number: 0.722249 
+
+Block No94 done!
+Updating file: bond_c5-c5.force
+Updating file: bond_c5-ca.force
+Updating file: bond_ca-ca.force
+Updating file: angle_c5-c5-c5.force
+Updating file: angle_c5-c5-ca.force
+Updating file: angle_c5-ca-ca.force
+Updating file: angle_ca-c5-ca.force
+Updating file: angle_ca-ca-ca.force
+Updating file: dihedral_c5-c5-c5-c5.force
+Updating file: dihedral_c5-c5-c5-ca.force
+Updating file: dihedral_c5-c5-ca-ca.force
+Updating file: dihedral_c5-ca-ca-c5.force
+Updating file: dihedral_c5-ca-ca-ca.force
+Updating file: dihedral_ca-c5-c5-ca.force
+Updating file: dihedral_ca-c5-ca-ca.force
+Updating file: dihedral_ca-ca-ca-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = inf
+#################################
+
+This should be a number: -1.55365e+200 
+This should be a number: 217.404 
+This should be a number: -244.348 
+This should be a number: 3.48288 
+This should be a number: -23.5759 
+This should be a number: 82.3196 
+This should be a number: -62.5939 
+This should be a number: 89.7075 
+This should be a number: 9.96048 
+This should be a number: 23.3946 
+This should be a number: 6.73396 
+This should be a number: 0.193982 
+This should be a number: -0.4143 
+This should be a number: -39.0286 
+This should be a number: -7.54739 
+This should be a number: 0.967616 
+This should be a number: 1.73288 
+This should be a number: -2.57692 
+This should be a number: 0.825124 
+
+Block No95 done!
+Updating file: bond_c5-c5.force
+Updating file: bond_c5-ca.force
+Updating file: bond_ca-ca.force
+Updating file: angle_c5-c5-c5.force
+Updating file: angle_c5-c5-ca.force
+Updating file: angle_c5-ca-ca.force
+Updating file: angle_ca-c5-ca.force
+Updating file: angle_ca-ca-ca.force
+Updating file: dihedral_c5-c5-c5-c5.force
+Updating file: dihedral_c5-c5-c5-ca.force
+Updating file: dihedral_c5-c5-ca-ca.force
+Updating file: dihedral_c5-ca-ca-c5.force
+Updating file: dihedral_c5-ca-ca-ca.force
+Updating file: dihedral_ca-c5-c5-ca.force
+Updating file: dihedral_ca-c5-ca-ca.force
+Updating file: dihedral_ca-ca-ca-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = inf
+#################################
+
+This should be a number: 6.56562e+202 
+This should be a number: 217.601 
+This should be a number: -242.162 
+This should be a number: 2.37215 
+This should be a number: -24.6537 
+This should be a number: 80.6634 
+This should be a number: -63.6077 
+This should be a number: 88.6455 
+This should be a number: 8.42092 
+This should be a number: 43.9888 
+This should be a number: -0.814415 
+This should be a number: -0.625112 
+This should be a number: 0.26531 
+This should be a number: -55.8152 
+This should be a number: -4.93192 
+This should be a number: 1.01329 
+This should be a number: 1.87068 
+This should be a number: -2.93087 
+This should be a number: 0.778649 
+
+Block No96 done!
+Updating file: bond_c5-c5.force
+Updating file: bond_c5-ca.force
+Updating file: bond_ca-ca.force
+Updating file: angle_c5-c5-c5.force
+Updating file: angle_c5-c5-ca.force
+Updating file: angle_c5-ca-ca.force
+Updating file: angle_ca-c5-ca.force
+Updating file: angle_ca-ca-ca.force
+Updating file: dihedral_c5-c5-c5-c5.force
+Updating file: dihedral_c5-c5-c5-ca.force
+Updating file: dihedral_c5-c5-ca-ca.force
+Updating file: dihedral_c5-ca-ca-c5.force
+Updating file: dihedral_c5-ca-ca-ca.force
+Updating file: dihedral_ca-c5-c5-ca.force
+Updating file: dihedral_ca-c5-ca-ca.force
+Updating file: dihedral_ca-ca-ca-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = inf
+#################################
+
+This should be a number: 4.14826e+199 
+This should be a number: 221.978 
+This should be a number: -237.317 
+This should be a number: 2.76863 
+This should be a number: -24.9819 
+This should be a number: 82.1067 
+This should be a number: -62.3763 
+This should be a number: 90.1828 
+This should be a number: 15.2392 
+This should be a number: -41.462 
+This should be a number: 6.00886 
+This should be a number: -1.26543 
+This should be a number: 0.174986 
+This should be a number: -45.7042 
+This should be a number: -6.94728 
+This should be a number: 0.412662 
+This should be a number: 1.46856 
+This should be a number: -2.87788 
+This should be a number: 0.473283 
+
+Block No97 done!
+Updating file: bond_c5-c5.force
+Updating file: bond_c5-ca.force
+Updating file: bond_ca-ca.force
+Updating file: angle_c5-c5-c5.force
+Updating file: angle_c5-c5-ca.force
+Updating file: angle_c5-ca-ca.force
+Updating file: angle_ca-c5-ca.force
+Updating file: angle_ca-ca-ca.force
+Updating file: dihedral_c5-c5-c5-c5.force
+Updating file: dihedral_c5-c5-c5-ca.force
+Updating file: dihedral_c5-c5-ca-ca.force
+Updating file: dihedral_c5-ca-ca-c5.force
+Updating file: dihedral_c5-ca-ca-ca.force
+Updating file: dihedral_ca-c5-c5-ca.force
+Updating file: dihedral_ca-c5-ca-ca.force
+Updating file: dihedral_ca-ca-ca-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = inf
+#################################
+
+This should be a number: -1.23882e+201 
+This should be a number: 218.707 
+This should be a number: -244.822 
+This should be a number: 4.45828 
+This should be a number: -24.0302 
+This should be a number: 80.9815 
+This should be a number: -64.1698 
+This should be a number: 88.4816 
+This should be a number: 9.85487 
+This should be a number: -13.2301 
+This should be a number: 8.68673 
+This should be a number: -0.733381 
+This should be a number: 1.16303 
+This should be a number: -32.8225 
+This should be a number: -1.35128 
+This should be a number: 1.0028 
+This should be a number: 1.56062 
+This should be a number: -2.76321 
+This should be a number: 1.13932 
+
+Block No98 done!
+Updating file: bond_c5-c5.force
+Updating file: bond_c5-ca.force
+Updating file: bond_ca-ca.force
+Updating file: angle_c5-c5-c5.force
+Updating file: angle_c5-c5-ca.force
+Updating file: angle_c5-ca-ca.force
+Updating file: angle_ca-c5-ca.force
+Updating file: angle_ca-ca-ca.force
+Updating file: dihedral_c5-c5-c5-c5.force
+Updating file: dihedral_c5-c5-c5-ca.force
+Updating file: dihedral_c5-c5-ca-ca.force
+Updating file: dihedral_c5-ca-ca-c5.force
+Updating file: dihedral_c5-ca-ca-ca.force
+Updating file: dihedral_ca-c5-c5-ca.force
+Updating file: dihedral_ca-c5-ca-ca.force
+Updating file: dihedral_ca-ca-ca-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = inf
+#################################
+
+This should be a number: 1.48322e+201 
+This should be a number: 219.699 
+This should be a number: -244.855 
+This should be a number: 2.16448 
+This should be a number: -24.2574 
+This should be a number: 81.1365 
+This should be a number: -61.8919 
+This should be a number: 89.9765 
+This should be a number: 7.19693 
+This should be a number: 22.8898 
+This should be a number: 4.88604 
+This should be a number: -1.28719 
+This should be a number: 1.62062 
+This should be a number: -43.4259 
+This should be a number: -2.69753 
+This should be a number: 1.16059 
+This should be a number: 1.75941 
+This should be a number: -2.53889 
+This should be a number: 1.13752 
+
+Block No99 done!
+Updating file: bond_c5-c5.force
+Updating file: bond_c5-ca.force
+Updating file: bond_ca-ca.force
+Updating file: angle_c5-c5-c5.force
+Updating file: angle_c5-c5-ca.force
+Updating file: angle_c5-ca-ca.force
+Updating file: angle_ca-c5-ca.force
+Updating file: angle_ca-ca-ca.force
+Updating file: dihedral_c5-c5-c5-c5.force
+Updating file: dihedral_c5-c5-c5-ca.force
+Updating file: dihedral_c5-c5-ca-ca.force
+Updating file: dihedral_c5-ca-ca-c5.force
+Updating file: dihedral_c5-ca-ca-ca.force
+Updating file: dihedral_ca-c5-c5-ca.force
+Updating file: dihedral_ca-c5-ca-ca.force
+Updating file: dihedral_ca-ca-ca-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+
+#### Force matching residual ####
+     Chi_2[(kJ/(mol*nm))^2] = inf
+#################################
+
+This should be a number: -2.46273e+200 
+This should be a number: 223.524 
+This should be a number: -246.673 
+This should be a number: 3.34123 
+This should be a number: -25.1667 
+This should be a number: 82.5769 
+This should be a number: -64.1421 
+This should be a number: 89.1259 
+This should be a number: 6.22323 
+This should be a number: -23.6077 
+This should be a number: 3.64736 
+This should be a number: -0.854783 
+This should be a number: 0.13521 
+This should be a number: -44.2101 
+This should be a number: -3.96994 
+This should be a number: 1.33914 
+This should be a number: 1.71403 
+This should be a number: -2.30402 
+This should be a number: 1.08226 
+
+Block No100 done!
+Updating file: bond_c5-c5.force
+Updating file: bond_c5-ca.force
+Updating file: bond_ca-ca.force
+Updating file: angle_c5-c5-c5.force
+Updating file: angle_c5-c5-ca.force
+Updating file: angle_c5-ca-ca.force
+Updating file: angle_ca-c5-ca.force
+Updating file: angle_ca-ca-ca.force
+Updating file: dihedral_c5-c5-c5-c5.force
+Updating file: dihedral_c5-c5-c5-ca.force
+Updating file: dihedral_c5-c5-ca-ca.force
+Updating file: dihedral_c5-ca-ca-c5.force
+Updating file: dihedral_c5-ca-ca-ca.force
+Updating file: dihedral_ca-c5-c5-ca.force
+Updating file: dihedral_ca-c5-ca-ca.force
+Updating file: dihedral_ca-ca-ca-ca.force
+Updating file: nb_c5-c5.force
+Updating file: nb_c5-ca.force
+Updating file: nb_ca-ca.force
+Reading frame   20000 time 20000.000   Last frame      20000 time 20000.000   
+
+We are done, thank you very much!

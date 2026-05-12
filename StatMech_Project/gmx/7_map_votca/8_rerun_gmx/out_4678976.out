@@ -1,0 +1,84 @@
+Loading intel/oneapi/compiler/latest
+  Loading requirement: intel/oneapi/tbb/latest intel/oneapi/compiler-rt/latest
+    intel/oneapi/umf/latest
+                      :-) GROMACS - gmx grompp, 2025.2 (-:
+
+Executable:   /home/gridsan/btapia/programs/gromacs-cpu/bin/gmx_mpi
+Data prefix:  /home/gridsan/btapia/programs/gromacs-cpu
+Working dir:  /home/gridsan/btapia/StatMech/gmx/7_map_votca/7_rerun_gmx
+Command line:
+  gmx_mpi grompp -f rerun_nb_exclusion.mdp -c nvt_converted_strict.gro -p nb_exclusion.top -o nb_exclusion.tpr
+
+
+NOTE 1 [file rerun_nb_exclusion.mdp]:
+  Setting nstcalcenergy (100) equal to nstenergy (1)
+
+Generating 1-4 interactions: fudge = 0.5
+Number of degrees of freedom in T-Coupling group rest is 20697.00
+The integrator does not provide a ensemble temperature, there is no system ensemble temperature
+
+NOTE 2 [file rerun_nb_exclusion.mdp]:
+  NVE simulation with an initial temperature of zero: will use a Verlet
+  buffer of 10%. Check your energy drift!
+
+
+There were 2 NOTEs
+
+GROMACS reminds you: "I can't relate to you" (Bad Religion)
+
+Setting the LD random seed to -650575905
+
+Generated 45 of the 45 non-bonded parameter combinations
+
+Generated 45 of the 45 1-4 parameter combinations
+
+Excluding 3 bonded neighbours molecule type 'lmp_system'
+
+Taking velocities from 'nvt_converted_strict.gro', all velocities are zero
+Analysing residue names:
+There are:     1      Other residues
+Analysing residues not classified as Protein/DNA/RNA/Water and splitting into groups...
+
+The largest distance between excluded atoms is 0.425 nm between atom 4037 and 4064
+Calculating fourier grid dimensions for X Y Z
+Using a fourier grid of 40x40x40, spacing 0.111 0.111 0.111
+
+Estimate for the relative computational load of the PME mesh part: 0.21
+
+This run will generate roughly 1 Mb of data
+                      :-) GROMACS - gmx mdrun, 2025.2 (-:
+
+Executable:   /home/gridsan/btapia/programs/gromacs-cpu/bin/gmx_mpi
+Data prefix:  /home/gridsan/btapia/programs/gromacs-cpu
+Working dir:  /home/gridsan/btapia/StatMech/gmx/7_map_votca/7_rerun_gmx
+Command line:
+  gmx_mpi mdrun -s nb_exclusion.tpr -rerun nvt.trr -deffnm nb_exclusion -ntomp 48 -pin on
+
+Reading file nb_exclusion.tpr, VERSION 2025.2 (single precision)
+Can not increase nstlist because an NVE ensemble is used
+Using 1 MPI process
+
+NOTE: Thread-affinity variable(s) set, will turn off gmx mdrun internal affinity
+      setting as the two can conflict and cause performance degradation.
+      To keep using the gmx mdrun internal affinity setting, unset the
+      following environment variable(s):
+      OMP_PROC_BIND
+
+Using 48 OpenMP threads 
+
+starting md rerun 'Untitled', reading coordinates from input trajectory 'nvt.trr'
+
+trr version: GMX_trn_file (single precision)
+Reading frame       0 time    0.000   Reading frame       1 time    1.000   Reading frame       2 time    2.000   Reading frame       3 time    3.000   Reading frame       4 time    4.000   Reading frame       5 time    5.000   Reading frame       6 time    6.000   Reading frame       7 time    7.000   Reading frame       8 time    8.000   Reading frame       9 time    9.000   Reading frame      10 time   10.000   Reading frame      11 time   11.000   Reading frame      12 time   12.000   Reading frame      13 time   13.000   Reading frame      14 time   14.000   Reading frame      15 time   15.000   Reading frame      16 time   16.000   Reading frame      17 time   17.000   Reading frame      18 time   18.000   Reading frame      19 time   19.000   Reading frame      20 time   20.000   Reading frame      30 time   30.000   Reading frame      40 time   40.000   Reading frame      50 time   50.000   Reading frame      60 time   60.000   Reading frame      70 time   70.000   Reading frame      80 time   80.000   Reading frame      90 time   90.000   Reading frame     100 time  100.000   Reading frame     110 time  110.000   Reading frame     120 time  120.000   Reading frame     130 time  130.000   Reading frame     140 time  140.000   Reading frame     150 time  150.000   Reading frame     160 time  160.000   Reading frame     170 time  170.000   Reading frame     180 time  180.000   Reading frame     190 time  190.000   Reading frame     200 time  200.000   Reading frame     300 time  300.000   Reading frame     400 time  400.000   Reading frame     500 time  500.000   Reading frame     600 time  600.000   Reading frame     700 time  700.000   Reading frame     800 time  800.000   Reading frame     900 time  900.000   Reading frame    1000 time 1000.000   Reading frame    1100 time 1100.000   Reading frame    1200 time 1200.000   Reading frame    1300 time 1300.000   Reading frame    1400 time 1400.000   Reading frame    1500 time 1500.000   Reading frame    1600 time 1600.000   Reading frame    1700 time 1700.000   Reading frame    1800 time 1800.000   Reading frame    1900 time 1900.000   Reading frame    2000 time 2000.000   Reading frame    3000 time 3000.000   Reading frame    4000 time 4000.000   Reading frame    5000 time 5000.000   Reading frame    6000 time 6000.000   Reading frame    7000 time 7000.000   Reading frame    8000 time 8000.000   Reading frame    9000 time 9000.000   Reading frame   10000 time 10000.000   Reading frame   11000 time 11000.000   Reading frame   12000 time 12000.000   Reading frame   13000 time 13000.000   Reading frame   14000 time 14000.000   Reading frame   15000 time 15000.000   Reading frame   16000 time 16000.000   Reading frame   17000 time 17000.000   Reading frame   18000 time 18000.000   Reading frame   19000 time 19000.000   Reading frame   20000 time 20000.000   Last frame      20000 time 20000.000   
+
+NOTE: 20 % of the run time was spent in domain decomposition,
+      9 % of the run time was spent in pair search,
+      you might want to increase nstlist (this has no effect on accuracy)
+
+               Core t (s)   Wall t (s)        (%)
+       Time:     6629.787      138.121     4800.0
+                 (ns/day)    (hour/ns)
+Performance:    12510.758        0.002
+
+GROMACS reminds you: "Furious activity is no substitute for understanding." (H.H. Williams)
+

@@ -1,0 +1,58 @@
+
+# General
+units real
+atom_style full
+dimension 3
+newton on
+boundary p p p
+
+read_data equilibrated_ua.lmps
+
+special_bonds lj 0.0 0.0 1.0
+
+pair_style table linear 1000
+bond_style table linear 1000
+angle_style table linear 1000
+dihedral_style table linear 1000
+
+include ../11_lmp_data/table_coeffs.in
+
+# Settings
+neighbor 2.0 bin
+neigh_modify delay 0 every 1 check yes
+run_style verlet
+
+# Output
+dump 1 all custom 10000 compress.lammpstrj id xu yu zu vx vy vz ix iy iz
+dump_modify 1 sort id
+thermo_style custom step vol temp press pe ke etotal evdwl ecoul ebond eangle edihed eimp density
+thermo 10000
+
+timestep 0.1
+
+# types: (1,c5) (2,c3)
+
+# RDFs for X-X X-Y Y-Y, 200 bins, sample every 1000 steps, avg 100 samples, write every 100000 steps
+compute myRDF all rdf 200 1 1 1 2 2 2
+fix rdfout all ave/time 10000 200 20000000 c_myRDF[*] file rdf.dat mode vector
+
+# Bonded param distributions, labeled by type, dumped every 1000 steps
+
+compute blval all bond/local dist
+compute bltype all property/local btype
+dump bldump all local 100000 bonds.dump c_bltype c_blval
+
+compute angval all angle/local theta
+compute angtype all property/local atype
+dump angdump all local 100000 angles.dump c_angtype c_angval
+
+compute dihval all dihedral/local phi
+compute dihtype all property/local dtype
+dump dihdump all local 100000 dihedrals.dump c_dihtype c_dihval
+
+fix 1 all nvt temp 308 308 $(100.0*dt)
+velocity all scale 308
+run $(10000000/dt)
+unfix 1
+
+write_data post_nvt_ua.lmps
